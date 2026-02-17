@@ -1,0 +1,25 @@
+# AI Employee — Dependencies
+# Install: pip install -r requirements.txt
+
+# Core (AI Brain)
+anthropic>=0.40.0
+
+# Email
+python-dotenv>=1.0.0
+
+# WhatsApp
+twilio>=9.0.0
+
+# LinkedIn
+requests>=2.31.0
+
+# Gmail Watcher (optional)
+google-auth-oauthlib>=1.2.0
+google-auth-httplib2>=0.2.0
+google-api-python-client>=2.100.0
+
+# File Watcher (optional)
+watchdog>=4.0.0
+
+# Web Dashboard (optional)
+streamlit>=1.30.0

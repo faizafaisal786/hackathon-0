@@ -1,0 +1,9 @@
+[
+  {
+    "event": "SIMULATED",
+    "to": "+92-300-0000000",
+    "client": "Test User",
+    "details": "Simulation mode - saved to local file",
+    "timestamp": "2026-02-17T01:47:42.728981"
+  }
+]

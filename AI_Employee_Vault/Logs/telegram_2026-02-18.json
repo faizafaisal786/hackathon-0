@@ -1,0 +1,20 @@
+[
+  {
+    "event": "DEMO_SEND",
+    "preview": "*AI Employee* online hai! Test message.",
+    "details": "No credentials - demo mode",
+    "timestamp": "2026-02-18T03:49:43.298907"
+  },
+  {
+    "event": "CONNECTION_ERROR",
+    "preview": "*AI Employee* online hai! Test message.",
+    "details": "No internet connection",
+    "timestamp": "2026-02-18T03:54:23.517606"
+  },
+  {
+    "event": "CONNECTION_ERROR",
+    "preview": "*AI Employee* online hai! Test message.",
+    "details": "No internet connection",
+    "timestamp": "2026-02-18T03:56:02.415795"
+  }
+]

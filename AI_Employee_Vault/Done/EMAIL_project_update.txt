@@ -1,0 +1,22 @@
+Channel: Email
+To: manager@company.com
+Subject: Weekly Project Update
+Priority: High
+
+Body:
+Dear Sir,
+
+This is your weekly project update from the AI Employee system.
+
+All tasks are on track. 3 emails sent, 2 WhatsApp messages delivered, 1 LinkedIn post published this week.
+
+Next milestone: Dashboard UI integration by February 20, 2026.
+
+Regards,
+AI Employee
+
+---
+**Processed by:** AI Brain
+**Date:** 2026-02-17 01:41
+**Plan:** PLAN_EMAIL_project_update.md
+**Action:** ACTION_EMAIL_project_update.md

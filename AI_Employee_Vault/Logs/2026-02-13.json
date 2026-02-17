@@ -1,0 +1,63 @@
+[
+  {
+    "task": "ACTION_client_email_reply",
+    "status": "Email drafted (missing data)",
+    "time": "02:37 AM",
+    "channel": "Email",
+    "to": "None"
+  },
+  {
+    "task": "ACTION_EMAIL_client_meeting",
+    "status": "Email sent successfully (DEMO MODE)",
+    "time": "02:37 AM",
+    "channel": "Email",
+    "to": "sara@techcorp.com"
+  },
+  {
+    "task": "ACTION_EMAIL_client_request",
+    "status": "Email sent successfully (DEMO MODE)",
+    "time": "02:37 AM",
+    "channel": "Email",
+    "to": "client@company.com"
+  },
+  {
+    "task": "ACTION_EMAIL_project_update",
+    "status": "Email sent successfully (DEMO MODE)",
+    "time": "02:37 AM",
+    "channel": "Email",
+    "to": "manager@company.com"
+  },
+  {
+    "task": "ACTION_LINKEDIN_hiring",
+    "status": "LinkedIn post ready for publishing",
+    "time": "02:37 AM",
+    "channel": "LinkedIn",
+    "to": "AI Employee Team"
+  },
+  {
+    "task": "ACTION_LINKEDIN_post",
+    "status": "LinkedIn post ready for publishing",
+    "time": "02:37 AM",
+    "channel": "LinkedIn",
+    "to": "AI Employee Team"
+  },
+  {
+    "task": "ACTION_test",
+    "status": "Completed",
+    "time": "02:37 AM"
+  },
+  {
+    "task": "ACTION_WHATSAPP_client1",
+    "status": "WhatsApp message sent to Ahmed Khan",
+    "time": "02:37 AM",
+    "channel": "WhatsApp",
+    "to": "+92-300-1234567"
+  },
+  {
+    "task": "ACTION_WHATSAPP_client2",
+    "status": "WhatsApp message sent to Sara Ali",
+    "time": "02:37 AM",
+    "channel": "WhatsApp",
+    "to": "+92-321-9876543"
+  }
+]

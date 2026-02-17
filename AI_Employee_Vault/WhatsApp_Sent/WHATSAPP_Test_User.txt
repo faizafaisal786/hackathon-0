@@ -1,0 +1,10 @@
+========================================
+WhatsApp Message Simulation
+========================================
+Timestamp : 2026-02-17 01:47 AM
+To        : +92-300-0000000
+Client    : Test User
+Status    : DELIVERED (Simulated)
+----------------------------------------
+This is a test WhatsApp message.
+----------------------------------------

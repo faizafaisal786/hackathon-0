@@ -1,0 +1,20 @@
+Channel: Email
+To: sara@techcorp.com
+Subject: Meeting Confirmation - Feb 15
+Priority: High
+
+Body:
+Dear Sara,
+
+This is to confirm our meeting scheduled for February 15, 2026 at 3:00 PM.
+
+Please bring the project requirements document. Looking forward to a productive session.
+
+Best Regards,
+AI Employee
+
+---
+**Processed by:** AI Brain
+**Date:** 2026-02-17 01:41
+**Plan:** PLAN_EMAIL_client_meeting.md
+**Action:** ACTION_EMAIL_client_meeting.md

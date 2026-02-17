@@ -1,0 +1,22 @@
+Channel: Email
+To: client@company.com
+Subject: Project Delivery Timeline
+Priority: High
+
+Message:
+Dear Team,
+
+We would like to know the current status of our project. Can you confirm the expected delivery date? We need this information for our quarterly planning meeting next week.
+
+Looking forward to your response.
+
+Best regards,
+Ahmed Khan
+CEO, Khan Enterprises
+
+
+---
+**Processed by:** AI Brain
+**Date:** 2026-02-17 01:41
+**Plan:** PLAN_EMAIL_client_request.md
+**Action:** ACTION_EMAIL_client_request.md

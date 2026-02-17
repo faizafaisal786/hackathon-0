@@ -1,0 +1,21 @@
+Channel: LinkedIn
+Author: AI Employee Team
+Topic: We Are Hiring
+Priority: Medium
+
+Post:
+Exciting news! Our team is expanding.
+
+We are looking for Python developers who are passionate about AI automation, workflow systems, and building the future of enterprise tools.
+
+If you love building systems that think, plan, and execute — we want to hear from you.
+
+DM us or drop your resume in the comments below.
+
+#Hiring #Python #AI #Automation #Jobs #Enterprise #TechJobs
+
+---
+**Processed by:** AI Brain
+**Date:** 2026-02-17 01:41
+**Plan:** PLAN_LINKEDIN_hiring.md
+**Action:** ACTION_LINKEDIN_hiring.md

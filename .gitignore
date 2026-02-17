@@ -1,0 +1,21 @@
+# Secrets
+.env
+credentials.json
+
+# Auth tokens
+gmail_token.pickle
+*.pickle
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+
+# Keys
+*.pem
+*.key
+
+# OS
+.DS_Store
+desktop.ini
+Thumbs.db

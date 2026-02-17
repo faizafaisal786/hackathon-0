@@ -1,0 +1,19 @@
+Channel: LinkedIn
+Author: AI Employee Team
+Topic: AI Automation in Business
+Priority: Medium
+
+Post:
+We just built an AI Employee that reads tasks, drafts emails, sends WhatsApp messages, and publishes LinkedIn posts — all with a human-in-the-loop approval system.
+
+No direct API calls without approval. Every external action goes through a gated execution layer.
+
+This is the future of enterprise automation.
+
+#AI #Automation #HumanInTheLoop #Hackathon #Enterprise #Python
+
+---
+**Processed by:** AI Brain
+**Date:** 2026-02-17 01:41
+**Plan:** PLAN_LINKEDIN_post.md
+**Action:** ACTION_LINKEDIN_post.md

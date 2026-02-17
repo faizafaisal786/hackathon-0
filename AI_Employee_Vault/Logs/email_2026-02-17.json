@@ -1,0 +1,9 @@
+[
+  {
+    "event": "DEMO_SEND",
+    "to": "test@example.com",
+    "subject": "Test Subject",
+    "details": "No credentials - demo mode",
+    "timestamp": "2026-02-17T01:44:58.056714"
+  }
+]
