@@ -1,0 +1,72 @@
+========================================
+WhatsApp Message Simulation
+========================================
+Timestamp : 2026-03-12 05:17 AM
+To        : +92-300-0000000
+Client    : N/A
+Status    : DELIVERED (Simulated)
+----------------------------------------
+# WhatsApp Message — Test Client
+
+## Metadata
+
+| Field    | Value |
+|----------|-------|
+| From     | Test Client |
+| Phone    | +92-300-0000000 |
+| Received | 2026-03-12 05:08:23 |
+| Channel  | WhatsApp |
+| Priority | urgent |
+| Source   | test |
+
+## Message
+
+Urgent: Please send invoice for AI automation services. Payment ready.
+
+## Suggested Actions
+
+- [ ] Reply via WhatsApp (`whatsapp_sender.py`)
+- [ ] Create invoice if payment requested (`odoo_mcp.py`)
+- [ ] Escalate to CEO if urgent
+
+## Instructions
+
+To: +92-300-0000000
+Channel: WhatsApp
+----------------------------------------
+========================================
+WhatsApp Message Simulation
+========================================
+Timestamp : 2026-03-12 05:23 AM
+To        : +92-300-0000000
+Client    : N/A
+Status    : DELIVERED (Simulated)
+----------------------------------------
+# WhatsApp Message — Test Client
+
+## Metadata
+
+| Field    | Value |
+|----------|-------|
+| From     | Test Client |
+| Phone    | +92-300-0000000 |
+| Received | 2026-03-12 05:23:20 |
+| Channel  | WhatsApp |
+| Priority | urgent |
+| Source   | test |
+
+## Message
+
+Urgent: Please send invoice for AI automation services. Payment ready.
+
+## Suggested Actions
+
+- [ ] Reply via WhatsApp (`whatsapp_sender.py`)
+- [ ] Create invoice if payment requested (`odoo_mcp.py`)
+- [ ] Escalate to CEO if urgent
+
+## Instructions
+
+To: +92-300-0000000
+Channel: WhatsApp
+----------------------------------------

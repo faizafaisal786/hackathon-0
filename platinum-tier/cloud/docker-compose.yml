@@ -1,0 +1,134 @@
+version: "3.9"
+
+# AI Employee Platinum Tier — Full Cloud Stack
+# Includes: Cloud Agent, Odoo 19, PostgreSQL, Watchers
+#
+# Usage:
+#   cp .env.example .env
+#   docker-compose up -d
+#   docker-compose logs -f cloud_agent
+
+services:
+
+  # ── Cloud AI Agent ─────────────────────────────────────────────
+  cloud_agent:
+    build:
+      context: ..
+      dockerfile: cloud/Dockerfile
+    container_name: ai_employee_cloud
+    restart: unless-stopped
+    volumes:
+      - vault_data:/vault
+    environment:
+      - VAULT_PATH=/vault
+      - DRY_RUN=${DRY_RUN:-false}
+      - GMAIL_CREDENTIALS_PATH=/vault/.secrets/gmail_credentials.json
+      - GMAIL_TOKEN_PATH=/vault/.secrets/gmail_token.json
+      - FACEBOOK_PAGE_ACCESS_TOKEN=${FACEBOOK_PAGE_ACCESS_TOKEN}
+      - INSTAGRAM_ACCESS_TOKEN=${INSTAGRAM_ACCESS_TOKEN}
+      - TWITTER_BEARER_TOKEN=${TWITTER_BEARER_TOKEN}
+      - ODOO_URL=http://odoo:8069
+      - ODOO_DB=${ODOO_DB:-odoo}
+      - ODOO_USER=${ODOO_USER:-admin}
+      - ODOO_PASSWORD=${ODOO_PASSWORD}
+      - ANTHROPIC_API_KEY=${ANTHROPIC_API_KEY}
+      - SYNC_INTERVAL=300
+      - CHECK_INTERVAL=120
+    depends_on:
+      odoo:
+        condition: service_healthy
+    networks:
+      - ai_employee_net
+    healthcheck:
+      test: ["CMD", "python", "-c", "import sys; sys.exit(0)"]
+      interval: 60s
+      retries: 3
+
+  # ── Watchdog ───────────────────────────────────────────────────
+  watchdog:
+    build:
+      context: ..
+      dockerfile: cloud/Dockerfile
+    container_name: ai_employee_watchdog
+    restart: unless-stopped
+    volumes:
+      - vault_data:/vault
+    environment:
+      - VAULT_PATH=/vault
+    command: ["python", "error_recovery/watchdog.py"]
+    depends_on:
+      - cloud_agent
+    networks:
+      - ai_employee_net
+
+  # ── Odoo 19 Community ──────────────────────────────────────────
+  odoo:
+    image: odoo:17  # Use odoo:19 when available
+    container_name: ai_employee_odoo
+    restart: unless-stopped
+    ports:
+      - "8069:8069"
+    environment:
+      - HOST=db
+      - USER=${ODOO_USER:-admin}
+      - PASSWORD=${ODOO_PASSWORD}
+    volumes:
+      - odoo_data:/var/lib/odoo
+      - odoo_addons:/mnt/extra-addons
+    depends_on:
+      db:
+        condition: service_healthy
+    networks:
+      - ai_employee_net
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:8069/web/health"]
+      interval: 30s
+      timeout: 10s
+      retries: 5
+      start_period: 60s
+
+  # ── PostgreSQL for Odoo ────────────────────────────────────────
+  db:
+    image: postgres:16
+    container_name: ai_employee_db
+    restart: unless-stopped
+    environment:
+      - POSTGRES_DB=postgres
+      - POSTGRES_USER=${POSTGRES_USER:-odoo}
+      - POSTGRES_PASSWORD=${ODOO_PASSWORD}
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+    networks:
+      - ai_employee_net
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U ${POSTGRES_USER:-odoo}"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+
+  # ── Nginx Reverse Proxy (HTTPS) ────────────────────────────────
+  nginx:
+    image: nginx:alpine
+    container_name: ai_employee_nginx
+    restart: unless-stopped
+    ports:
+      - "80:80"
+      - "443:443"
+    volumes:
+      - ./nginx.conf:/etc/nginx/conf.d/default.conf:ro
+      - certbot_data:/etc/letsencrypt
+    depends_on:
+      - odoo
+    networks:
+      - ai_employee_net
+
+volumes:
+  vault_data:
+  odoo_data:
+  odoo_addons:
+  postgres_data:
+  certbot_data:
+
+networks:
+  ai_employee_net:
+    driver: bridge

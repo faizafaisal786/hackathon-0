@@ -1,0 +1,27 @@
+# Sensitive files
+.env
+*.env
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# Node modules
+node_modules/
+
+# Logs
+*.log
+Logs/
+
+# OS files
+.DS_Store
+desktop.ini
+Thumbs.db
+
+# Null files
+nul
+
+# Temp
+*.tmp
+*.bak

@@ -1,0 +1,42 @@
+# AI Employee PLATINUM — Dependencies
+# Install: pip install -r requirements.txt
+
+# ── FREE AI Backends ──────────────────────────────────────────
+# Groq (primary free AI — get key at console.groq.com)
+groq>=0.7.0
+
+# Google Gemini (secondary free AI)
+google-generativeai>=0.5.0
+
+# ── Environment & Config ─────────────────────────────────────
+python-dotenv>=1.0.0
+
+# ── Communications ────────────────────────────────────────────
+# HTTP (LinkedIn, web_search tool)
+requests>=2.31.0
+
+# WhatsApp via Twilio (optional)
+twilio>=9.0.0
+
+# Twitter/X API (optional — for live posting)
+tweepy>=4.14.0
+
+# ── Gmail Watcher (optional — uses OAuth) ────────────────────
+google-auth-oauthlib>=1.2.0
+google-auth-httplib2>=0.2.0
+google-api-python-client>=2.100.0
+
+# ── File Watcher ──────────────────────────────────────────────
+watchdog>=4.0.0
+
+# ── Web Dashboard ─────────────────────────────────────────────
+streamlit>=1.30.0
+
+# ── Anthropic (PAID — optional fallback) ─────────────────────
+# anthropic>=0.40.0
+
+# ── NOTE: PLATINUM Memory System requires NO extra deps ───────
+# memory_manager.py uses only stdlib: json, math, re, hashlib
+# self_improvement.py uses only stdlib + memory_manager
+# tools.py uses only stdlib (urllib, smtplib, json)
+# agents.py uses groq + google-generativeai (already listed above)

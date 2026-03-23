@@ -1,0 +1,3 @@
+Invoice #001
+Amount: 250 USD
+Date: 2026-03-13

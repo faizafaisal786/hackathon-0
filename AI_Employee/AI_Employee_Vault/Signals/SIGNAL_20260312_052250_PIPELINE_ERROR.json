@@ -1,0 +1,7 @@
+{
+  "type": "PIPELINE_ERROR",
+  "message": "Pipeline failed for TEST_CLOUD_EMAIL_task.md: 'ThinkerAgent' object has no attribute 'analyze'",
+  "agent": "cloud",
+  "timestamp": "2026-03-12T05:22:50.819163",
+  "data": {}
+}

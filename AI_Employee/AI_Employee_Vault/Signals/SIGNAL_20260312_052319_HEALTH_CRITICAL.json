@@ -1,0 +1,60 @@
+{
+  "type": "HEALTH_CRITICAL",
+  "message": "[AI Employee] CRITICAL health issue detected at 2026-03-12T05:23:19\n  - disk: {'check': 'disk', 'status': 'CRITICAL', 'free_gb': 15.54, 'total_gb': 145.92, 'free_pct': 10.6, 'threshold_pct': 15.0}\n  - api_health: {'check': 'api_health', 'status': 'CRITICAL', 'results': {'groq': 'ERROR: HTTP Error 403: Forbidden', 'gemini': 'NO_KEY'}}\n  - git_sync: {'check': 'git_sync', 'status': 'CRITICAL', 'last_commit_age': 1903561, 'threshold': 300}",
+  "agent": "health_monitor",
+  "timestamp": "2026-03-12T05:23:19.905613",
+  "data": {
+    "overall": "CRITICAL",
+    "critical_count": 3,
+    "warning_count": 0,
+    "timestamp": "2026-03-12T05:23:19.730138",
+    "platform": "Windows",
+    "checks": [
+      {
+        "check": "disk",
+        "status": "CRITICAL",
+        "free_gb": 15.54,
+        "total_gb": 145.92,
+        "free_pct": 10.6,
+        "threshold_pct": 15.0
+      },
+      {
+        "check": "memory",
+        "status": "OK",
+        "used_pct": 57.0,
+        "available_gb": 5.12,
+        "total_gb": 11.91
+      },
+      {
+        "check": "log_errors",
+        "status": "OK",
+        "errors_last_hour": 0,
+        "files_scanned": 22,
+        "threshold": 10
+      },
+      {
+        "check": "api_health",
+        "status": "CRITICAL",
+        "results": {
+          "groq": "ERROR: HTTP Error 403: Forbidden",
+          "gemini": "NO_KEY"
+        }
+      },
+      {
+        "check": "git_sync",
+        "status": "CRITICAL",
+        "last_commit_age": 1903561,
+        "threshold": 300
+      },
+      {
+        "check": "processes",
+        "status": "WARNING",
+        "processes": {
+          "cloud_agent.py": false,
+          "ralph_loop.py": true,
+          "local_agent.py": false
+        }
+      }
+    ]
+  }
+}

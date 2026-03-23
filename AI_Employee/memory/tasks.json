@@ -1,0 +1,254 @@
+{
+  "version": "1.0",
+  "memories": [
+    {
+      "filename": "test_email.md",
+      "channel": "Email",
+      "intent": "Send follow-up email to client about proposal",
+      "outcome": "SUCCESS",
+      "quality_score": 8,
+      "was_rejected": false,
+      "ai_backend": "groq",
+      "revisions_needed": 0,
+      "confidence": 0.9,
+      "drafted_response_snippet": "Dear John, I wanted to follow up on our recent discussion...",
+      "tags": [
+        "email",
+        "client",
+        "follow-up"
+      ],
+      "task_hash": "f7d6ac32d7",
+      "timestamp": "2026-02-24T00:51:35.103850",
+      "id": "MEM-0001"
+    },
+    {
+      "filename": "email_client_proposal.md",
+      "channel": "Email",
+      "intent": "Send a follow-up email to Ahmed Khan about the web development proposal",
+      "outcome": "SUCCESS",
+      "quality_score": 9,
+      "was_rejected": false,
+      "ai_backend": "groq",
+      "revisions_needed": 0,
+      "confidence": 0.9,
+      "drafted_response_snippet": "Dear Ahmed Khan,\n\nI am writing to follow up on the web development proposal we submitted to you five days ago for a full-stack e-commerce website with payment integration. As outlined in the proposal,",
+      "tags": [
+        "Email",
+        "professional"
+      ],
+      "task_hash": "f5956114e1",
+      "timestamp": "2026-02-24T01:06:53.227915",
+      "id": "MEM-0002"
+    },
+    {
+      "filename": "linkedin_product_launch.md",
+      "channel": "LinkedIn",
+      "intent": "Create an exciting LinkedIn launch post to announce the AI Employee automation tool",
+      "outcome": "FAILED",
+      "quality_score": 9,
+      "was_rejected": false,
+      "ai_backend": "groq",
+      "revisions_needed": 0,
+      "confidence": 0.9,
+      "drafted_response_snippet": "Revolutionize your business operations with the launch of our groundbreaking AI Employee automation tool, a game-changing technology that's set to transform the way you work. Our innovative system uti",
+      "tags": [
+        "LinkedIn",
+        "formal"
+      ],
+      "task_hash": "f7c53f2c5c",
+      "timestamp": "2026-02-24T01:10:07.596703",
+      "id": "MEM-0003"
+    },
+    {
+      "filename": "TASK_EMAIL_TEST.md",
+      "channel": "Email",
+      "intent": "Send a professional email about AI automation benefits to test@example.com",
+      "outcome": "SUCCESS",
+      "quality_score": 9,
+      "was_rejected": false,
+      "ai_backend": "groq",
+      "revisions_needed": 0,
+      "confidence": 0.9,
+      "drafted_response_snippet": "Dear test@example.com,\n\nI am writing to introduce the concept of AI automation benefits and how they can be applied to enhance the efficiency and productivity of your organization. As technology conti",
+      "tags": [
+        "Email",
+        "professional"
+      ],
+      "task_hash": "4e672281fe",
+      "timestamp": "2026-02-24T01:16:10.217058",
+      "id": "MEM-0004"
+    },
+    {
+      "filename": "TASK_LINKEDIN_TEST.md",
+      "channel": "LinkedIn",
+      "intent": "Create a professional LinkedIn post about the future of AI employees",
+      "outcome": "FAILED",
+      "quality_score": 9,
+      "was_rejected": false,
+      "ai_backend": "groq",
+      "revisions_needed": 0,
+      "confidence": 0.9,
+      "drafted_response_snippet": "As we stand at the cusp of a revolution where AI employees are poised to transform the workforce, it's imperative to consider the profound impact they will have on the future of employment. The integr",
+      "tags": [
+        "LinkedIn",
+        "professional"
+      ],
+      "task_hash": "939e257695",
+      "timestamp": "2026-02-24T01:16:18.120484",
+      "id": "MEM-0005"
+    },
+    {
+      "filename": "TASK_EMAIL_TEST2.md",
+      "channel": "Email",
+      "intent": "Send a professional email about AI automation benefits to test@example.com",
+      "outcome": "SUCCESS",
+      "quality_score": 9,
+      "was_rejected": false,
+      "ai_backend": "groq",
+      "revisions_needed": 0,
+      "confidence": 1.0,
+      "drafted_response_snippet": "Dear test@example.com,\n\nI am writing to follow up on our previous discussion regarding the benefits of AI automation, and I wanted to take a moment to delve deeper into the advantages that this techno",
+      "tags": [
+        "Email",
+        "professional"
+      ],
+      "task_hash": "add57fe41e",
+      "timestamp": "2026-02-24T01:21:17.694923",
+      "id": "MEM-0006"
+    },
+    {
+      "filename": "TASK_LINKEDIN_TEST2.md",
+      "channel": "LinkedIn",
+      "intent": "Create a professional LinkedIn post discussing the future of AI employees",
+      "outcome": "FAILED",
+      "quality_score": 9,
+      "was_rejected": false,
+      "ai_backend": "groq",
+      "revisions_needed": 0,
+      "confidence": 0.9,
+      "drafted_response_snippet": "As AI technology continues to advance at an unprecedented rate, the notion of AI employees is no longer a distant fantasy, but a rapidly approaching reality that is poised to revolutionize the way we ",
+      "tags": [
+        "LinkedIn",
+        "professional"
+      ],
+      "task_hash": "ec6f6ea3ec",
+      "timestamp": "2026-02-24T01:21:24.205988",
+      "id": "MEM-0007"
+    },
+    {
+      "filename": "TASK_EMAIL_FINAL.md",
+      "channel": "Email",
+      "intent": "Send a professional email about AI automation benefits to test@example.com",
+      "outcome": "SUCCESS",
+      "quality_score": 9,
+      "was_rejected": false,
+      "ai_backend": "groq",
+      "revisions_needed": 0,
+      "confidence": 0.9,
+      "drafted_response_snippet": "Dear test@example.com,\n\nI am writing to follow up on our previous discussion regarding the implementation of AI automation in your organization, as successfully outlined in our past task. As you may r",
+      "tags": [
+        "Email",
+        "professional"
+      ],
+      "task_hash": "a07018fd2b",
+      "timestamp": "2026-02-24T01:22:49.726062",
+      "id": "MEM-0008"
+    },
+    {
+      "filename": "TASK_LINKEDIN_FINAL.md",
+      "channel": "LinkedIn",
+      "intent": "Create a professional LinkedIn post about the future of AI employees",
+      "outcome": "FAILED",
+      "quality_score": 9,
+      "was_rejected": false,
+      "ai_backend": "groq",
+      "revisions_needed": 0,
+      "confidence": 0.9,
+      "drafted_response_snippet": "As we stand at the threshold of a new era in technological advancements, one thing is clear: AI employees are no longer a distant notion, but a rapidly approaching reality that is set to revolutionize",
+      "tags": [
+        "LinkedIn",
+        "professional"
+      ],
+      "task_hash": "8f635649eb",
+      "timestamp": "2026-02-24T01:22:56.628894",
+      "id": "MEM-0009"
+    },
+    {
+      "filename": "TASK_LINKEDIN_POST.md",
+      "channel": "LinkedIn",
+      "intent": "Promote the My AI Employee project on LinkedIn",
+      "outcome": "FAILED",
+      "quality_score": 8,
+      "was_rejected": false,
+      "ai_backend": "groq",
+      "revisions_needed": 0,
+      "confidence": 0.8,
+      "drafted_response_snippet": "Are you ready to revolutionize the way you work by harnessing the power of artificial intelligence? The My AI Employee project is here to transform your productivity and efficiency. This innovative so",
+      "tags": [
+        "LinkedIn",
+        "professional"
+      ],
+      "task_hash": "29892e22ab",
+      "timestamp": "2026-02-24T02:54:06.472967",
+      "id": "MEM-0010"
+    },
+    {
+      "filename": "TASK_SOCIAL_TEST.md",
+      "channel": "LinkedIn",
+      "intent": "Promote the AI Employee project on LinkedIn",
+      "outcome": "FAILED",
+      "quality_score": 9,
+      "was_rejected": false,
+      "ai_backend": "groq",
+      "revisions_needed": 0,
+      "confidence": 0.9,
+      "drafted_response_snippet": "As companies continue to push the boundaries of innovation, the AI Employee project is revolutionizing the way we approach task automation, with its cutting-edge, autonomous AI system designed to hand",
+      "tags": [
+        "LinkedIn",
+        "professional"
+      ],
+      "task_hash": "e506ffd973",
+      "timestamp": "2026-02-24T02:54:11.771831",
+      "id": "MEM-0011"
+    },
+    {
+      "filename": "TASK_FACEBOOK_LAUNCH.md",
+      "channel": "Facebook",
+      "intent": "Announce the launch of AI Employee PLATINUM on Facebook",
+      "outcome": "FAILED",
+      "quality_score": 9,
+      "was_rejected": false,
+      "ai_backend": "groq",
+      "revisions_needed": 0,
+      "confidence": 0.9,
+      "drafted_response_snippet": "Introducing AI Employee PLATINUM, the revolutionary free and open-source autonomous AI system designed to transform the way small businesses and startups operate. This cutting-edge technology is speci",
+      "tags": [
+        "Facebook",
+        "professional"
+      ],
+      "task_hash": "5dbc88b208",
+      "timestamp": "2026-02-24T03:12:01.959586",
+      "id": "MEM-0012"
+    },
+    {
+      "filename": "HACKATHON_STATUS_REPORT.md",
+      "channel": "Email",
+      "intent": "Send a professional email about the Hackathon project progress to faizafaysalgenda@gmail.com",
+      "outcome": "FAILED",
+      "quality_score": 9,
+      "was_rejected": false,
+      "ai_backend": "groq",
+      "revisions_needed": 0,
+      "confidence": 0.95,
+      "drafted_response_snippet": "Dear Faizafaysal Genda,\n\nI am writing to provide a progress report on the AI Employee hackathon project, as per our previous discussions. The project has achieved significant milestones, and I am plea",
+      "tags": [
+        "Email",
+        "professional"
+      ],
+      "task_hash": "23272a9a56",
+      "timestamp": "2026-03-10T01:59:50.000606",
+      "id": "MEM-0013"
+    }
+  ],
+  "total": 13
+}

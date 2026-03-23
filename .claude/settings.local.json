@@ -1,0 +1,36 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(copy \"C:\\\\Users\\\\HDD BANK\\\\Desktop\\\\hack-0-2\\\\AI_Employee\\\\AI_Employee_Vault\\\\Pending_Approval\\\\ACTION_test.md\" \"C:\\\\Users\\\\HDD BANK\\\\Desktop\\\\hack-0-2\\\\AI_Employee\\\\AI_Employee_Vault\\\\Approved\\\\ACTION_test.md\")",
+      "Bash(python executor.py:*)",
+      "Bash(python claude_runner.py:*)",
+      "Bash(python watcher.py:*)",
+      "Bash(python -c \"from whatsapp_sender import send_whatsapp; result = send_whatsapp\\(''+92-300-1234567'', ''Ahmed Khan'', ''Assalam o Alaikum Ahmed Bhai,\\\\n\\\\nProject ka update: Delivery date confirmed hai February 20, 2026.\\\\n\\\\nRegards,\\\\nAI Employee''\\); print\\(''\\\\n=== RESULT:'', result\\)\")",
+      "Bash(python:*)",
+      "Bash(pip install:*)",
+      "Bash(curl:*)",
+      "Bash(git init:*)",
+      "Bash(git remote add:*)",
+      "Bash(git add:*)",
+      "Bash(git commit:*)",
+      "Bash(git config:*)",
+      "Bash(git push:*)",
+      "Bash(cat:*)",
+      "Bash(ls:*)",
+      "Bash(for dir:*)",
+      "Bash(cp -r \"/c/Users/HDD BANK/Desktop/Obsidian Vaults/gold-tier/watchers/\"* \"/c/Users/HDD BANK/Desktop/Obsidian Vaults/platinum-tier/watchers/\" && \\\\\ncp -r \"/c/Users/HDD BANK/Desktop/Obsidian Vaults/gold-tier/mcp-servers/email-mcp/\"* \"/c/Users/HDD BANK/Desktop/Obsidian Vaults/platinum-tier/mcp-servers/email-mcp/\" && \\\\\ncp -r \"/c/Users/HDD BANK/Desktop/Obsidian Vaults/gold-tier/mcp-servers/social-mcp/\"* \"/c/Users/HDD BANK/Desktop/Obsidian Vaults/platinum-tier/mcp-servers/social-mcp/\" && \\\\\ncp -r \"/c/Users/HDD BANK/Desktop/Obsidian Vaults/gold-tier/mcp-servers/odoo-mcp/\"* \"/c/Users/HDD BANK/Desktop/Obsidian Vaults/platinum-tier/mcp-servers/odoo-mcp/\" && \\\\\ncp -r \"/c/Users/HDD BANK/Desktop/Obsidian Vaults/gold-tier/error_recovery/\"* \"/c/Users/HDD BANK/Desktop/Obsidian Vaults/platinum-tier/error_recovery/\" && \\\\\ncp \"/c/Users/HDD BANK/Desktop/Obsidian Vaults/gold-tier/accounting/audit_logic.py\" \"/c/Users/HDD BANK/Desktop/Obsidian Vaults/platinum-tier/accounting/\" && \\\\\ncp \"/c/Users/HDD BANK/Desktop/Obsidian Vaults/gold-tier/ralph_loop.py\" \"/c/Users/HDD BANK/Desktop/Obsidian Vaults/platinum-tier/\" && \\\\\necho \"All copied\")",
+      "Bash(cd \"/c/Users/HDD BANK/Desktop/Obsidian Vaults/bronze-tier\" && python --version 2>&1 && pip show watchdog 2>&1 | head -3)",
+      "Bash(rm -f \"/c/Users/HDD BANK/Desktop/Obsidian Vaults/silver-tier/Inbox/\"*.md\nrm -f \"/c/Users/HDD BANK/Desktop/Obsidian Vaults/silver-tier/Inbox/\"*.txt\nrm -f \"/c/Users/HDD BANK/Desktop/Obsidian Vaults/silver-tier/Logs/\"*.log\nrm -f \"/c/Users/HDD BANK/Desktop/Obsidian Vaults/silver-tier/Logs/\"*.json\necho \"Cleaned.\")",
+      "Bash(sleep 2 && rm -f \"/c/Users/HDD BANK/Desktop/Obsidian Vaults/silver-tier/Logs/\"* 2>/dev/null\nls \"/c/Users/HDD BANK/Desktop/Obsidian Vaults/silver-tier/Logs/\" 2>/dev/null | grep -v gitkeep || echo \"Logs clean.\")",
+      "Bash(taskkill /F /IM python.exe 2>/dev/null; sleep 2; echo \"done\")",
+      "Bash(cd \"/c/Users/HDD BANK/Desktop/Obsidian Vaults/silver-tier\" && DRY_RUN=true timeout 5 python scheduler.py 2>&1 || true)",
+      "Bash(taskkill /F /IM python.exe 2>/dev/null; sleep 1\nrm -f \"/c/Users/HDD BANK/Desktop/Obsidian Vaults/silver-tier/Inbox/\"*.md\nrm -f \"/c/Users/HDD BANK/Desktop/Obsidian Vaults/silver-tier/Drop/\"*.txt\nsleep 2\nrm -f \"/c/Users/HDD BANK/Desktop/Obsidian Vaults/silver-tier/Logs/\"* 2>/dev/null\necho \"Cleaned.\")",
+      "Bash(cd \"/c/Users/HDD BANK/Desktop/Obsidian Vaults/gold-tier\" && python --version 2>&1 && pip list 2>&1 | grep -iE \"watchdog|playwright|schedule|dotenv|google|requests\" | head -20)",
+      "Bash(taskkill /F /IM python.exe 2>/dev/null; sleep 2; true)",
+      "Bash(ls \"/c/Users/HDD BANK/Desktop/Obsidian Vaults/platinum-tier/\" | grep -E \"\\\\.\\(py|bat\\)$\")",
+      "Bash(taskkill /F /IM python.exe 2>/dev/null; sleep 1; true)",
+      "Bash(docker:*)",
+      "Bash(\"C:/Users/HDD BANK/Desktop/Obsidian:*)"
+    ]
+  }
+}

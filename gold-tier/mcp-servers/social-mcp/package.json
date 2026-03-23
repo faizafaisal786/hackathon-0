@@ -1,0 +1,15 @@
+{
+  "name": "social-mcp",
+  "version": "1.0.0",
+  "description": "MCP server for Facebook, Instagram, and Twitter/X social media",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.0.0",
+    "dotenv": "^16.0.0",
+    "node-fetch": "^3.3.0"
+  }
+}
