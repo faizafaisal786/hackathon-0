@@ -1,0 +1,67 @@
+name: Deploy AI Employee to Cloud Run
+
+on:
+  push:
+    branches: [master]
+    paths:
+      - 'AI_Employee/**'
+      - '.github/workflows/deploy-cloudrun.yml'
+  workflow_dispatch:
+
+env:
+  PROJECT_ID: ${{ secrets.GCP_PROJECT_ID }}
+  REGION: us-central1
+  JOB_NAME: ai-employee-cloud
+
+jobs:
+  deploy:
+    name: Build & Deploy to Cloud Run
+    runs-on: ubuntu-latest
+
+    permissions:
+      contents: read
+      id-token: write
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Authenticate to Google Cloud
+        uses: google-github-actions/auth@v2
+        with:
+          credentials_json: ${{ secrets.GCP_SA_KEY }}
+
+      - name: Set up Cloud SDK
+        uses: google-github-actions/setup-gcloud@v2
+
+      - name: Configure Docker
+        run: |
+          gcloud auth configure-docker ${{ env.REGION }}-docker.pkg.dev --quiet
+
+      - name: Build Docker image
+        working-directory: AI_Employee
+        run: |
+          IMAGE="${{ env.REGION }}-docker.pkg.dev/${{ env.PROJECT_ID }}/ai-employee/${{ env.JOB_NAME }}"
+          docker build -f Dockerfile.cloudrun -t "$IMAGE:latest" -t "$IMAGE:${{ github.sha }}" .
+          docker push "$IMAGE:latest"
+          docker push "$IMAGE:${{ github.sha }}"
+          echo "IMAGE=$IMAGE" >> $GITHUB_ENV
+
+      - name: Update Cloud Run Job
+        run: |
+          gcloud run jobs update ${{ env.JOB_NAME }} \
+            --image "${{ env.IMAGE }}:${{ github.sha }}" \
+            --region ${{ env.REGION }} \
+            --project ${{ env.PROJECT_ID }} \
+            --set-env-vars "GROQ_API_KEY=${{ secrets.GROQ_API_KEY }}" \
+            --set-env-vars "GIT_TOKEN=${{ secrets.GIT_TOKEN }}" \
+            --set-env-vars "GMAIL_CREDENTIALS_B64=${{ secrets.GMAIL_CREDENTIALS_B64 }}" \
+            --set-env-vars "GMAIL_TOKEN_B64=${{ secrets.GMAIL_TOKEN_B64 }}"
+
+      - name: Trigger test run
+        run: |
+          gcloud run jobs execute ${{ env.JOB_NAME }} \
+            --region ${{ env.REGION }} \
+            --project ${{ env.PROJECT_ID }} \
+            --wait
+          echo "Cloud Run Job deployed and tested successfully!"

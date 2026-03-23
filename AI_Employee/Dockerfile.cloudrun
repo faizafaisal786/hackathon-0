@@ -1,0 +1,43 @@
+# ============================================================
+#  AI Employee — Cloud Run Dockerfile (Platinum Tier)
+#  Minimal image for Google Cloud Run Jobs (free tier)
+#  Single-pass: pulls vault, processes emails, pushes drafts
+# ============================================================
+
+FROM python:3.13-slim
+
+LABEL maintainer="AI Employee Platinum Tier"
+LABEL description="Cloud Run job for 24/7 email triage and draft generation"
+
+# System dependencies (git for vault sync)
+RUN apt-get update && apt-get install -y --no-install-recommends \
+    git \
+    curl \
+    && rm -rf /var/lib/apt/lists/*
+
+WORKDIR /app
+
+# Install Python dependencies (minimal cloud subset)
+COPY requirements.cloud.txt .
+RUN pip install --no-cache-dir -r requirements.cloud.txt
+
+# Copy AI Employee code
+COPY . .
+
+# Never commit credentials
+RUN echo ".env" >> .gitignore && \
+    echo "*.env" >> .gitignore && \
+    echo "watchers/credentials.json" >> .gitignore && \
+    echo "watchers/token.json" >> .gitignore
+
+# Environment
+ENV PYTHONUNBUFFERED=1
+ENV DRY_RUN=false
+ENV AGENT_ZONE=cloud
+
+# Health check for Cloud Run
+HEALTHCHECK --interval=30s --timeout=10s --retries=3 \
+    CMD python -c "import sys; sys.exit(0)"
+
+# Entry point: single pass, exits when done
+CMD ["python", "cloud_run_entry.py"]

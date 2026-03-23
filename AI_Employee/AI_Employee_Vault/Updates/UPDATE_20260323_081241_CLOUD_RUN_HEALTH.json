@@ -1,0 +1,9 @@
+{
+  "type": "CLOUD_RUN_HEALTH",
+  "timestamp": "2026-03-23T08:12:41.903977",
+  "agent": "cloud_run",
+  "gmail_tasks": 20,
+  "processed": 0,
+  "pushed": true,
+  "status": "OK"
+}

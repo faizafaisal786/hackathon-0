@@ -1,0 +1,16 @@
+# AI Employee — Cloud Run Requirements (minimal)
+# Only what the cloud agent needs to run
+
+# AI Backend (FREE)
+groq>=0.11.0
+
+# Gmail API
+google-auth-oauthlib>=1.2.0
+google-auth-httplib2>=0.2.0
+google-api-python-client>=2.100.0
+
+# Environment
+python-dotenv>=1.0.0
+
+# HTTP
+requests>=2.31.0

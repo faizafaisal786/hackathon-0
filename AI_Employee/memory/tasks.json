@@ -248,7 +248,444 @@
       "task_hash": "23272a9a56",
       "timestamp": "2026-03-10T01:59:50.000606",
       "id": "MEM-0013"
+    },
+    {
+      "filename": "EMAIL_20260323_075332_From_Idea_to_Execution_Building_a_BigQue.md",
+      "channel": "Email",
+      "intent": "Reply to the email from Medium regarding the article about building a BigQuery SQL Optimizer with Antigravity and Gemini 3",
+      "outcome": "PENDING",
+      "quality_score": 8,
+      "was_rejected": false,
+      "ai_backend": "groq",
+      "revisions_needed": 0,
+      "confidence": 0.9,
+      "drafted_response_snippet": "Dear Medium Team,\n\nI am writing to express my appreciation for the article \"From Idea to Execution: Building a BigQuery SQL Optimizer with Antigravity and Gemini 3\" by Marcelo Costa, which was feature",
+      "tags": [
+        "Email",
+        "professional"
+      ],
+      "task_hash": "7a536824c2",
+      "timestamp": "2026-03-23T07:53:51.745205",
+      "id": "MEM-0014"
+    },
+    {
+      "filename": "EMAIL_20260323_075332_I_want_to_connect.md",
+      "channel": "Email",
+      "intent": "Reply to a LinkedIn connection request from Ayesha Khaan",
+      "outcome": "PENDING",
+      "quality_score": 10,
+      "was_rejected": false,
+      "ai_backend": "groq",
+      "revisions_needed": 0,
+      "confidence": 0.9,
+      "drafted_response_snippet": "Dear Ayesha Khaan, \n\nI am delighted to receive your connection request on LinkedIn and appreciate the opportunity to expand my professional network. I am more than happy to accept your invitation and ",
+      "tags": [
+        "Email",
+        "professional"
+      ],
+      "task_hash": "ae97248c98",
+      "timestamp": "2026-03-23T07:54:00.666359",
+      "id": "MEM-0015"
+    },
+    {
+      "filename": "EMAIL_20260323_075333_Faiza_so_iconic.md",
+      "channel": "Email",
+      "intent": "Reply to the email from Pinterest in a professional manner",
+      "outcome": "PENDING",
+      "quality_score": 9,
+      "was_rejected": false,
+      "ai_backend": "groq",
+      "revisions_needed": 0,
+      "confidence": 0.9,
+      "drafted_response_snippet": "Dear Pinterest Team,\n\nI am writing to respond to your email with the subject \"Faiza, so iconic,\" which was sent from recommendations@inspire.pinterest.com. I appreciate the time you took to reach out ",
+      "tags": [
+        "Email",
+        "formal"
+      ],
+      "task_hash": "a5390b16a2",
+      "timestamp": "2026-03-23T07:54:19.844553",
+      "id": "MEM-0016"
+    },
+    {
+      "filename": "EMAIL_20260323_075333_Web_Developer_Softech_Digital_Group_-_Wo.md",
+      "channel": "Email",
+      "intent": "Reply to a LinkedIn job alert email regarding Web Developer positions",
+      "outcome": "PENDING",
+      "quality_score": 9,
+      "was_rejected": false,
+      "ai_backend": "groq",
+      "revisions_needed": 0,
+      "confidence": 0.9,
+      "drafted_response_snippet": "Dear Hiring Team,\n\nI am writing to express my interest in the Web Developer positions that were listed in the recent job alert email I received. Specifically, I am excited about the opportunity to app",
+      "tags": [
+        "Email",
+        "professional"
+      ],
+      "task_hash": "77b7475ab8",
+      "timestamp": "2026-03-23T07:55:57.861134",
+      "id": "MEM-0017"
+    },
+    {
+      "filename": "EMAIL_20260323_075334_You_have_an_invitation.md",
+      "channel": "Email",
+      "intent": "Reply to a LinkedIn connection request from Muneeb UR Rehman",
+      "outcome": "PENDING",
+      "quality_score": 10,
+      "was_rejected": false,
+      "ai_backend": "groq",
+      "revisions_needed": 0,
+      "confidence": 0.9,
+      "drafted_response_snippet": "Dear Muneeb UR Rehman,\n\nI am delighted to receive your invitation to connect on LinkedIn, and I would like to extend my sincere appreciation for considering me as a valuable addition to your professio",
+      "tags": [
+        "Email",
+        "professional"
+      ],
+      "task_hash": "d93106ea83",
+      "timestamp": "2026-03-23T07:56:00.009697",
+      "id": "MEM-0018"
+    },
+    {
+      "filename": "EMAIL_20260323_075334_You_have_an_invitation.md",
+      "channel": "General",
+      "intent": "# Email Task — You have an invitation\n\n## Metadata\n\n| Field    | Value |\n|----------|-------|\n| From",
+      "outcome": "PENDING",
+      "quality_score": 9,
+      "was_rejected": false,
+      "ai_backend": "groq",
+      "revisions_needed": 0,
+      "confidence": 0.3,
+      "drafted_response_snippet": "Dear Muneeb UR Rehman,\n\nI am pleased to accept your invitation to connect on LinkedIn. After reviewing your profile, I am impressed by your experience as a Digital Marketing Intern at PlomX Tech and y",
+      "tags": [
+        "General",
+        "professional"
+      ],
+      "task_hash": "d4d7a2be4c",
+      "timestamp": "2026-03-23T07:56:14.687499",
+      "id": "MEM-0019"
+    },
+    {
+      "filename": "EMAIL_20260323_075335_Obsessed.md",
+      "channel": "General",
+      "intent": "# Email Task — Obsessed\n\n## Metadata\n\n| Field    | Value |\n|----------|-------|\n| From     | Pintere",
+      "outcome": "PENDING",
+      "quality_score": 8,
+      "was_rejected": false,
+      "ai_backend": "groq",
+      "revisions_needed": 1,
+      "confidence": 0.3,
+      "drafted_response_snippet": "Dear Team,\n\nI am writing to bring to your attention an email task that requires immediate attention. The email in question is from Pinterest, with the subject \"Obsessed,\" sent on Monday, December 15, ",
+      "tags": [
+        "General",
+        "professional"
+      ],
+      "task_hash": "988449a85b",
+      "timestamp": "2026-03-23T07:57:07.002319",
+      "id": "MEM-0020"
+    },
+    {
+      "filename": "EMAIL_20260323_075335_You_Have_No_Idea_How_Screwed_OpenAI_Actu.md",
+      "channel": "General",
+      "intent": "# Email Task — You Have No Idea How Screwed OpenAI Actually Is | Will Lockett\n\n## Metadata\n\n| Field ",
+      "outcome": "PENDING",
+      "quality_score": 8,
+      "was_rejected": false,
+      "ai_backend": "groq",
+      "revisions_needed": 1,
+      "confidence": 0.3,
+      "drafted_response_snippet": "In the article \"You Have No Idea How Screwed OpenAI Actually Is\" by Will Lockett, the author highlights the challenges faced by OpenAI, a leading artificial intelligence research organization. Specifi",
+      "tags": [
+        "General",
+        "professional"
+      ],
+      "task_hash": "4698b1c6d8",
+      "timestamp": "2026-03-23T07:57:51.525412",
+      "id": "MEM-0021"
+    },
+    {
+      "filename": "EMAIL_20260323_075336_Now_in_Cursor_Web_Layout_Editor_and_Debu.md",
+      "channel": "Email",
+      "intent": "Reply to the email from Cursor Team regarding the new features in Cursor 2.2",
+      "outcome": "PENDING",
+      "quality_score": 7,
+      "was_rejected": false,
+      "ai_backend": "groq",
+      "revisions_needed": 1,
+      "confidence": 0.9,
+      "drafted_response_snippet": "Dear Cursor Team,\n\nI am writing to follow up on the recent email regarding the new features in Cursor 2.2, specifically the introduction of the Web Layout Editor and Debug Mode. I would like to expres",
+      "tags": [
+        "Email",
+        "professional"
+      ],
+      "task_hash": "22b20aa892",
+      "timestamp": "2026-03-23T07:57:47.515505",
+      "id": "MEM-0022"
+    },
+    {
+      "filename": "EMAIL_20260323_075336_Now_in_Cursor_Web_Layout_Editor_and_Debu.md",
+      "channel": "General",
+      "intent": "# Email Task — Now in Cursor: Web Layout Editor and Debug Mode\n\n## Metadata\n\n| Field    | Value |\n|-",
+      "outcome": "PENDING",
+      "quality_score": 9,
+      "was_rejected": false,
+      "ai_backend": "groq",
+      "revisions_needed": 0,
+      "confidence": 0.3,
+      "drafted_response_snippet": "Dear Cursor Team,\n\nI am excited to learn about the latest additions to the Cursor platform, specifically the browser-based layout editor and Debug Mode. These features seem to be significant improveme",
+      "tags": [
+        "General",
+        "professional"
+      ],
+      "task_hash": "02a7b0fa50",
+      "timestamp": "2026-03-23T07:58:04.896320",
+      "id": "MEM-0023"
+    },
+    {
+      "filename": "EMAIL_20260323_075337_Web_Developer_Beyond_Coders_-_Full-Stack.md",
+      "channel": "General",
+      "intent": "# Email Task — “Web Developer”: Beyond Coders - Full-Stack Developer (Next.js + Python) and more\n\n##",
+      "outcome": "PENDING",
+      "quality_score": 8,
+      "was_rejected": false,
+      "ai_backend": "groq",
+      "revisions_needed": 0,
+      "confidence": 0.3,
+      "drafted_response_snippet": "Dear Hiring Team,\n\nI am writing to express my interest in the Web Developer positions listed in the job alert email I received from LinkedIn. The opportunities at Beyond Coders, Onx, and MajesticBlink",
+      "tags": [
+        "General",
+        "professional"
+      ],
+      "task_hash": "6ce600d8e3",
+      "timestamp": "2026-03-23T07:58:44.917756",
+      "id": "MEM-0024"
+    },
+    {
+      "filename": "EMAIL_20260323_075337_Your_next_find.md",
+      "channel": "General",
+      "intent": "# Email Task — Your next find\n\n## Metadata\n\n| Field    | Value |\n|----------|-------|\n| From     | P",
+      "outcome": "PENDING",
+      "quality_score": 9,
+      "was_rejected": false,
+      "ai_backend": "groq",
+      "revisions_needed": 1,
+      "confidence": 0.3,
+      "drafted_response_snippet": "Dear Pinterest User,\n\nWe are excited to share with you some personalized recommendations based on your interests and browsing history on Pinterest. Our team has curated a selection of unique and inspi",
+      "tags": [
+        "General",
+        "professional"
+      ],
+      "task_hash": "28c67983ff",
+      "timestamp": "2026-03-23T08:00:41.141761",
+      "id": "MEM-0025"
+    },
+    {
+      "filename": "EMAIL_20260323_075338_A_RYTHM_AND_CELEBRATION30.md",
+      "channel": "General",
+      "intent": "# Email Task — A RYTHM AND CELEBRATION@30\n\n## Metadata\n\n| Field    | Value |\n|----------|-------|\n| ",
+      "outcome": "PENDING",
+      "quality_score": 7,
+      "was_rejected": false,
+      "ai_backend": "groq",
+      "revisions_needed": 0,
+      "confidence": 0.3,
+      "drafted_response_snippet": "Dear Dr. Rudasingwa,\n\nI am writing to express my heartfelt congratulations on your 30th wedding anniversary, a remarkable milestone that is a testament to the enduring power of love and commitment. As",
+      "tags": [
+        "General",
+        "professional"
+      ],
+      "task_hash": "c51d37de93",
+      "timestamp": "2026-03-23T07:59:40.469456",
+      "id": "MEM-0026"
+    },
+    {
+      "filename": "EMAIL_20260323_075339_faiza_your_posts_got_676_impressions_las.md",
+      "channel": "General",
+      "intent": "# Email Task — faiza, your posts got 676 impressions last week\n\n## Metadata\n\n| Field    | Value |\n|-",
+      "outcome": "PENDING",
+      "quality_score": 8,
+      "was_rejected": false,
+      "ai_backend": "groq",
+      "revisions_needed": 0,
+      "confidence": 0.3,
+      "drafted_response_snippet": "Dear LinkedIn Team,\n\nI appreciate the notification regarding the performance of my posts on the platform. It is encouraging to see that my content has garnered 676 impressions last week. This metric i",
+      "tags": [
+        "General",
+        "professional"
+      ],
+      "task_hash": "015215c894",
+      "timestamp": "2026-03-23T08:00:24.011354",
+      "id": "MEM-0027"
+    },
+    {
+      "filename": "EMAIL_20260323_075339_faiza_your_posts_got_676_impressions_las.md",
+      "channel": "Email",
+      "intent": "Reply to a LinkedIn notification email regarding post impressions",
+      "outcome": "PENDING",
+      "quality_score": 9,
+      "was_rejected": false,
+      "ai_backend": "groq",
+      "revisions_needed": 0,
+      "confidence": 0.9,
+      "drafted_response_snippet": "Dear LinkedIn Team,\n\nI am writing to express my gratitude for the recent notification I received regarding my post impressions on LinkedIn. I was pleased to learn that my posts garnered 676 impression",
+      "tags": [
+        "Email",
+        "professional"
+      ],
+      "task_hash": "61ec72ea8d",
+      "timestamp": "2026-03-23T08:00:28.270293",
+      "id": "MEM-0028"
+    },
+    {
+      "filename": "EMAIL_20260323_075340_Not_to_be_dramatic_but_obsessed.md",
+      "channel": "General",
+      "intent": "# Email Task — Not to be dramatic but… obsessed\n\n## Metadata\n\n| Field    | Value |\n|----------|-----",
+      "outcome": "PENDING",
+      "quality_score": 7,
+      "was_rejected": false,
+      "ai_backend": "groq",
+      "revisions_needed": 0,
+      "confidence": 0.3,
+      "drafted_response_snippet": "{\"channel\":\"General\",\"priority\":\"Normal\",\"recipient\":\"N/A\",\"intent\":\"Task: # Email Task — Not to be dramatic but… obsessed\n\n## Metadata\n\n| Field    |\",\"tone\":\"professional\",\"confidence\":0.3,\"tool_call",
+      "tags": [
+        "General",
+        "professional"
+      ],
+      "task_hash": "96ff9029ac",
+      "timestamp": "2026-03-23T08:01:02.135030",
+      "id": "MEM-0029"
+    },
+    {
+      "filename": "EMAIL_20260323_075339_You_have_an_invitation.md",
+      "channel": "Email",
+      "intent": "Respond to a LinkedIn invitation",
+      "outcome": "PENDING",
+      "quality_score": 7,
+      "was_rejected": false,
+      "ai_backend": "groq",
+      "revisions_needed": 0,
+      "confidence": 0.9,
+      "drafted_response_snippet": "{\"channel\":\"General\",\"priority\":\"Normal\",\"recipient\":\"N/A\",\"intent\":\"Task: Respond to a LinkedIn invitation\nRecipient: invitations@linkedin.com\nSteps\",\"tone\":\"professional\",\"confidence\":0.3,\"tool_call",
+      "tags": [
+        "Email",
+        "professional"
+      ],
+      "task_hash": "7b7984a689",
+      "timestamp": "2026-03-23T08:01:05.571841",
+      "id": "MEM-0030"
+    },
+    {
+      "filename": "EMAIL_20260323_075340_Welcome_to_Qdrant_Cloud.md",
+      "channel": "General",
+      "intent": "# Email Task — Welcome to Qdrant Cloud\n\n## Metadata\n\n| Field    | Value |\n|----------|-------|\n| Fro",
+      "outcome": "PENDING",
+      "quality_score": 7,
+      "was_rejected": false,
+      "ai_backend": "groq",
+      "revisions_needed": 0,
+      "confidence": 0.3,
+      "drafted_response_snippet": "{\"channel\":\"General\",\"priority\":\"Normal\",\"recipient\":\"N/A\",\"intent\":\"Task: # Email Task — Welcome to Qdrant Cloud\n\n## Metadata\n\n| Field    | Value |\n\",\"tone\":\"professional\",\"confidence\":0.3,\"tool_call",
+      "tags": [
+        "General",
+        "professional"
+      ],
+      "task_hash": "e5bd8a55cc",
+      "timestamp": "2026-03-23T08:01:06.443600",
+      "id": "MEM-0031"
+    },
+    {
+      "filename": "EMAIL_20260323_075341_Inventory_Executive_BROTHERS_ENTERPRISES.md",
+      "channel": "General",
+      "intent": "# Email Task — Inventory Executive @ BROTHER'S ENTERPRISES (PVT) LIMITED\n\n## Metadata\n\n| Field    | ",
+      "outcome": "PENDING",
+      "quality_score": 7,
+      "was_rejected": false,
+      "ai_backend": "groq",
+      "revisions_needed": 0,
+      "confidence": 0.3,
+      "drafted_response_snippet": "{\"channel\":\"General\",\"priority\":\"Normal\",\"recipient\":\"N/A\",\"intent\":\"Task: # Email Task — Inventory Executive @ BROTHER'S ENTERPRISES (PVT) LIMITED\n\n\",\"tone\":\"professional\",\"confidence\":0.3,\"tool_call",
+      "tags": [
+        "General",
+        "professional"
+      ],
+      "task_hash": "b1709872cf",
+      "timestamp": "2026-03-23T08:01:11.582077",
+      "id": "MEM-0032"
+    },
+    {
+      "filename": "EMAIL_20260323_075341_Your_Qdrant_cluster_is_live_heres_what_t.md",
+      "channel": "General",
+      "intent": "# Email Task — Your Qdrant cluster is live: here’s what to do next\n\n## Metadata\n\n| Field    | Value ",
+      "outcome": "PENDING",
+      "quality_score": 7,
+      "was_rejected": false,
+      "ai_backend": "groq",
+      "revisions_needed": 0,
+      "confidence": 0.3,
+      "drafted_response_snippet": "{\"channel\":\"General\",\"priority\":\"Normal\",\"recipient\":\"N/A\",\"intent\":\"Task: # Email Task — Your Qdrant cluster is live: here’s what to do next\n\n## Met\",\"tone\":\"professional\",\"confidence\":0.3,\"tool_call",
+      "tags": [
+        "General",
+        "professional"
+      ],
+      "task_hash": "88f73423a6",
+      "timestamp": "2026-03-23T08:01:16.023915",
+      "id": "MEM-0033"
+    },
+    {
+      "filename": "EMAIL_20260323_075342_I_want_to_connect.md",
+      "channel": "General",
+      "intent": "# Email Task — I want to connect\n\n## Metadata\n\n| Field    | Value |\n|----------|-------|\n| From     ",
+      "outcome": "PENDING",
+      "quality_score": 7,
+      "was_rejected": false,
+      "ai_backend": "groq",
+      "revisions_needed": 0,
+      "confidence": 0.3,
+      "drafted_response_snippet": "{\"channel\":\"General\",\"priority\":\"Normal\",\"recipient\":\"N/A\",\"intent\":\"Task: # Email Task — I want to connect\n\n## Metadata\n\n| Field    | Value |\n|-----\",\"tone\":\"professional\",\"confidence\":0.3,\"tool_call",
+      "tags": [
+        "General",
+        "professional"
+      ],
+      "task_hash": "b53107939e",
+      "timestamp": "2026-03-23T08:01:19.773378",
+      "id": "MEM-0034"
+    },
+    {
+      "filename": "EMAIL_20260323_075343_Stanford_Just_Killed_Prompt_Engineering_.md",
+      "channel": "General",
+      "intent": "# Email Task — Stanford Just Killed Prompt Engineering With 8 Words (And I Can’t  Believe It Worked)",
+      "outcome": "PENDING",
+      "quality_score": 7,
+      "was_rejected": false,
+      "ai_backend": "groq",
+      "revisions_needed": 0,
+      "confidence": 0.3,
+      "drafted_response_snippet": "{\"channel\":\"General\",\"priority\":\"Normal\",\"recipient\":\"N/A\",\"intent\":\"Task: # Email Task — Stanford Just Killed Prompt Engineering With 8 Words (And I\",\"tone\":\"professional\",\"confidence\":0.3,\"tool_call",
+      "tags": [
+        "General",
+        "professional"
+      ],
+      "task_hash": "7d9cffe948",
+      "timestamp": "2026-03-23T08:01:23.139834",
+      "id": "MEM-0035"
+    },
+    {
+      "filename": "EMAIL_20260323_075343_Your_creative_spark_is_showing.md",
+      "channel": "General",
+      "intent": "# Email Task — Your creative spark is showing\n\n## Metadata\n\n| Field    | Value |\n|----------|-------",
+      "outcome": "PENDING",
+      "quality_score": 7,
+      "was_rejected": false,
+      "ai_backend": "groq",
+      "revisions_needed": 0,
+      "confidence": 0.3,
+      "drafted_response_snippet": "{\"channel\":\"General\",\"priority\":\"Normal\",\"recipient\":\"N/A\",\"intent\":\"Task: # Email Task — Your creative spark is showing\n\n## Metadata\n\n| Field    | V\",\"tone\":\"professional\",\"confidence\":0.3,\"tool_call",
+      "tags": [
+        "General",
+        "professional"
+      ],
+      "task_hash": "c0b2a761a9",
+      "timestamp": "2026-03-23T08:01:27.113206",
+      "id": "MEM-0036"
     }
   ],
-  "total": 13
+  "total": 36
 }
