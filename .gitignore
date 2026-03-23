@@ -25,3 +25,7 @@ nul
 # Temp
 *.tmp
 *.bak
+
+# Google OAuth credentials
+credentials.json
+token.json
