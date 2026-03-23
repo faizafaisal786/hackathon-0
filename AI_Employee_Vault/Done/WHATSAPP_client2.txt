@@ -1,0 +1,20 @@
+Channel: WhatsApp
+To: +92-321-9876543
+Client: Sara Ali
+Priority: Medium
+
+Message:
+Hello Sara,
+
+Your order has been confirmed. Expected delivery is February 18, 2026. We will send you a tracking link shortly.
+
+Thank you for choosing our service.
+
+Regards,
+AI Employee
+
+---
+**Processed by:** AI Brain
+**Date:** 2026-02-17 01:41
+**Plan:** PLAN_WHATSAPP_client2.md
+**Action:** ACTION_WHATSAPP_client2.md

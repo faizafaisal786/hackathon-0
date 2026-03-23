@@ -1,0 +1,43 @@
+[
+  {
+    "task": "ACTION_test",
+    "status": "Completed",
+    "time": "03:45 AM"
+  },
+  {
+    "task": "TEST_log_verify",
+    "status": "Completed",
+    "time": "05:29 AM"
+  },
+  {
+    "task": "ACTION_test",
+    "status": "Completed",
+    "time": "05:41 AM"
+  },
+  {
+    "task": "ACTION_client_email_reply",
+    "status": "Completed",
+    "time": "05:44 AM"
+  },
+  {
+    "task": "ACTION_EMAIL_client_request",
+    "channel": "Email",
+    "to": "client@company.com",
+    "status": "Email sent successfully",
+    "time": "05:53 AM"
+  },
+  {
+    "task": "ACTION_EMAIL_demo_test",
+    "status": "Email sent successfully (DEMO MODE)",
+    "time": "05:56 AM",
+    "channel": "Email",
+    "to": "client@company.com"
+  },
+  {
+    "task": "ACTION_WHATSAPP_client1",
+    "status": "WhatsApp message sent to Ahmed Khan",
+    "time": "06:00 AM",
+    "channel": "WhatsApp",
+    "to": "+92-300-1234567"
+  }
+]
