@@ -1,0 +1,11 @@
+{
+  "backup_time": "2026-03-28T16:08:58.007646",
+  "odoo_url": "http://localhost:8069",
+  "mode": "DEMO",
+  "customers": 8,
+  "invoices": 15,
+  "products": 4,
+  "total_invoiced": 504944.08,
+  "paid_count": 9,
+  "note": "Demo data — run with --live when Odoo is running"
+}

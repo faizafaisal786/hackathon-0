@@ -1,0 +1,20 @@
+========================================
+WhatsApp Message Simulation
+========================================
+Timestamp : 2026-03-28 10:26 AM
+To        : +92-333-1111111
+Client    : Unknown
+Status    : DELIVERED (Simulated)
+----------------------------------------
+Hello, yes, I confirm our meeting tomorrow at 3pm. Looking forward to it!
+----------------------------------------
+========================================
+WhatsApp Message Simulation
+========================================
+Timestamp : 2026-03-28 10:42 AM
+To        : +92-333-1111111
+Client    : Unknown
+Status    : DELIVERED (Simulated)
+----------------------------------------
+Hello, yes, I confirm our meeting tomorrow at 3pm. Looking forward to it, see you then.
+----------------------------------------

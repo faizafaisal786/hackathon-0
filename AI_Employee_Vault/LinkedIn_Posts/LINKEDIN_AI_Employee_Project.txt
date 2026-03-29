@@ -1,0 +1,64 @@
+========================================
+LinkedIn Post Simulation
+========================================
+Timestamp : 2026-03-28 02:50 AM
+Author    : Faiza
+Topic     : AI Employee Project
+Status    : READY FOR PUBLISHING (Simulated)
+========================================
+
+I built an AI Employee that runs 24/7 on Oracle Cloud Free Tier.
+
+It watches my Gmail inbox, reads every email, and automatically:
+- Drafts replies
+- Writes LinkedIn posts
+- Flags job opportunities
+- Tracks action items in Obsidian
+
+The architecture is a Cloud/Local split:
+- Cloud agent (always on) handles triage and drafts
+- Local agent reviews and approves before anything gets sent
+
+Stack: Groq + Gemini + Python + Obsidian + Oracle Cloud
+
+No subscriptions. No monthly fees. Just free-tier infrastructure doing real work.
+
+Already processed 300+ emails automatically. Built this as a 19-year-old learning AI engineering by shipping real things.
+
+If AI can handle your inbox — what else can it handle?
+
+#AIEngineering #BuildInPublic #Python #Automation #Obsidian #AgenticAI
+
+========================================
+========================================
+LinkedIn Post Simulation
+========================================
+Timestamp : 2026-03-28 02:51 AM
+Author    : Faiza
+Topic     : AI Employee Project
+Status    : READY FOR PUBLISHING (Simulated)
+========================================
+
+I built an AI Employee that runs 24/7 on Oracle Cloud Free Tier.
+
+It watches my Gmail inbox, reads every email, and automatically:
+- Drafts replies
+- Writes LinkedIn posts
+- Flags job opportunities
+- Tracks action items in Obsidian
+
+The architecture is a Cloud/Local split:
+- Cloud agent (always on) handles triage and drafts
+- Local agent reviews and approves before anything gets sent
+
+Stack: Groq + Gemini + Python + Obsidian + Oracle Cloud
+
+No subscriptions. No monthly fees. Just free-tier infrastructure doing real work.
+
+Already processed 300+ emails automatically. Built this while learning AI engineering by shipping real things.
+
+If AI can handle your inbox — what else can it handle?
+
+#AIEngineering #BuildInPublic #Python #Automation #Obsidian #AgenticAI
+
+========================================

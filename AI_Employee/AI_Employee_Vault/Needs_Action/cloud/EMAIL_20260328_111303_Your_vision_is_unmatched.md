@@ -1,0 +1,34 @@
+# Email Task — Your vision is unmatched
+
+## Metadata
+
+| Field    | Value |
+|----------|-------|
+| From     | Pinterest <recommendations@inspire.pinterest.com> |
+| Subject  | Your vision is unmatched |
+| Date     | Wed, 18 Feb 2026 05:51:48 +0000 |
+| Channel  | Email |
+| Priority | Normal |
+| Source   | Gmail Watcher |
+
+## Message
+
+To view this content open the following URL in your browser: https://www.pinterest.com/email/click/?user_id=NjkzNzY1NjU1MDA2MTM3MzIy&od=dD0yMjc0OGI0MDk1NmI0NWI0ODczNGQ4ZGVjZDFmMDIzNSZjPUhPTUVGRUVEX0RJR0VTVF9QSU5TJnM9MjI3NDhiNDA5NTZiNDViNDg3MzRkOGRlY2QxZjAyMzUmbj01Zjc0N2U2ZTM2NDU0OGY1OGYzZTEwMWE5OWNiYTBmYw%3D%3D&target=https%3A%2F%2Fwww.pinterest.com%2Fsecure%2Fautologin%2F%3Fuser_id%3DNjkzNzY1NjU1MDA2MTM3MzIy%26od%3DnaOOWCHxABaaQ6MINA0vYX%252BZ5qeDy%252FkYQpfmXDUACi1itjJCYV2OHa7%252BDv%252BmKaaoEWf1xPoNSzLb7aMtNROX5HHs1DkXa4QZyee1S%252Bc%252BuGqX6te9wn305KxjReP%252FYjmaLaaixH24sDZlZNrbDWuL%252Bg%253D%253D%26next%3D%252F%253Futm_campaign%253Dhfdigestpins%2526e_t%253D22748b40956b45b48734d8decd1f0235%2526e_t_s%253Dcta%2526utm_source%253D31%2526utm_medium%253D2004
+
+Pinterest
+
+651 Brannan Street, San Francisco, CA, 94107
+
+    Help Center: https://www.pinterest.com/email/click/?user_id=NjkzNzY1NjU1MDA2MTM3MzIy&od=dD0yMjc0OGI0MDk1NmI0NWI0ODczNGQ4ZGVjZDFmMDIzNSZjPUhPTUVGRUVEX0RJR0VTVF9QSU5TJnM9MjI3NDhiNDA5NTZiNDViNDg3MzRkOGRlY2QxZjAyMzUmbj01Zjc0N2U2ZTM2NDU0OGY1OGYzZTEwMWE5OWNiYTBmYw%3D%3D&target=https%3A%2F%2Fwww.pinterest.com%2F_%2F_%2Fhelp%2F%3Fsource%3Demail_footer%26utm_campaign%3Dhfdigestpins%26e_t%3D22748b40956b45b48734d8decd1f0235%26e_t_s%3Dfooter%26utm_source%3D31%26utm_medium%3D2004
+
+    Privacy Policy: https://www.pinterest.com/email/click/?user_id=NjkzNzY1NjU1MDA2MTM3MzIy&od=dD0yMjc0OGI0MDk1NmI0NWI0ODczNGQ4ZGVjZDFmMDIzNSZjPUhPTUVGRUVEX0RJR0VTVF9QSU5TJnM9MjI3NDhiNDA5NTZiNDViNDg3MzRkOGRlY2QxZjAyMzUmbj01Zjc0N2U2ZTM2NDU0OGY1OGYzZTEwMWE5OWNiYTBmYw%3D%3D&target=https%3A%2F%2Fwww.pinterest.com%2F_%2F_%2Fpolicy%2Fprivacy-policy%2F
+
+    Terms & Conditions: https://www.pinterest.com/email/click/?user_id=NjkzNzY1NjU1MDA2MTM3MzIy&od=dD0yMjc0OGI0MDk1NmI0NWI0ODczNGQ4ZGVjZDFmMDIzNSZjPUhPTUVGRUVEX0RJR0VTVF9QSU5TJnM9MjI3NDhiNDA5NTZiNDViNDg3MzRkOGRlY2QxZjAyMzUmbj01Zjc0N2U2ZTM2NDU0OGY1OGYzZTEwMWE5OWNiYTBmYw%3D%3D&target=https%3A%2F%2Fwww.pinterest.com%2F_%2F_%2Fpolicy%2Fterms-of-se
+
+[... truncated at 2000 chars]
+
+## Instructions
+
+Reply to this email professionally.
+To: recommendations@inspire.pinterest.com
+Subject: Re: Your vision is unmatched

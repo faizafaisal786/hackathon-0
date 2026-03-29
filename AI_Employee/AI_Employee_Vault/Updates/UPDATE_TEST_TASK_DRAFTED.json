@@ -1,0 +1,8 @@
+{
+  "event": "TASK_DRAFTED",
+  "task": "TEST_EMAIL.md",
+  "agent": "cloud",
+  "quality": 8.5,
+  "revisions": 0,
+  "timestamp": "2026-03-28T16:09:33.703231"
+}

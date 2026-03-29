@@ -1,9 +1,3 @@
-
-
-
-
-
-
 Personal AI Employee Hackathon 0: Building Autonomous FTEs (Full-Time Equivalent) in 2026
 Tagline: Your life and business on autopilot. Local-first, agent-driven, human-in-the-loop.
 This document serves as a comprehensive architectural blueprint and hackathon guide for building a "Digital FTE" (Full-Time Equivalent). It proposes a futuristic, local-first approach to automation where an AI agent—powered by Claude Code and Obsidian—proactively manages personal and business affairs 24/7. You can also think of it as a "Smart Consultant" (General Agents). The focus is on high-level reasoning, autonomy, and flexibility. Think of it as hiring a senior employee who figures out how to solve the problems.

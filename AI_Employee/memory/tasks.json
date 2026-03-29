@@ -685,7 +685,2211 @@
       "task_hash": "c0b2a761a9",
       "timestamp": "2026-03-23T08:01:27.113206",
       "id": "MEM-0036"
+    },
+    {
+      "filename": "WHATSAPP_20260328_102609_Client_XYZ.md",
+      "channel": "WhatsApp",
+      "intent": "Confirm meeting with Client XYZ tomorrow at 3pm",
+      "outcome": "PENDING",
+      "quality_score": 8,
+      "was_rejected": false,
+      "ai_backend": "groq",
+      "revisions_needed": 0,
+      "confidence": 0.9,
+      "drafted_response_snippet": "Hello, yes, I confirm our meeting tomorrow at 3pm. Looking forward to it!",
+      "tags": [
+        "WhatsApp",
+        "friendly"
+      ],
+      "task_hash": "3ae334bde8",
+      "timestamp": "2026-03-28T10:26:14.270208",
+      "id": "MEM-0037"
+    },
+    {
+      "filename": "WHATSAPP_20260328_104036_Client_XYZ.md",
+      "channel": "WhatsApp",
+      "intent": "Confirm meeting with Client XYZ tomorrow at 3pm",
+      "outcome": "PENDING",
+      "quality_score": 8,
+      "was_rejected": false,
+      "ai_backend": "groq",
+      "revisions_needed": 0,
+      "confidence": 0.9,
+      "drafted_response_snippet": "Hello, yes, I confirm our meeting tomorrow at 3pm. Looking forward to it, see you then.",
+      "tags": [
+        "WhatsApp",
+        "friendly"
+      ],
+      "task_hash": "757d7c039d",
+      "timestamp": "2026-03-28T10:42:09.124324",
+      "id": "MEM-0038"
+    },
+    {
+      "filename": "EMAIL_20260328_105031_Khanzadi_accepted_your_invitation_explor.md",
+      "channel": "Email",
+      "intent": "Respond to Khanzadi Wazir Ali's acceptance of invitation on LinkedIn",
+      "outcome": "PENDING",
+      "quality_score": 9,
+      "was_rejected": false,
+      "ai_backend": "groq",
+      "revisions_needed": 0,
+      "confidence": 0.9,
+      "drafted_response_snippet": "Dear Khanzadi Wazir Ali,\n\nI am delighted to hear that you have accepted my invitation to connect on LinkedIn. I am excited to explore the vast network of professionals that you are a part of and look ",
+      "tags": [
+        "Email",
+        "professional"
+      ],
+      "task_hash": "a5021c2e69",
+      "timestamp": "2026-03-28T10:51:14.673992",
+      "id": "MEM-0039"
+    },
+    {
+      "filename": "EMAIL_20260328_105032_You_have_an_invitation.md",
+      "channel": "Email",
+      "intent": "Respond to or decline the email invitation",
+      "outcome": "PENDING",
+      "quality_score": 9,
+      "was_rejected": false,
+      "ai_backend": "groq",
+      "revisions_needed": 0,
+      "confidence": 0.8,
+      "drafted_response_snippet": "Dear Invitation Host,\n\nI am writing to formally respond to the email invitation I received to attend the upcoming event. Upon reviewing the invitation, I was pleased to learn about the event's purpose",
+      "tags": [
+        "Email",
+        "formal"
+      ],
+      "task_hash": "f556596626",
+      "timestamp": "2026-03-28T10:51:19.867109",
+      "id": "MEM-0040"
+    },
+    {
+      "filename": "EMAIL_20260328_105033_Bridal_Outfit_for_Faiza.md",
+      "channel": "Email",
+      "intent": "To discuss or inquire about a bridal outfit for Faiza",
+      "outcome": "PENDING",
+      "quality_score": 9,
+      "was_rejected": false,
+      "ai_backend": "groq",
+      "revisions_needed": 0,
+      "confidence": 0.8,
+      "drafted_response_snippet": "Dear Faiza,\n\nI hope this email finds you well. As we previously discussed, I am excited to assist you in finding the perfect bridal outfit for your special day. I have been researching current bridal ",
+      "tags": [
+        "Email",
+        "formal"
+      ],
+      "task_hash": "4f9ed9a731",
+      "timestamp": "2026-03-28T10:51:24.674976",
+      "id": "MEM-0041"
+    },
+    {
+      "filename": "EMAIL_20260328_105033_You_have_an_invitation.md",
+      "channel": "Email",
+      "intent": "Respond to an email invitation",
+      "outcome": "PENDING",
+      "quality_score": 9,
+      "was_rejected": false,
+      "ai_backend": "groq",
+      "revisions_needed": 0,
+      "confidence": 0.8,
+      "drafted_response_snippet": "Dear Sir/Madam,\n\nI am writing to respond to the email invitation I received from your office, inviting me to attend an important meeting scheduled to take place on [Date] at [Time] at [Location]. I ap",
+      "tags": [
+        "Email",
+        "formal"
+      ],
+      "task_hash": "bd1f5d2635",
+      "timestamp": "2026-03-28T10:51:29.615455",
+      "id": "MEM-0042"
+    },
+    {
+      "filename": "EMAIL_20260328_105034_Yusra_accepted_your_invitation_explore_t.md",
+      "channel": "Email",
+      "intent": "Respond to Yusra's acceptance of the invitation to explore opportunities",
+      "outcome": "PENDING",
+      "quality_score": 9,
+      "was_rejected": false,
+      "ai_backend": "groq",
+      "revisions_needed": 0,
+      "confidence": 0.8,
+      "drafted_response_snippet": "Dear Yusra,\n\nI am writing to express my sincere gratitude for your acceptance of our invitation to explore opportunities. We are thrilled to have you on board and are eager to discuss how we can work ",
+      "tags": [
+        "Email",
+        "professional"
+      ],
+      "task_hash": "361170c750",
+      "timestamp": "2026-03-28T10:51:35.739417",
+      "id": "MEM-0043"
+    },
+    {
+      "filename": "EMAIL_20260328_105035_5_Obvious_Ways_Everyone_Knows_Youre_Usin.md",
+      "channel": "Email",
+      "intent": "The task is to analyze the content of the email file EMAIL_20260328_105035_5_Obvious_Ways_Everyone_Knows_Youre_Usin.md",
+      "outcome": "PENDING",
+      "quality_score": 9,
+      "was_rejected": false,
+      "ai_backend": "groq",
+      "revisions_needed": 1,
+      "confidence": 0.8,
+      "drafted_response_snippet": "Dear Team,\n\nI have obtained the content of the email file EMAIL_20260328_105035_5_Obvious_Ways_Everyone_Knows_Youre_Usin.md and re-analyzed it to provide a more accurate understanding of its content. ",
+      "tags": [
+        "Email",
+        "professional"
+      ],
+      "task_hash": "7aef0f8bf7",
+      "timestamp": "2026-03-28T10:52:00.092610",
+      "id": "MEM-0044"
+    },
+    {
+      "filename": "EMAIL_20260328_105035_Mahrukh_accepted_your_invitation_explore.md",
+      "channel": "Email",
+      "intent": "Send a response email to Mahrukh after they accepted the invitation",
+      "outcome": "PENDING",
+      "quality_score": 9,
+      "was_rejected": false,
+      "ai_backend": "groq",
+      "revisions_needed": 0,
+      "confidence": 0.8,
+      "drafted_response_snippet": "Dear Mahrukh,\n\nI am writing to express my sincere gratitude for accepting the invitation to discuss potential collaboration opportunities. We appreciate your interest in exploring how we can work toge",
+      "tags": [
+        "Email",
+        "formal"
+      ],
+      "task_hash": "4f673446f4",
+      "timestamp": "2026-03-28T10:52:14.316879",
+      "id": "MEM-0045"
+    },
+    {
+      "filename": "EMAIL_20260328_105036_Web_Developer_Krank_-_Senior_React_Devel.md",
+      "channel": "Email",
+      "intent": "Contact Web Developer Krank to discuss potential collaboration or job opportunities",
+      "outcome": "PENDING",
+      "quality_score": 9,
+      "was_rejected": false,
+      "ai_backend": "groq",
+      "revisions_needed": 0,
+      "confidence": 0.8,
+      "drafted_response_snippet": "Dear Web Developer Krank,\n\nI am reaching out to you today as I came across your impressive portfolio of work, particularly your senior React developer experience, and I was immediately drawn to the in",
+      "tags": [
+        "Email",
+        "professional"
+      ],
+      "task_hash": "e0f14be8ba",
+      "timestamp": "2026-03-28T10:52:28.301680",
+      "id": "MEM-0046"
+    },
+    {
+      "filename": "EMAIL_20260328_105037_Not_to_be_dramatic_but_obsessed.md",
+      "channel": "General",
+      "intent": "",
+      "outcome": "PENDING",
+      "quality_score": 8,
+      "was_rejected": false,
+      "ai_backend": "groq",
+      "revisions_needed": 0,
+      "confidence": 0.3,
+      "drafted_response_snippet": "A thorough review of the provided markdown file EMAIL_20260328_105037_Not_to_be_dramatic_but_obsessed.md reveals that the content is centered around a personal and informal message. The key points of ",
+      "tags": [
+        "General",
+        "professional"
+      ],
+      "task_hash": "ec38b51b49",
+      "timestamp": "2026-03-28T10:52:41.198821",
+      "id": "MEM-0047"
+    },
+    {
+      "filename": "EMAIL_20260328_105037_You_have_an_invitation.md",
+      "channel": "Email",
+      "intent": "Analyze the email invitation and determine the best course of action",
+      "outcome": "PENDING",
+      "quality_score": 9,
+      "was_rejected": false,
+      "ai_backend": "groq",
+      "revisions_needed": 0,
+      "confidence": 0.5,
+      "drafted_response_snippet": "Dear Team,\n\nI have carefully analyzed the email invitation content, as per the task requirements. The sender of the invitation is a key stakeholder in our current project, and the purpose of the invit",
+      "tags": [
+        "Email",
+        "professional"
+      ],
+      "task_hash": "4f63b60010",
+      "timestamp": "2026-03-28T10:52:56.118226",
+      "id": "MEM-0048"
+    },
+    {
+      "filename": "EMAIL_20260328_105038_You_have_an_invitation.md",
+      "channel": "Email",
+      "intent": "Analyze the content of the file EMAIL_20260328_105038_You_have_an_invitation.md to understand the task requirements",
+      "outcome": "PENDING",
+      "quality_score": 8,
+      "was_rejected": false,
+      "ai_backend": "groq",
+      "revisions_needed": 0,
+      "confidence": 0.8,
+      "drafted_response_snippet": "Dear Team,\n\nI have reviewed the content of the file EMAIL_20260328_105038_You_have_an_invitation.md and extracted the relevant details regarding the invitation. The event name is not explicitly stated",
+      "tags": [
+        "Email",
+        "professional"
+      ],
+      "task_hash": "b49e9c2180",
+      "timestamp": "2026-03-28T10:53:10.525571",
+      "id": "MEM-0049"
+    },
+    {
+      "filename": "EMAIL_20260328_105241_Your_vision_is_unmatched.md",
+      "channel": "General",
+      "intent": "# Email Task — Your vision is unmatched\n\n## Metadata\n\n| Field    | Value |\n|----------|-------|\n| Fr",
+      "outcome": "PENDING",
+      "quality_score": 8,
+      "was_rejected": false,
+      "ai_backend": "groq",
+      "revisions_needed": 0,
+      "confidence": 0.3,
+      "drafted_response_snippet": "Dear Pinterest Team,\n\nI am writing to acknowledge receipt of your email with the subject \"Your vision is unmatched.\" I appreciate the effort you put into curating content that aligns with my interests",
+      "tags": [
+        "General",
+        "professional"
+      ],
+      "task_hash": "f09be5491a",
+      "timestamp": "2026-03-28T10:53:37.772433",
+      "id": "MEM-0050"
+    },
+    {
+      "filename": "WHATSAPP_20260328_105343_Client_XYZ.md",
+      "channel": "WhatsApp",
+      "intent": "Confirm the meeting with Client XYZ tomorrow at 3pm",
+      "outcome": "PENDING",
+      "quality_score": 9,
+      "was_rejected": false,
+      "ai_backend": "groq",
+      "revisions_needed": 0,
+      "confidence": 0.9,
+      "drafted_response_snippet": "Hello, yes, I confirm our meeting tomorrow at 3pm. I'm really looking forward to discussing everything with you then. See you tomorrow, and please let me know if there's anything else I can prepare. L",
+      "tags": [
+        "WhatsApp",
+        "friendly"
+      ],
+      "task_hash": "3d3fa707bf",
+      "timestamp": "2026-03-28T10:53:51.646443",
+      "id": "MEM-0051"
+    },
+    {
+      "filename": "EMAIL_20260328_105507_See_Ayeshas_and_other_peoples_connection.md",
+      "channel": "Email",
+      "intent": "Reply to a LinkedIn connection request email",
+      "outcome": "PENDING",
+      "quality_score": 9,
+      "was_rejected": false,
+      "ai_backend": "groq",
+      "revisions_needed": 0,
+      "confidence": 0.9,
+      "drafted_response_snippet": "Dear LinkedIn Team,\n\nI appreciate the notification about my new connections, including Ayesha Naz, Raja Mannan, and Shaaf Sheikh. I will review their profiles and reach out to them accordingly, explor",
+      "tags": [
+        "Email",
+        "professional"
+      ],
+      "task_hash": "488ff8a056",
+      "timestamp": "2026-03-28T10:55:20.034598",
+      "id": "MEM-0052"
+    },
+    {
+      "filename": "EMAIL_20260328_105508_Faiza_these_ideas_are_so_you.md",
+      "channel": "Email",
+      "intent": "Reply to the email from Pinterest in a professional manner",
+      "outcome": "PENDING",
+      "quality_score": 9,
+      "was_rejected": false,
+      "ai_backend": "groq",
+      "revisions_needed": 0,
+      "confidence": 0.9,
+      "drafted_response_snippet": "Dear Pinterest Team,\n\nI am writing to express my gratitude for the personalized email I received from your team, titled \"Faiza, these ideas are so you.\" I appreciate the effort that Pinterest puts int",
+      "tags": [
+        "Email",
+        "professional"
+      ],
+      "task_hash": "7a35070ad9",
+      "timestamp": "2026-03-28T10:55:29.020105",
+      "id": "MEM-0053"
+    },
+    {
+      "filename": "EMAIL_20260328_105508_Web_Developer_PsychPlus_-_Senior_React_J.md",
+      "channel": "Email",
+      "intent": "Reply to a LinkedIn job alert email regarding Web Developer positions",
+      "outcome": "PENDING",
+      "quality_score": 9,
+      "was_rejected": false,
+      "ai_backend": "groq",
+      "revisions_needed": 0,
+      "confidence": 0.9,
+      "drafted_response_snippet": "Dear LinkedIn Job Alerts Team,\n\nI am writing to express my enthusiastic interest in the Web Developer positions listed in your recent job alert email, specifically the Senior React JS Engineer role at",
+      "tags": [
+        "Email",
+        "formal"
+      ],
+      "task_hash": "c9f1bf0f9f",
+      "timestamp": "2026-03-28T10:55:49.563602",
+      "id": "MEM-0054"
+    },
+    {
+      "filename": "EMAIL_20260328_105509_Its_not_too_late_to_start_a_writing_wres.md",
+      "channel": "Email",
+      "intent": "Analyze the provided email file content to determine the task requirements",
+      "outcome": "PENDING",
+      "quality_score": 8,
+      "was_rejected": false,
+      "ai_backend": "groq",
+      "revisions_needed": 0,
+      "confidence": 0.8,
+      "drafted_response_snippet": "Dear Team,\n\nI am writing to analyze the provided email file content, titled \"Its_not_too_late_to_start_a_writing_wres.md\", and determine the task requirements outlined within. The email content appear",
+      "tags": [
+        "Email",
+        "professional"
+      ],
+      "task_hash": "e61a6066a7",
+      "timestamp": "2026-03-28T10:56:04.380601",
+      "id": "MEM-0055"
+    },
+    {
+      "filename": "EMAIL_20260328_105510_7_Boring_Micro-SaaS_Ideas_Making_2kMonth.md",
+      "channel": "Email",
+      "intent": "Analyze the content of the file EMAIL_20260328_105510_7_Boring_Micro-SaaS_Ideas_Making_2kMonth.md to understand the task requirements",
+      "outcome": "PENDING",
+      "quality_score": 8,
+      "was_rejected": false,
+      "ai_backend": "groq",
+      "revisions_needed": 0,
+      "confidence": 0.8,
+      "drafted_response_snippet": "Dear Sir/Madam,\n\nI have thoroughly analyzed the content of the file EMAIL_20260328_105510_7_Boring_Micro-SaaS_Ideas_Making_2kMonth.md, which outlines seven micro-SaaS ideas that have the potential to ",
+      "tags": [
+        "Email",
+        "professional"
+      ],
+      "task_hash": "b9f839f22e",
+      "timestamp": "2026-03-28T10:56:20.826149",
+      "id": "MEM-0056"
+    },
+    {
+      "filename": "EMAIL_20260328_105510_Your_Gmail_storage_is_99_full.md",
+      "channel": "Email",
+      "intent": "Investigate and resolve the issue of the Gmail storage being 99% full",
+      "outcome": "PENDING",
+      "quality_score": 9,
+      "was_rejected": false,
+      "ai_backend": "groq",
+      "revisions_needed": 0,
+      "confidence": 0.9,
+      "drafted_response_snippet": "Dear Team,\n\nI am writing to follow up on the task to investigate and resolve the issue of our Gmail storage being 99% full. As per the original task, I logged in to the Gmail account and navigated to ",
+      "tags": [
+        "Email",
+        "professional"
+      ],
+      "task_hash": "5d2b7dfa1c",
+      "timestamp": "2026-03-28T10:56:34.751689",
+      "id": "MEM-0057"
+    },
+    {
+      "filename": "EMAIL_20260328_105511_See_Huzaifas_and_other_peoples_connectio.md",
+      "channel": "Email",
+      "intent": "Analyze the email content to understand Huzaifas and other people's connections",
+      "outcome": "PENDING",
+      "quality_score": 8,
+      "was_rejected": false,
+      "ai_backend": "groq",
+      "revisions_needed": 0,
+      "confidence": 0.8,
+      "drafted_response_snippet": "Dear Team,\n\nI have completed the analysis of the email content to understand Huzaifa's and other people's connections. After carefully reading the content of the email file EMAIL_20260328_105511_See_H",
+      "tags": [
+        "Email",
+        "professional"
+      ],
+      "task_hash": "db2776fd78",
+      "timestamp": "2026-03-28T10:56:50.438874",
+      "id": "MEM-0058"
+    },
+    {
+      "filename": "EMAIL_20260328_105939_Web_Developer_Contour_Software_-_SeniorP.md",
+      "channel": "Email",
+      "intent": "Reply to a LinkedIn job alert email regarding Web Developer positions",
+      "outcome": "PENDING",
+      "quality_score": 9,
+      "was_rejected": false,
+      "ai_backend": "groq",
+      "revisions_needed": 0,
+      "confidence": 0.9,
+      "drafted_response_snippet": "Dear Hiring Manager,\n\nI am writing to express my interest in the Web Developer positions that were listed in the recent job alert email I received from LinkedIn. The email highlighted several opportun",
+      "tags": [
+        "Email",
+        "professional"
+      ],
+      "task_hash": "3a2e3c4de3",
+      "timestamp": "2026-03-28T11:00:13.048466",
+      "id": "MEM-0059"
+    },
+    {
+      "filename": "EMAIL_20260328_105940_Your_next_find.md",
+      "channel": "Email",
+      "intent": "Analyze and understand the task based on the provided file name",
+      "outcome": "PENDING",
+      "quality_score": 8,
+      "was_rejected": false,
+      "ai_backend": "groq",
+      "revisions_needed": 0,
+      "confidence": 0.5,
+      "drafted_response_snippet": "Dear Team,\n\nI have analyzed the provided file, EMAIL_20260328_105940_Your_next_find.md, and understood the task details and requirements mentioned in it. The file contains a task that requires draftin",
+      "tags": [
+        "Email",
+        "professional"
+      ],
+      "task_hash": "c289bbdaf9",
+      "timestamp": "2026-03-28T11:00:20.038687",
+      "id": "MEM-0060"
+    },
+    {
+      "filename": "EMAIL_20260328_105941_faiza_your_posts_got_297_impressions_las.md",
+      "channel": "Email",
+      "intent": "Respond to Faiza about the email regarding her posts getting 297 impressions",
+      "outcome": "PENDING",
+      "quality_score": 9,
+      "was_rejected": false,
+      "ai_backend": "groq",
+      "revisions_needed": 0,
+      "confidence": 0.8,
+      "drafted_response_snippet": "Dear Faiza,\n\nI am excited to follow up on the email I sent you earlier regarding the performance of your recent posts. As you may recall, your content has generated an impressive 297 impressions, whic",
+      "tags": [
+        "Email",
+        "friendly"
+      ],
+      "task_hash": "bb5f1936ac",
+      "timestamp": "2026-03-28T11:00:27.994470",
+      "id": "MEM-0061"
+    },
+    {
+      "filename": "EMAIL_20260328_105942_Faiza_this_is_so_you-coded.md",
+      "channel": "Email",
+      "intent": "Respond to Faiza's email regarding a coded message",
+      "outcome": "PENDING",
+      "quality_score": 9,
+      "was_rejected": false,
+      "ai_backend": "groq",
+      "revisions_needed": 0,
+      "confidence": 0.8,
+      "drafted_response_snippet": "Dear Faiza,\n\nI hope this email finds you well. I wanted to personally reach out to you regarding the coded message you sent in your previous email. After carefully reading and analyzing the message, I",
+      "tags": [
+        "Email",
+        "friendly"
+      ],
+      "task_hash": "f41bc5d476",
+      "timestamp": "2026-03-28T11:00:34.707468",
+      "id": "MEM-0062"
+    },
+    {
+      "filename": "EMAIL_20260328_105942_I_just_requested_to_connect.md",
+      "channel": "Email",
+      "intent": "Respond to a connection request",
+      "outcome": "PENDING",
+      "quality_score": 9,
+      "was_rejected": false,
+      "ai_backend": "groq",
+      "revisions_needed": 0,
+      "confidence": 0.8,
+      "drafted_response_snippet": "Dear Connection Requestor, I appreciate your interest in connecting and am excited to learn more about your professional background and interests. Your request has been received and I am looking forwa",
+      "tags": [
+        "Email",
+        "professional"
+      ],
+      "task_hash": "5e8f2409cc",
+      "timestamp": "2026-03-28T11:00:40.750128",
+      "id": "MEM-0063"
+    },
+    {
+      "filename": "EMAIL_20260328_105943_Dont_miss_conversations_in_JavaScript.md",
+      "channel": "Email",
+      "intent": "Analyze the given file content related to JavaScript conversations",
+      "outcome": "PENDING",
+      "quality_score": 7,
+      "was_rejected": false,
+      "ai_backend": "groq",
+      "revisions_needed": 0,
+      "confidence": 0.8,
+      "drafted_response_snippet": "{\"channel\":\"General\",\"priority\":\"Normal\",\"recipient\":\"N/A\",\"intent\":\"Task: Analyze the given file content related to JavaScript conversations\nRecipie\",\"tone\":\"professional\",\"confidence\":0.3,\"tool_call",
+      "tags": [
+        "Email",
+        "professional"
+      ],
+      "task_hash": "ad996bc42a",
+      "timestamp": "2026-03-28T11:00:45.038056",
+      "id": "MEM-0064"
+    },
+    {
+      "filename": "EMAIL_20260328_105944_Web_Developer_QuellBits_-_Moodle_Develop.md",
+      "channel": "General",
+      "intent": "",
+      "outcome": "PENDING",
+      "quality_score": 7,
+      "was_rejected": false,
+      "ai_backend": "groq",
+      "revisions_needed": 0,
+      "confidence": 0.3,
+      "drafted_response_snippet": "{\"channel\":\"General\",\"priority\":\"Normal\",\"recipient\":\"N/A\",\"intent\":\"Task: \nRecipient: N/A\nSteps: Analyze task | Draft professional response | Verify\",\"tone\":\"professional\",\"confidence\":0.3,\"tool_call",
+      "tags": [
+        "General",
+        "professional"
+      ],
+      "task_hash": "0e2a28d772",
+      "timestamp": "2026-03-28T11:00:48.341721",
+      "id": "MEM-0065"
+    },
+    {
+      "filename": "EMAIL_20260328_111303_Your_vision_is_unmatched.md",
+      "channel": "General",
+      "intent": "# Email Task — Your vision is unmatched\n\n## Metadata\n\n| Field    | Value |\n|----------|-------|\n| Fr",
+      "outcome": "PENDING",
+      "quality_score": 7,
+      "was_rejected": false,
+      "ai_backend": "groq",
+      "revisions_needed": 0,
+      "confidence": 0.3,
+      "drafted_response_snippet": "{\"channel\":\"General\",\"priority\":\"Normal\",\"recipient\":\"N/A\",\"intent\":\"Task: # Email Task — Your vision is unmatched\n\n## Metadata\n\n| Field    | Value |\",\"tone\":\"professional\",\"confidence\":0.3,\"tool_call",
+      "tags": [
+        "General",
+        "professional"
+      ],
+      "task_hash": "6f3a4c9f2b",
+      "timestamp": "2026-03-28T11:13:21.860447",
+      "id": "MEM-0066"
+    },
+    {
+      "filename": "EMAIL_20260328_111304_I_want_to_connect.md",
+      "channel": "General",
+      "intent": "",
+      "outcome": "PENDING",
+      "quality_score": 7,
+      "was_rejected": false,
+      "ai_backend": "groq",
+      "revisions_needed": 0,
+      "confidence": 0.3,
+      "drafted_response_snippet": "{\"channel\":\"General\",\"priority\":\"Normal\",\"recipient\":\"N/A\",\"intent\":\"Task: \nRecipient: N/A\nSteps: Analyze task | Draft professional response | Verify\",\"tone\":\"professional\",\"confidence\":0.3,\"tool_call",
+      "tags": [
+        "General",
+        "professional"
+      ],
+      "task_hash": "827c224759",
+      "timestamp": "2026-03-28T11:13:25.775899",
+      "id": "MEM-0067"
+    },
+    {
+      "filename": "EMAIL_20260328_111305_New_sign-in_detected_on_your_Vercel_acco.md",
+      "channel": "General",
+      "intent": "",
+      "outcome": "PENDING",
+      "quality_score": 7,
+      "was_rejected": false,
+      "ai_backend": "groq",
+      "revisions_needed": 0,
+      "confidence": 0.3,
+      "drafted_response_snippet": "{\"channel\":\"General\",\"priority\":\"Normal\",\"recipient\":\"N/A\",\"intent\":\"Task: \nRecipient: N/A\nSteps: Analyze task | Draft professional response | Verify\",\"tone\":\"professional\",\"confidence\":0.3,\"tool_call",
+      "tags": [
+        "General",
+        "professional"
+      ],
+      "task_hash": "6cbb43b6d2",
+      "timestamp": "2026-03-28T11:13:29.408116",
+      "id": "MEM-0068"
+    },
+    {
+      "filename": "EMAIL_20260328_111306_I_just_requested_to_connect.md",
+      "channel": "General",
+      "intent": "",
+      "outcome": "PENDING",
+      "quality_score": 7,
+      "was_rejected": false,
+      "ai_backend": "groq",
+      "revisions_needed": 0,
+      "confidence": 0.3,
+      "drafted_response_snippet": "{\"channel\":\"General\",\"priority\":\"Normal\",\"recipient\":\"N/A\",\"intent\":\"Task: \nRecipient: N/A\nSteps: Analyze task | Draft professional response | Verify\",\"tone\":\"professional\",\"confidence\":0.3,\"tool_call",
+      "tags": [
+        "General",
+        "professional"
+      ],
+      "task_hash": "7204138dbe",
+      "timestamp": "2026-03-28T11:13:32.861006",
+      "id": "MEM-0069"
+    },
+    {
+      "filename": "EMAIL_20260328_111306_Your_next_creative_spark_is_here.md",
+      "channel": "General",
+      "intent": "",
+      "outcome": "PENDING",
+      "quality_score": 7,
+      "was_rejected": false,
+      "ai_backend": "groq",
+      "revisions_needed": 0,
+      "confidence": 0.3,
+      "drafted_response_snippet": "As we move forward with our current project, it is essential to establish a clear understanding of our objectives and the steps required to achieve them. Our primary goal is to ensure the successful c",
+      "tags": [
+        "General",
+        "professional"
+      ],
+      "task_hash": "43f896c514",
+      "timestamp": "2026-03-28T11:14:37.915477",
+      "id": "MEM-0070"
+    },
+    {
+      "filename": "EMAIL_20260328_111307_I_want_to_connect.md",
+      "channel": "General",
+      "intent": "",
+      "outcome": "PENDING",
+      "quality_score": 7,
+      "was_rejected": false,
+      "ai_backend": "groq",
+      "revisions_needed": 0,
+      "confidence": 0.3,
+      "drafted_response_snippet": "{\"channel\":\"General\",\"priority\":\"Normal\",\"recipient\":\"N/A\",\"intent\":\"Task: \nRecipient: N/A\nSteps: Analyze task | Draft professional response | Verify\",\"tone\":\"professional\",\"confidence\":0.3,\"tool_call",
+      "tags": [
+        "General",
+        "professional"
+      ],
+      "task_hash": "8122f7d9c0",
+      "timestamp": "2026-03-28T11:14:40.772002",
+      "id": "MEM-0071"
+    },
+    {
+      "filename": "EMAIL_20260328_111307_You_have_an_invitation.md",
+      "channel": "General",
+      "intent": "",
+      "outcome": "PENDING",
+      "quality_score": 7,
+      "was_rejected": false,
+      "ai_backend": "groq",
+      "revisions_needed": 0,
+      "confidence": 0.3,
+      "drafted_response_snippet": "{\"channel\":\"General\",\"priority\":\"Normal\",\"recipient\":\"N/A\",\"intent\":\"Task: \nRecipient: N/A\nSteps: Analyze task | Draft professional response | Verify\",\"tone\":\"professional\",\"confidence\":0.3,\"tool_call",
+      "tags": [
+        "General",
+        "professional"
+      ],
+      "task_hash": "f86db6607e",
+      "timestamp": "2026-03-28T11:14:43.578908",
+      "id": "MEM-0072"
+    },
+    {
+      "filename": "EMAIL_20260328_111308_I_want_to_connect.md",
+      "channel": "General",
+      "intent": "",
+      "outcome": "PENDING",
+      "quality_score": 7,
+      "was_rejected": false,
+      "ai_backend": "groq",
+      "revisions_needed": 0,
+      "confidence": 0.3,
+      "drafted_response_snippet": "{\"channel\":\"General\",\"priority\":\"Normal\",\"recipient\":\"N/A\",\"intent\":\"Task: \nRecipient: N/A\nSteps: Analyze task | Draft professional response | Verify\",\"tone\":\"professional\",\"confidence\":0.3,\"tool_call",
+      "tags": [
+        "General",
+        "professional"
+      ],
+      "task_hash": "6e5a72d0f2",
+      "timestamp": "2026-03-28T11:14:46.479373",
+      "id": "MEM-0073"
+    },
+    {
+      "filename": "EMAIL_20260328_111309_Web_Developer_Asora_Tech_-_Wordpress_Dev.md",
+      "channel": "General",
+      "intent": "",
+      "outcome": "PENDING",
+      "quality_score": 7,
+      "was_rejected": false,
+      "ai_backend": "groq",
+      "revisions_needed": 0,
+      "confidence": 0.3,
+      "drafted_response_snippet": "{\"channel\":\"General\",\"priority\":\"Normal\",\"recipient\":\"N/A\",\"intent\":\"Task: \nRecipient: N/A\nSteps: Analyze task | Draft professional response | Verify\",\"tone\":\"professional\",\"confidence\":0.3,\"tool_call",
+      "tags": [
+        "General",
+        "professional"
+      ],
+      "task_hash": "3cadafccdb",
+      "timestamp": "2026-03-28T11:14:48.962318",
+      "id": "MEM-0074"
+    },
+    {
+      "filename": "EMAIL_20260328_111310_Are_you_reading_Mediums_best_stories.md",
+      "channel": "General",
+      "intent": "",
+      "outcome": "PENDING",
+      "quality_score": 7,
+      "was_rejected": false,
+      "ai_backend": "groq",
+      "revisions_needed": 0,
+      "confidence": 0.3,
+      "drafted_response_snippet": "{\"channel\":\"General\",\"priority\":\"Normal\",\"recipient\":\"N/A\",\"intent\":\"Task: \nRecipient: N/A\nSteps: Analyze task | Draft professional response | Verify\",\"tone\":\"professional\",\"confidence\":0.3,\"tool_call",
+      "tags": [
+        "General",
+        "professional"
+      ],
+      "task_hash": "073293696f",
+      "timestamp": "2026-03-28T11:14:51.440780",
+      "id": "MEM-0075"
+    },
+    {
+      "filename": "EMAIL_20260328_111310_Not_to_be_dramatic_but_obsessed.md",
+      "channel": "General",
+      "intent": "",
+      "outcome": "PENDING",
+      "quality_score": 7,
+      "was_rejected": false,
+      "ai_backend": "groq",
+      "revisions_needed": 0,
+      "confidence": 0.3,
+      "drafted_response_snippet": "{\"channel\":\"General\",\"priority\":\"Normal\",\"recipient\":\"N/A\",\"intent\":\"Task: \nRecipient: N/A\nSteps: Analyze task | Draft professional response | Verify\",\"tone\":\"professional\",\"confidence\":0.3,\"tool_call",
+      "tags": [
+        "General",
+        "professional"
+      ],
+      "task_hash": "73167aeed6",
+      "timestamp": "2026-03-28T11:14:53.728921",
+      "id": "MEM-0076"
+    },
+    {
+      "filename": "EMAIL_20260328_111311_Your_next_creative_spark_is_here.md",
+      "channel": "General",
+      "intent": "",
+      "outcome": "PENDING",
+      "quality_score": 7,
+      "was_rejected": false,
+      "ai_backend": "groq",
+      "revisions_needed": 0,
+      "confidence": 0.3,
+      "drafted_response_snippet": "{\"channel\":\"General\",\"priority\":\"Normal\",\"recipient\":\"N/A\",\"intent\":\"Task: \nRecipient: N/A\nSteps: Analyze task | Draft professional response | Verify\",\"tone\":\"professional\",\"confidence\":0.3,\"tool_call",
+      "tags": [
+        "General",
+        "professional"
+      ],
+      "task_hash": "cce7cc8f82",
+      "timestamp": "2026-03-28T11:14:56.319348",
+      "id": "MEM-0077"
+    },
+    {
+      "filename": "EMAIL_20260328_111312_Abdul_just_messaged_you.md",
+      "channel": "General",
+      "intent": "",
+      "outcome": "PENDING",
+      "quality_score": 7,
+      "was_rejected": false,
+      "ai_backend": "groq",
+      "revisions_needed": 0,
+      "confidence": 0.3,
+      "drafted_response_snippet": "{\"channel\":\"General\",\"priority\":\"Normal\",\"recipient\":\"N/A\",\"intent\":\"Task: \nRecipient: N/A\nSteps: Analyze task | Draft professional response | Verify\",\"tone\":\"professional\",\"confidence\":0.3,\"tool_call",
+      "tags": [
+        "General",
+        "professional"
+      ],
+      "task_hash": "900b65d640",
+      "timestamp": "2026-03-28T11:14:59.132322",
+      "id": "MEM-0078"
+    },
+    {
+      "filename": "EMAIL_20260328_111313_Aliyan_just_messaged_you.md",
+      "channel": "General",
+      "intent": "",
+      "outcome": "PENDING",
+      "quality_score": 7,
+      "was_rejected": false,
+      "ai_backend": "groq",
+      "revisions_needed": 0,
+      "confidence": 0.3,
+      "drafted_response_snippet": "{\"channel\":\"General\",\"priority\":\"Normal\",\"recipient\":\"N/A\",\"intent\":\"Task: \nRecipient: N/A\nSteps: Analyze task | Draft professional response | Verify\",\"tone\":\"professional\",\"confidence\":0.3,\"tool_call",
+      "tags": [
+        "General",
+        "professional"
+      ],
+      "task_hash": "1f3e431350",
+      "timestamp": "2026-03-28T11:15:02.304921",
+      "id": "MEM-0079"
+    },
+    {
+      "filename": "EMAIL_20260328_111314_The_Monthly_Build_-_Google_Developer_Pro.md",
+      "channel": "General",
+      "intent": "",
+      "outcome": "PENDING",
+      "quality_score": 7,
+      "was_rejected": false,
+      "ai_backend": "groq",
+      "revisions_needed": 0,
+      "confidence": 0.3,
+      "drafted_response_snippet": "{\"channel\":\"General\",\"priority\":\"Normal\",\"recipient\":\"N/A\",\"intent\":\"Task: \nRecipient: N/A\nSteps: Analyze task | Draft professional response | Verify\",\"tone\":\"professional\",\"confidence\":0.3,\"tool_call",
+      "tags": [
+        "General",
+        "professional"
+      ],
+      "task_hash": "16499eab6e",
+      "timestamp": "2026-03-28T11:15:04.915889",
+      "id": "MEM-0080"
+    },
+    {
+      "filename": "EMAIL_20260328_111314_Web_Developer_Getz_Pharma_-_Frontend_Dev.md",
+      "channel": "General",
+      "intent": "",
+      "outcome": "PENDING",
+      "quality_score": 7,
+      "was_rejected": false,
+      "ai_backend": "groq",
+      "revisions_needed": 0,
+      "confidence": 0.3,
+      "drafted_response_snippet": "{\"channel\":\"General\",\"priority\":\"Normal\",\"recipient\":\"N/A\",\"intent\":\"Task: \nRecipient: N/A\nSteps: Analyze task | Draft professional response | Verify\",\"tone\":\"professional\",\"confidence\":0.3,\"tool_call",
+      "tags": [
+        "General",
+        "professional"
+      ],
+      "task_hash": "5b04a81b1d",
+      "timestamp": "2026-03-28T11:15:07.512996",
+      "id": "MEM-0081"
+    },
+    {
+      "filename": "EMAIL_20260328_112416_Try_Codex_for_free.md",
+      "channel": "General",
+      "intent": "# Email Task — Try Codex for free\n\n## Metadata\n\n| Field    | Value |\n|----------|-------|\n| From    ",
+      "outcome": "PENDING",
+      "quality_score": 7,
+      "was_rejected": false,
+      "ai_backend": "groq",
+      "revisions_needed": 0,
+      "confidence": 0.3,
+      "drafted_response_snippet": "{\"channel\":\"General\",\"priority\":\"Normal\",\"recipient\":\"N/A\",\"intent\":\"Task: # Email Task — Try Codex for free\n\n## Metadata\n\n| Field    | Value |\n|----\",\"tone\":\"professional\",\"confidence\":0.3,\"tool_call",
+      "tags": [
+        "General",
+        "professional"
+      ],
+      "task_hash": "b7fd9e62dd",
+      "timestamp": "2026-03-28T11:24:50.249621",
+      "id": "MEM-0082"
+    },
+    {
+      "filename": "EMAIL_20260328_112417_Skip_the_Setup_Start_with_these_Builds.md",
+      "channel": "General",
+      "intent": "",
+      "outcome": "PENDING",
+      "quality_score": 7,
+      "was_rejected": false,
+      "ai_backend": "groq",
+      "revisions_needed": 0,
+      "confidence": 0.3,
+      "drafted_response_snippet": "{\"channel\":\"General\",\"priority\":\"Normal\",\"recipient\":\"N/A\",\"intent\":\"Task: \nRecipient: N/A\nSteps: Analyze task | Draft professional response | Verify\",\"tone\":\"professional\",\"confidence\":0.3,\"tool_call",
+      "tags": [
+        "General",
+        "professional"
+      ],
+      "task_hash": "1dcfd73bdb",
+      "timestamp": "2026-03-28T11:24:53.394710",
+      "id": "MEM-0083"
+    },
+    {
+      "filename": "EMAIL_20260328_112418_Your_next_find.md",
+      "channel": "General",
+      "intent": "",
+      "outcome": "PENDING",
+      "quality_score": 7,
+      "was_rejected": false,
+      "ai_backend": "groq",
+      "revisions_needed": 0,
+      "confidence": 0.3,
+      "drafted_response_snippet": "{\"channel\":\"General\",\"priority\":\"Normal\",\"recipient\":\"N/A\",\"intent\":\"Task: \nRecipient: N/A\nSteps: Analyze task | Draft professional response | Verify\",\"tone\":\"professional\",\"confidence\":0.3,\"tool_call",
+      "tags": [
+        "General",
+        "professional"
+      ],
+      "task_hash": "01bde79197",
+      "timestamp": "2026-03-28T11:24:56.452504",
+      "id": "MEM-0084"
+    },
+    {
+      "filename": "EMAIL_20260328_112419_Faiza_this_is_so_you-coded.md",
+      "channel": "General",
+      "intent": "",
+      "outcome": "PENDING",
+      "quality_score": 7,
+      "was_rejected": false,
+      "ai_backend": "groq",
+      "revisions_needed": 0,
+      "confidence": 0.3,
+      "drafted_response_snippet": "{\"channel\":\"General\",\"priority\":\"Normal\",\"recipient\":\"N/A\",\"intent\":\"Task: \nRecipient: N/A\nSteps: Analyze task | Draft professional response | Verify\",\"tone\":\"professional\",\"confidence\":0.3,\"tool_call",
+      "tags": [
+        "General",
+        "professional"
+      ],
+      "task_hash": "026ba32aa5",
+      "timestamp": "2026-03-28T11:24:58.823230",
+      "id": "MEM-0085"
+    },
+    {
+      "filename": "EMAIL_20260328_112419_Web_Developer_Botmer_International_-_Pyt.md",
+      "channel": "General",
+      "intent": "",
+      "outcome": "PENDING",
+      "quality_score": 7,
+      "was_rejected": false,
+      "ai_backend": "groq",
+      "revisions_needed": 0,
+      "confidence": 0.3,
+      "drafted_response_snippet": "{\"channel\":\"General\",\"priority\":\"Normal\",\"recipient\":\"N/A\",\"intent\":\"Task: \nRecipient: N/A\nSteps: Analyze task | Draft professional response | Verify\",\"tone\":\"professional\",\"confidence\":0.3,\"tool_call",
+      "tags": [
+        "General",
+        "professional"
+      ],
+      "task_hash": "90f0fde1be",
+      "timestamp": "2026-03-28T11:25:01.236853",
+      "id": "MEM-0086"
+    },
+    {
+      "filename": "EMAIL_20260328_112420_I_just_requested_to_connect.md",
+      "channel": "General",
+      "intent": "",
+      "outcome": "PENDING",
+      "quality_score": 7,
+      "was_rejected": false,
+      "ai_backend": "groq",
+      "revisions_needed": 0,
+      "confidence": 0.3,
+      "drafted_response_snippet": "{\"channel\":\"General\",\"priority\":\"Normal\",\"recipient\":\"N/A\",\"intent\":\"Task: \nRecipient: N/A\nSteps: Analyze task | Draft professional response | Verify\",\"tone\":\"professional\",\"confidence\":0.3,\"tool_call",
+      "tags": [
+        "General",
+        "professional"
+      ],
+      "task_hash": "6b8ac03c11",
+      "timestamp": "2026-03-28T11:25:04.268453",
+      "id": "MEM-0087"
+    },
+    {
+      "filename": "EMAIL_20260328_112425_Ayesha_accepted_your_invitation_explore_.md",
+      "channel": "General",
+      "intent": "",
+      "outcome": "PENDING",
+      "quality_score": 7,
+      "was_rejected": false,
+      "ai_backend": "groq",
+      "revisions_needed": 0,
+      "confidence": 0.3,
+      "drafted_response_snippet": "{\"channel\":\"General\",\"priority\":\"Normal\",\"recipient\":\"N/A\",\"intent\":\"Task: \nRecipient: N/A\nSteps: Analyze task | Draft professional response | Verify\",\"tone\":\"professional\",\"confidence\":0.3,\"tool_call",
+      "tags": [
+        "General",
+        "professional"
+      ],
+      "task_hash": "68c9480fbc",
+      "timestamp": "2026-03-28T11:25:06.322717",
+      "id": "MEM-0088"
+    },
+    {
+      "filename": "EMAIL_20260328_112845_Web_Developer_Smart_Working_-_Senior_Ful.md",
+      "channel": "General",
+      "intent": "# Email Task — “Web Developer”: Smart Working - Senior Full Stack Developer - TypeScript and Next.js",
+      "outcome": "PENDING",
+      "quality_score": 7,
+      "was_rejected": false,
+      "ai_backend": "groq",
+      "revisions_needed": 0,
+      "confidence": 0.3,
+      "drafted_response_snippet": "{\"channel\":\"General\",\"priority\":\"Normal\",\"recipient\":\"N/A\",\"intent\":\"Task: # Email Task — “Web Developer”: Smart Working - Senior Full Stack Develope\",\"tone\":\"professional\",\"confidence\":0.3,\"tool_call",
+      "tags": [
+        "General",
+        "professional"
+      ],
+      "task_hash": "07ccb51d6c",
+      "timestamp": "2026-03-28T11:29:09.792223",
+      "id": "MEM-0089"
+    },
+    {
+      "filename": "EMAIL_20260328_112846_Your_next_find.md",
+      "channel": "General",
+      "intent": "# Email Task — Your next find\n\n## Metadata\n\n| Field    | Value |\n|----------|-------|\n| From     | P",
+      "outcome": "PENDING",
+      "quality_score": 7,
+      "was_rejected": false,
+      "ai_backend": "groq",
+      "revisions_needed": 0,
+      "confidence": 0.3,
+      "drafted_response_snippet": "{\"channel\":\"General\",\"priority\":\"Normal\",\"recipient\":\"N/A\",\"intent\":\"Task: # Email Task — Your next find\n\n## Metadata\n\n| Field    | Value |\n|--------\",\"tone\":\"professional\",\"confidence\":0.3,\"tool_call",
+      "tags": [
+        "General",
+        "professional"
+      ],
+      "task_hash": "5d17169a06",
+      "timestamp": "2026-03-28T11:29:11.958101",
+      "id": "MEM-0090"
+    },
+    {
+      "filename": "EMAIL_20260328_112847_Faiza_this_is_so_you-coded.md",
+      "channel": "General",
+      "intent": "# Email Task — Faiza, this is so you-coded\n\n## Metadata\n\n| Field    | Value |\n|----------|-------|\n|",
+      "outcome": "PENDING",
+      "quality_score": 7,
+      "was_rejected": false,
+      "ai_backend": "groq",
+      "revisions_needed": 0,
+      "confidence": 0.3,
+      "drafted_response_snippet": "{\"channel\":\"General\",\"priority\":\"Normal\",\"recipient\":\"N/A\",\"intent\":\"Task: # Email Task — Faiza, this is so you-coded\n\n## Metadata\n\n| Field    | Valu\",\"tone\":\"professional\",\"confidence\":0.3,\"tool_call",
+      "tags": [
+        "General",
+        "professional"
+      ],
+      "task_hash": "ee7dfc301f",
+      "timestamp": "2026-03-28T11:29:14.018155",
+      "id": "MEM-0091"
+    },
+    {
+      "filename": "EMAIL_20260328_112847_You_have_an_invitation.md",
+      "channel": "General",
+      "intent": "# Email Task — You have an invitation\n\n## Metadata\n\n| Field    | Value |\n|----------|-------|\n| From",
+      "outcome": "PENDING",
+      "quality_score": 7,
+      "was_rejected": false,
+      "ai_backend": "groq",
+      "revisions_needed": 0,
+      "confidence": 0.3,
+      "drafted_response_snippet": "{\"channel\":\"General\",\"priority\":\"Normal\",\"recipient\":\"N/A\",\"intent\":\"Task: # Email Task — You have an invitation\n\n## Metadata\n\n| Field    | Value |\n|\",\"tone\":\"professional\",\"confidence\":0.3,\"tool_call",
+      "tags": [
+        "General",
+        "professional"
+      ],
+      "task_hash": "af1aff498f",
+      "timestamp": "2026-03-28T11:29:16.050001",
+      "id": "MEM-0092"
+    },
+    {
+      "filename": "EMAIL_20260328_112848_Delivery_Status_Notification_Failure.md",
+      "channel": "General",
+      "intent": "# Email Task — Delivery Status Notification (Failure)\n\n## Metadata\n\n| Field    | Value |\n|----------",
+      "outcome": "PENDING",
+      "quality_score": 7,
+      "was_rejected": false,
+      "ai_backend": "groq",
+      "revisions_needed": 0,
+      "confidence": 0.3,
+      "drafted_response_snippet": "{\"channel\":\"General\",\"priority\":\"Normal\",\"recipient\":\"N/A\",\"intent\":\"Task: # Email Task — Delivery Status Notification (Failure)\n\n## Metadata\n\n| Fiel\",\"tone\":\"professional\",\"confidence\":0.3,\"tool_call",
+      "tags": [
+        "General",
+        "professional"
+      ],
+      "task_hash": "8db26481a1",
+      "timestamp": "2026-03-28T11:29:18.117904",
+      "id": "MEM-0093"
+    },
+    {
+      "filename": "EMAIL_20260328_112848_Fullfillment_Officer_Al-Razzaq_Fibres_Pv.md",
+      "channel": "General",
+      "intent": "# Email Task — Fullfillment Officer @ Al-Razzaq Fibres (Pvt) Limited - SAYA\n\n## Metadata\n\n| Field   ",
+      "outcome": "PENDING",
+      "quality_score": 7,
+      "was_rejected": false,
+      "ai_backend": "groq",
+      "revisions_needed": 0,
+      "confidence": 0.3,
+      "drafted_response_snippet": "{\"channel\":\"General\",\"priority\":\"Normal\",\"recipient\":\"N/A\",\"intent\":\"Task: # Email Task — Fullfillment Officer @ Al-Razzaq Fibres (Pvt) Limited - SAY\",\"tone\":\"professional\",\"confidence\":0.3,\"tool_call",
+      "tags": [
+        "General",
+        "professional"
+      ],
+      "task_hash": "e88c33967d",
+      "timestamp": "2026-03-28T11:29:20.286690",
+      "id": "MEM-0094"
+    },
+    {
+      "filename": "EMAIL_20260328_112849_Web_Developer_ibex_-_Full_Stack_Develope.md",
+      "channel": "General",
+      "intent": "",
+      "outcome": "PENDING",
+      "quality_score": 7,
+      "was_rejected": false,
+      "ai_backend": "groq",
+      "revisions_needed": 0,
+      "confidence": 0.3,
+      "drafted_response_snippet": "To facilitate a seamless and efficient process, it is essential to begin by analyzing the task at hand. Given that there are no specific details provided about the task, we will rely on general princi",
+      "tags": [
+        "General",
+        "professional"
+      ],
+      "task_hash": "ed197d71a1",
+      "timestamp": "2026-03-28T11:29:56.670747",
+      "id": "MEM-0095"
+    },
+    {
+      "filename": "EMAIL_20260328_112850_Not_to_be_dramatic_but_obsessed.md",
+      "channel": "General",
+      "intent": "",
+      "outcome": "PENDING",
+      "quality_score": 7,
+      "was_rejected": false,
+      "ai_backend": "groq",
+      "revisions_needed": 0,
+      "confidence": 0.3,
+      "drafted_response_snippet": "{\"channel\":\"General\",\"priority\":\"Normal\",\"recipient\":\"N/A\",\"intent\":\"Task: \nRecipient: N/A\nSteps: Analyze task | Draft professional response | Verify\",\"tone\":\"professional\",\"confidence\":0.3,\"tool_call",
+      "tags": [
+        "General",
+        "professional"
+      ],
+      "task_hash": "7ae2d337cf",
+      "timestamp": "2026-03-28T11:29:58.703465",
+      "id": "MEM-0096"
+    },
+    {
+      "filename": "EMAIL_20260328_112850_You_have_an_invitation.md",
+      "channel": "General",
+      "intent": "",
+      "outcome": "PENDING",
+      "quality_score": 7,
+      "was_rejected": false,
+      "ai_backend": "groq",
+      "revisions_needed": 0,
+      "confidence": 0.3,
+      "drafted_response_snippet": "{\"channel\":\"General\",\"priority\":\"Normal\",\"recipient\":\"N/A\",\"intent\":\"Task: \nRecipient: N/A\nSteps: Analyze task | Draft professional response | Verify\",\"tone\":\"professional\",\"confidence\":0.3,\"tool_call",
+      "tags": [
+        "General",
+        "professional"
+      ],
+      "task_hash": "90541b662b",
+      "timestamp": "2026-03-28T11:30:00.834510",
+      "id": "MEM-0097"
+    },
+    {
+      "filename": "EMAIL_20260328_112851_Major_idea_moment.md",
+      "channel": "General",
+      "intent": "",
+      "outcome": "PENDING",
+      "quality_score": 7,
+      "was_rejected": false,
+      "ai_backend": "groq",
+      "revisions_needed": 0,
+      "confidence": 0.3,
+      "drafted_response_snippet": "{\"channel\":\"General\",\"priority\":\"Normal\",\"recipient\":\"N/A\",\"intent\":\"Task: \nRecipient: N/A\nSteps: Analyze task | Draft professional response | Verify\",\"tone\":\"professional\",\"confidence\":0.3,\"tool_call",
+      "tags": [
+        "General",
+        "professional"
+      ],
+      "task_hash": "304de2978e",
+      "timestamp": "2026-03-28T11:30:03.230970",
+      "id": "MEM-0098"
+    },
+    {
+      "filename": "EMAIL_20260328_112852_I_want_to_connect.md",
+      "channel": "General",
+      "intent": "",
+      "outcome": "PENDING",
+      "quality_score": 7,
+      "was_rejected": false,
+      "ai_backend": "groq",
+      "revisions_needed": 0,
+      "confidence": 0.3,
+      "drafted_response_snippet": "{\"channel\":\"General\",\"priority\":\"Normal\",\"recipient\":\"N/A\",\"intent\":\"Task: \nRecipient: N/A\nSteps: Analyze task | Draft professional response | Verify\",\"tone\":\"professional\",\"confidence\":0.3,\"tool_call",
+      "tags": [
+        "General",
+        "professional"
+      ],
+      "task_hash": "1550a37c82",
+      "timestamp": "2026-03-28T11:30:05.232757",
+      "id": "MEM-0099"
+    },
+    {
+      "filename": "EMAIL_20260328_112852_The_Monthly_Build_-_Google_Developer_Pro.md",
+      "channel": "General",
+      "intent": "",
+      "outcome": "PENDING",
+      "quality_score": 7,
+      "was_rejected": false,
+      "ai_backend": "groq",
+      "revisions_needed": 0,
+      "confidence": 0.3,
+      "drafted_response_snippet": "{\"channel\":\"General\",\"priority\":\"Normal\",\"recipient\":\"N/A\",\"intent\":\"Task: \nRecipient: N/A\nSteps: Analyze task | Draft professional response | Verify\",\"tone\":\"professional\",\"confidence\":0.3,\"tool_call",
+      "tags": [
+        "General",
+        "professional"
+      ],
+      "task_hash": "4c0f8aee70",
+      "timestamp": "2026-03-28T11:30:07.242878",
+      "id": "MEM-0100"
+    },
+    {
+      "filename": "EMAIL_20260328_112853_Faiza_this_is_so_you-coded.md",
+      "channel": "General",
+      "intent": "",
+      "outcome": "PENDING",
+      "quality_score": 7,
+      "was_rejected": false,
+      "ai_backend": "groq",
+      "revisions_needed": 0,
+      "confidence": 0.3,
+      "drafted_response_snippet": "{\"channel\":\"General\",\"priority\":\"Normal\",\"recipient\":\"N/A\",\"intent\":\"Task: \nRecipient: N/A\nSteps: Analyze task | Draft professional response | Verify\",\"tone\":\"professional\",\"confidence\":0.3,\"tool_call",
+      "tags": [
+        "General",
+        "professional"
+      ],
+      "task_hash": "aa4355b1bc",
+      "timestamp": "2026-03-28T11:30:09.482264",
+      "id": "MEM-0101"
+    },
+    {
+      "filename": "EMAIL_20260328_112854_Ive_sent_you_a_connection_request.md",
+      "channel": "General",
+      "intent": "",
+      "outcome": "PENDING",
+      "quality_score": 7,
+      "was_rejected": false,
+      "ai_backend": "groq",
+      "revisions_needed": 0,
+      "confidence": 0.3,
+      "drafted_response_snippet": "{\"channel\":\"General\",\"priority\":\"Normal\",\"recipient\":\"N/A\",\"intent\":\"Task: \nRecipient: N/A\nSteps: Analyze task | Draft professional response | Verify\",\"tone\":\"professional\",\"confidence\":0.3,\"tool_call",
+      "tags": [
+        "General",
+        "professional"
+      ],
+      "task_hash": "0cde2bed4a",
+      "timestamp": "2026-03-28T11:30:11.468906",
+      "id": "MEM-0102"
+    },
+    {
+      "filename": "EMAIL_20260328_112855_Leadership_gaps_hiring_signals_and_the_A.md",
+      "channel": "General",
+      "intent": "",
+      "outcome": "PENDING",
+      "quality_score": 7,
+      "was_rejected": false,
+      "ai_backend": "groq",
+      "revisions_needed": 0,
+      "confidence": 0.3,
+      "drafted_response_snippet": "{\"channel\":\"General\",\"priority\":\"Normal\",\"recipient\":\"N/A\",\"intent\":\"Task: \nRecipient: N/A\nSteps: Analyze task | Draft professional response | Verify\",\"tone\":\"professional\",\"confidence\":0.3,\"tool_call",
+      "tags": [
+        "General",
+        "professional"
+      ],
+      "task_hash": "3691d5182e",
+      "timestamp": "2026-03-28T11:30:13.443218",
+      "id": "MEM-0103"
+    },
+    {
+      "filename": "EMAIL_20260328_112855_Web_Developer_Xynotech_-_Senior_React_De.md",
+      "channel": "General",
+      "intent": "",
+      "outcome": "PENDING",
+      "quality_score": 7,
+      "was_rejected": false,
+      "ai_backend": "groq",
+      "revisions_needed": 0,
+      "confidence": 0.3,
+      "drafted_response_snippet": "{\"channel\":\"General\",\"priority\":\"Normal\",\"recipient\":\"N/A\",\"intent\":\"Task: \nRecipient: N/A\nSteps: Analyze task | Draft professional response | Verify\",\"tone\":\"professional\",\"confidence\":0.3,\"tool_call",
+      "tags": [
+        "General",
+        "professional"
+      ],
+      "task_hash": "f99ace729a",
+      "timestamp": "2026-03-28T11:30:15.477162",
+      "id": "MEM-0104"
+    },
+    {
+      "filename": "EMAIL_20260328_112856_I_want_to_connect.md",
+      "channel": "General",
+      "intent": "",
+      "outcome": "PENDING",
+      "quality_score": 7,
+      "was_rejected": false,
+      "ai_backend": "groq",
+      "revisions_needed": 0,
+      "confidence": 0.3,
+      "drafted_response_snippet": "{\"channel\":\"General\",\"priority\":\"Normal\",\"recipient\":\"N/A\",\"intent\":\"Task: \nRecipient: N/A\nSteps: Analyze task | Draft professional response | Verify\",\"tone\":\"professional\",\"confidence\":0.3,\"tool_call",
+      "tags": [
+        "General",
+        "professional"
+      ],
+      "task_hash": "decd22b726",
+      "timestamp": "2026-03-28T11:30:17.545026",
+      "id": "MEM-0105"
+    },
+    {
+      "filename": "EMAIL_20260328_154551_Faiza_this_could_be_your_vibe.md",
+      "channel": "Email",
+      "intent": "Reply to the Pinterest email with a professional response",
+      "outcome": "PENDING",
+      "quality_score": 9,
+      "was_rejected": false,
+      "ai_backend": "groq",
+      "revisions_needed": 0,
+      "confidence": 0.9,
+      "drafted_response_snippet": "Dear Pinterest Team,\n\nI am writing to express my appreciation for the personalized email I received from you, titled \"Faiza, this could be your vibe.\" The recommendations provided were insightful and ",
+      "tags": [
+        "Email",
+        "professional"
+      ],
+      "task_hash": "1dc2472f19",
+      "timestamp": "2026-03-28T15:46:34.574921",
+      "id": "MEM-0106"
+    },
+    {
+      "filename": "EMAIL_20260328_154552_Receptionist_Magnacrete_Pvt_Ltd.md",
+      "channel": "Email",
+      "intent": "Respond to an email from the receptionist at Magnacrete Pvt Ltd",
+      "outcome": "PENDING",
+      "quality_score": 9,
+      "was_rejected": false,
+      "ai_backend": "groq",
+      "revisions_needed": 0,
+      "confidence": 0.8,
+      "drafted_response_snippet": "Dear Receptionist at Magnacrete Pvt Ltd,\n\nI hope this email finds you well. I am responding to your email regarding the inquiry about our company's services and how we can assist Magnacrete Pvt Ltd wi",
+      "tags": [
+        "Email",
+        "professional"
+      ],
+      "task_hash": "0571870a0c",
+      "timestamp": "2026-03-28T15:48:43.633373",
+      "id": "MEM-0107"
+    },
+    {
+      "filename": "EMAIL_20260328_154552_Web_Developer_Agay_Barho_-_Full_Stack_So.md",
+      "channel": "Email",
+      "intent": "Send a follow-up email to Agay Barho about the full stack web developer position",
+      "outcome": "PENDING",
+      "quality_score": 9,
+      "was_rejected": false,
+      "ai_backend": "groq",
+      "revisions_needed": 0,
+      "confidence": 0.8,
+      "drafted_response_snippet": "Dear Agay Barho,\n\nI hope this email finds you well. I am writing to follow up on our previous conversation regarding the full stack web developer position at our company. As you may recall, we discuss",
+      "tags": [
+        "Email",
+        "professional"
+      ],
+      "task_hash": "33d815fac9",
+      "timestamp": "2026-03-28T15:49:16.950675",
+      "id": "MEM-0108"
+    },
+    {
+      "filename": "EMAIL_20260328_154554_Your_taste_reimagined.md",
+      "channel": "Email",
+      "intent": "Determine the task requirements from the provided file",
+      "outcome": "PENDING",
+      "quality_score": 9,
+      "was_rejected": false,
+      "ai_backend": "groq",
+      "revisions_needed": 0,
+      "confidence": 0.5,
+      "drafted_response_snippet": "Dear Hiring Manager,\n\nI am writing to confirm that I have carefully analyzed the task requirements provided in the file. As per the instructions, I am to draft a professional email body that includes ",
+      "tags": [
+        "Email",
+        "professional"
+      ],
+      "task_hash": "dd332d55a7",
+      "timestamp": "2026-03-28T15:50:19.962669",
+      "id": "MEM-0109"
+    },
+    {
+      "filename": "EMAIL_20260328_154555_I_want_to_connect.md",
+      "channel": "General",
+      "intent": "",
+      "outcome": "PENDING",
+      "quality_score": 7,
+      "was_rejected": false,
+      "ai_backend": "groq",
+      "revisions_needed": 0,
+      "confidence": 0.3,
+      "drafted_response_snippet": "{\"channel\":\"General\",\"priority\":\"Normal\",\"recipient\":\"N/A\",\"intent\":\"Task: \nRecipient: N/A\nSteps: Analyze task | Draft professional response | Verify\",\"tone\":\"professional\",\"confidence\":0.3,\"tool_call",
+      "tags": [
+        "General",
+        "professional"
+      ],
+      "task_hash": "c3e106140f",
+      "timestamp": "2026-03-28T15:50:56.753432",
+      "id": "MEM-0110"
+    },
+    {
+      "filename": "EMAIL_20260328_154555_Ive_sent_you_a_connection_request.md",
+      "channel": "General",
+      "intent": "",
+      "outcome": "PENDING",
+      "quality_score": 7,
+      "was_rejected": false,
+      "ai_backend": "groq",
+      "revisions_needed": 0,
+      "confidence": 0.3,
+      "drafted_response_snippet": "{\"channel\":\"General\",\"priority\":\"Normal\",\"recipient\":\"N/A\",\"intent\":\"Task: \nRecipient: N/A\nSteps: Analyze task | Draft professional response | Verify\",\"tone\":\"professional\",\"confidence\":0.3,\"tool_call",
+      "tags": [
+        "General",
+        "professional"
+      ],
+      "task_hash": "81658b0855",
+      "timestamp": "2026-03-28T15:50:59.277478",
+      "id": "MEM-0111"
+    },
+    {
+      "filename": "EMAIL_20260328_154556_New_ideas_are_calling.md",
+      "channel": "General",
+      "intent": "",
+      "outcome": "PENDING",
+      "quality_score": 7,
+      "was_rejected": false,
+      "ai_backend": "groq",
+      "revisions_needed": 0,
+      "confidence": 0.3,
+      "drafted_response_snippet": "{\"channel\":\"General\",\"priority\":\"Normal\",\"recipient\":\"N/A\",\"intent\":\"Task: \nRecipient: N/A\nSteps: Analyze task | Draft professional response | Verify\",\"tone\":\"professional\",\"confidence\":0.3,\"tool_call",
+      "tags": [
+        "General",
+        "professional"
+      ],
+      "task_hash": "df26a71599",
+      "timestamp": "2026-03-28T15:51:49.899652",
+      "id": "MEM-0112"
+    },
+    {
+      "filename": "EMAIL_20260328_154557_I_want_to_connect.md",
+      "channel": "General",
+      "intent": "",
+      "outcome": "PENDING",
+      "quality_score": 7,
+      "was_rejected": false,
+      "ai_backend": "groq",
+      "revisions_needed": 0,
+      "confidence": 0.3,
+      "drafted_response_snippet": "{\"channel\":\"General\",\"priority\":\"Normal\",\"recipient\":\"N/A\",\"intent\":\"Task: \nRecipient: N/A\nSteps: Analyze task | Draft professional response | Verify\",\"tone\":\"professional\",\"confidence\":0.3,\"tool_call",
+      "tags": [
+        "General",
+        "professional"
+      ],
+      "task_hash": "13cba18985",
+      "timestamp": "2026-03-28T15:51:53.857228",
+      "id": "MEM-0113"
+    },
+    {
+      "filename": "EMAIL_20260328_154557_You_have_an_invitation.md",
+      "channel": "General",
+      "intent": "",
+      "outcome": "PENDING",
+      "quality_score": 7,
+      "was_rejected": false,
+      "ai_backend": "groq",
+      "revisions_needed": 0,
+      "confidence": 0.3,
+      "drafted_response_snippet": "In order to provide a meaningful and effective response, it's essential to first understand the context and requirements of the task at hand. Given the information available, the task seems to involve",
+      "tags": [
+        "General",
+        "professional"
+      ],
+      "task_hash": "b97994f1ca",
+      "timestamp": "2026-03-28T15:53:53.805636",
+      "id": "MEM-0114"
+    },
+    {
+      "filename": "EMAIL_20260328_154558_I_want_to_connect.md",
+      "channel": "General",
+      "intent": "",
+      "outcome": "PENDING",
+      "quality_score": 7,
+      "was_rejected": false,
+      "ai_backend": "groq",
+      "revisions_needed": 0,
+      "confidence": 0.3,
+      "drafted_response_snippet": "{\"channel\":\"General\",\"priority\":\"Normal\",\"recipient\":\"N/A\",\"intent\":\"Task: \nRecipient: N/A\nSteps: Analyze task | Draft professional response | Verify\",\"tone\":\"professional\",\"confidence\":0.3,\"tool_call",
+      "tags": [
+        "General",
+        "professional"
+      ],
+      "task_hash": "42342c770f",
+      "timestamp": "2026-03-28T15:53:56.310321",
+      "id": "MEM-0115"
+    },
+    {
+      "filename": "EMAIL_20260328_155739_faiza_thanks_for_being_a_valued_member.md",
+      "channel": "General",
+      "intent": "# Email Task — faiza, thanks for being a valued member\n\n## Metadata\n\n| Field    | Value |\n|---------",
+      "outcome": "PENDING",
+      "quality_score": 7,
+      "was_rejected": false,
+      "ai_backend": "groq",
+      "revisions_needed": 0,
+      "confidence": 0.3,
+      "drafted_response_snippet": "{\"channel\":\"General\",\"priority\":\"Normal\",\"recipient\":\"N/A\",\"intent\":\"Task: # Email Task — faiza, thanks for being a valued member\n\n## Metadata\n\n| Fie\",\"tone\":\"professional\",\"confidence\":0.3,\"tool_call",
+      "tags": [
+        "General",
+        "professional"
+      ],
+      "task_hash": "7296a501ea",
+      "timestamp": "2026-03-28T15:58:16.679264",
+      "id": "MEM-0116"
+    },
+    {
+      "filename": "EMAIL_20260328_165310_Your_next_find.md",
+      "channel": "Email",
+      "intent": "Reply to Pinterest email with a professional response",
+      "outcome": "PENDING",
+      "quality_score": 7,
+      "was_rejected": false,
+      "ai_backend": "groq",
+      "revisions_needed": 1,
+      "confidence": 0.9,
+      "drafted_response_snippet": "Dear Pinterest Team,\n\nI am writing to acknowledge the email I received from recommendations@discover.pinterest.com, with the subject \"Your next find\". I appreciate the effort to keep me updated on new",
+      "tags": [
+        "Email",
+        "professional"
+      ],
+      "task_hash": "07fd8b4074",
+      "timestamp": "2026-03-28T16:53:32.160234",
+      "id": "MEM-0117"
+    },
+    {
+      "filename": "EMAIL_20260328_165311_Major_idea_moment.md",
+      "channel": "General",
+      "intent": "# Email Task — Major idea moment\n\n## Metadata\n\n| Field    | Value |\n|----------|-------|\n| From     ",
+      "outcome": "PENDING",
+      "quality_score": 7,
+      "was_rejected": false,
+      "ai_backend": "groq",
+      "revisions_needed": 0,
+      "confidence": 0.3,
+      "drafted_response_snippet": "{\"channel\":\"General\",\"priority\":\"Normal\",\"recipient\":\"N/A\",\"intent\":\"Task: # Email Task — Major idea moment\n\n## Metadata\n\n| Field    | Value |\n|-----\",\"tone\":\"professional\",\"confidence\":0.3,\"tool_call",
+      "tags": [
+        "General",
+        "professional"
+      ],
+      "task_hash": "4b12019e97",
+      "timestamp": "2026-03-28T16:54:22.653451",
+      "id": "MEM-0118"
+    },
+    {
+      "filename": "EMAIL_20260328_165844_As_Foundations_Shake.md",
+      "channel": "General",
+      "intent": "# Email Task — As Foundations Shake\n\n## Metadata\n\n| Field    | Value |\n|----------|-------|\n| From  ",
+      "outcome": "PENDING",
+      "quality_score": 7,
+      "was_rejected": false,
+      "ai_backend": "groq",
+      "revisions_needed": 1,
+      "confidence": 0.3,
+      "drafted_response_snippet": "Dear Recipient,\n\nI am writing to bring to your attention a critical matter that requires your immediate response. The foundations that our organization has been built upon are currently facing signifi",
+      "tags": [
+        "General",
+        "professional"
+      ],
+      "task_hash": "fec90341f2",
+      "timestamp": "2026-03-28T17:00:19.975876",
+      "id": "MEM-0119"
+    },
+    {
+      "filename": "EMAIL_20260328_165845_Not_to_be_dramatic_but_obsessed.md",
+      "channel": "General",
+      "intent": "",
+      "outcome": "PENDING",
+      "quality_score": 7,
+      "was_rejected": false,
+      "ai_backend": "groq",
+      "revisions_needed": 0,
+      "confidence": 0.3,
+      "drafted_response_snippet": "{\"channel\":\"General\",\"priority\":\"Normal\",\"recipient\":\"N/A\",\"intent\":\"Task: \nRecipient: N/A\nSteps: Analyze task | Draft professional response | Verify\",\"tone\":\"professional\",\"confidence\":0.3,\"tool_call",
+      "tags": [
+        "General",
+        "professional"
+      ],
+      "task_hash": "5801b060ba",
+      "timestamp": "2026-03-28T17:00:22.303213",
+      "id": "MEM-0120"
+    },
+    {
+      "filename": "EMAIL_20260328_165846_Front-of-House_Staff_Female_Synage_Globa.md",
+      "channel": "General",
+      "intent": "",
+      "outcome": "PENDING",
+      "quality_score": 7,
+      "was_rejected": false,
+      "ai_backend": "groq",
+      "revisions_needed": 0,
+      "confidence": 0.3,
+      "drafted_response_snippet": "{\"channel\":\"General\",\"priority\":\"Normal\",\"recipient\":\"N/A\",\"intent\":\"Task: \nRecipient: N/A\nSteps: Analyze task | Draft professional response | Verify\",\"tone\":\"professional\",\"confidence\":0.3,\"tool_call",
+      "tags": [
+        "General",
+        "professional"
+      ],
+      "task_hash": "6b9fdbc42d",
+      "timestamp": "2026-03-28T17:00:24.588734",
+      "id": "MEM-0121"
+    },
+    {
+      "filename": "EMAIL_20260328_165848_Delivery_Status_Notification_Failure.md",
+      "channel": "General",
+      "intent": "",
+      "outcome": "PENDING",
+      "quality_score": 7,
+      "was_rejected": false,
+      "ai_backend": "groq",
+      "revisions_needed": 0,
+      "confidence": 0.3,
+      "drafted_response_snippet": "{\"channel\":\"General\",\"priority\":\"Normal\",\"recipient\":\"N/A\",\"intent\":\"Task: \nRecipient: N/A\nSteps: Analyze task | Draft professional response | Verify\",\"tone\":\"professional\",\"confidence\":0.3,\"tool_call",
+      "tags": [
+        "General",
+        "professional"
+      ],
+      "task_hash": "cba80c4c8b",
+      "timestamp": "2026-03-28T17:00:26.883185",
+      "id": "MEM-0122"
+    },
+    {
+      "filename": "EMAIL_20260328_165848_Re_ACTION_EMAIL_20260323_075333_Faiza_so.md",
+      "channel": "General",
+      "intent": "",
+      "outcome": "PENDING",
+      "quality_score": 7,
+      "was_rejected": false,
+      "ai_backend": "groq",
+      "revisions_needed": 0,
+      "confidence": 0.3,
+      "drafted_response_snippet": "{\"channel\":\"General\",\"priority\":\"Normal\",\"recipient\":\"N/A\",\"intent\":\"Task: \nRecipient: N/A\nSteps: Analyze task | Draft professional response | Verify\",\"tone\":\"professional\",\"confidence\":0.3,\"tool_call",
+      "tags": [
+        "General",
+        "professional"
+      ],
+      "task_hash": "2fa96b6e33",
+      "timestamp": "2026-03-28T17:00:29.578540",
+      "id": "MEM-0123"
+    },
+    {
+      "filename": "EMAIL_20260328_165849_Delivery_Status_Notification_Failure.md",
+      "channel": "General",
+      "intent": "",
+      "outcome": "PENDING",
+      "quality_score": 7,
+      "was_rejected": false,
+      "ai_backend": "groq",
+      "revisions_needed": 0,
+      "confidence": 0.3,
+      "drafted_response_snippet": "{\"channel\":\"General\",\"priority\":\"Normal\",\"recipient\":\"N/A\",\"intent\":\"Task: \nRecipient: N/A\nSteps: Analyze task | Draft professional response | Verify\",\"tone\":\"professional\",\"confidence\":0.3,\"tool_call",
+      "tags": [
+        "General",
+        "professional"
+      ],
+      "task_hash": "4b945652fe",
+      "timestamp": "2026-03-28T17:00:50.393811",
+      "id": "MEM-0124"
+    },
+    {
+      "filename": "EMAIL_20260328_165850_Re_ACTION_EMAIL_20260323_075333_Web_Deve.md",
+      "channel": "General",
+      "intent": "",
+      "outcome": "PENDING",
+      "quality_score": 7,
+      "was_rejected": false,
+      "ai_backend": "groq",
+      "revisions_needed": 0,
+      "confidence": 0.3,
+      "drafted_response_snippet": "{\"channel\":\"General\",\"priority\":\"Normal\",\"recipient\":\"N/A\",\"intent\":\"Task: \nRecipient: N/A\nSteps: Analyze task | Draft professional response | Verify\",\"tone\":\"professional\",\"confidence\":0.3,\"tool_call",
+      "tags": [
+        "General",
+        "professional"
+      ],
+      "task_hash": "75c5fb80d3",
+      "timestamp": "2026-03-28T17:00:53.053220",
+      "id": "MEM-0125"
+    },
+    {
+      "filename": "EMAIL_20260328_165850_Re_ACTION_EMAIL_20260323_075335_Obsessed.md",
+      "channel": "General",
+      "intent": "",
+      "outcome": "PENDING",
+      "quality_score": 7,
+      "was_rejected": false,
+      "ai_backend": "groq",
+      "revisions_needed": 0,
+      "confidence": 0.3,
+      "drafted_response_snippet": "{\"channel\":\"General\",\"priority\":\"Normal\",\"recipient\":\"N/A\",\"intent\":\"Task: \nRecipient: N/A\nSteps: Analyze task | Draft professional response | Verify\",\"tone\":\"professional\",\"confidence\":0.3,\"tool_call",
+      "tags": [
+        "General",
+        "professional"
+      ],
+      "task_hash": "3e0a942a2c",
+      "timestamp": "2026-03-28T17:00:55.306860",
+      "id": "MEM-0126"
+    },
+    {
+      "filename": "EMAIL_20260328_165851_Delivery_Status_Notification_Failure.md",
+      "channel": "General",
+      "intent": "",
+      "outcome": "PENDING",
+      "quality_score": 7,
+      "was_rejected": false,
+      "ai_backend": "groq",
+      "revisions_needed": 0,
+      "confidence": 0.3,
+      "drafted_response_snippet": "{\"channel\":\"General\",\"priority\":\"Normal\",\"recipient\":\"N/A\",\"intent\":\"Task: \nRecipient: N/A\nSteps: Analyze task | Draft professional response | Verify\",\"tone\":\"professional\",\"confidence\":0.3,\"tool_call",
+      "tags": [
+        "General",
+        "professional"
+      ],
+      "task_hash": "de903a43b4",
+      "timestamp": "2026-03-28T17:00:57.626695",
+      "id": "MEM-0127"
+    },
+    {
+      "filename": "EMAIL_20260328_165852_Re_ACTION_EMAIL_20260323_075335_You_Have.md",
+      "channel": "General",
+      "intent": "",
+      "outcome": "PENDING",
+      "quality_score": 7,
+      "was_rejected": false,
+      "ai_backend": "groq",
+      "revisions_needed": 0,
+      "confidence": 0.3,
+      "drafted_response_snippet": "{\"channel\":\"General\",\"priority\":\"Normal\",\"recipient\":\"N/A\",\"intent\":\"Task: \nRecipient: N/A\nSteps: Analyze task | Draft professional response | Verify\",\"tone\":\"professional\",\"confidence\":0.3,\"tool_call",
+      "tags": [
+        "General",
+        "professional"
+      ],
+      "task_hash": "d8279b20da",
+      "timestamp": "2026-03-28T17:01:04.997527",
+      "id": "MEM-0128"
+    },
+    {
+      "filename": "EMAIL_20260328_165852_Re_ACTION_EMAIL_20260323_075336_Now_in_C.md",
+      "channel": "General",
+      "intent": "",
+      "outcome": "PENDING",
+      "quality_score": 7,
+      "was_rejected": false,
+      "ai_backend": "groq",
+      "revisions_needed": 0,
+      "confidence": 0.3,
+      "drafted_response_snippet": "{\"channel\":\"General\",\"priority\":\"Normal\",\"recipient\":\"N/A\",\"intent\":\"Task: \nRecipient: N/A\nSteps: Analyze task | Draft professional response | Verify\",\"tone\":\"professional\",\"confidence\":0.3,\"tool_call",
+      "tags": [
+        "General",
+        "professional"
+      ],
+      "task_hash": "68f2a4808f",
+      "timestamp": "2026-03-28T17:01:28.515839",
+      "id": "MEM-0129"
+    },
+    {
+      "filename": "EMAIL_20260328_170328_Delivery_Status_Notification_Failure.md",
+      "channel": "General",
+      "intent": "# Email Task — Delivery Status Notification (Failure)\n\n## Metadata\n\n| Field    | Value |\n|----------",
+      "outcome": "PENDING",
+      "quality_score": 7,
+      "was_rejected": false,
+      "ai_backend": "groq",
+      "revisions_needed": 0,
+      "confidence": 0.3,
+      "drafted_response_snippet": "{\"channel\":\"General\",\"priority\":\"Normal\",\"recipient\":\"N/A\",\"intent\":\"Task: # Email Task — Delivery Status Notification (Failure)\n\n## Metadata\n\n| Fiel\",\"tone\":\"professional\",\"confidence\":0.3,\"tool_call",
+      "tags": [
+        "General",
+        "professional"
+      ],
+      "task_hash": "286a46ec4f",
+      "timestamp": "2026-03-28T17:03:33.392598",
+      "id": "MEM-0130"
+    },
+    {
+      "filename": "EMAIL_20260328_170328_Re_ACTION_EMAIL_20260323_075337_Your_nex.md",
+      "channel": "General",
+      "intent": "# Email Task — Re: ACTION_EMAIL_20260323_075337_Your_next_find.md\n\n## Metadata\n\n| Field    | Value |",
+      "outcome": "PENDING",
+      "quality_score": 7,
+      "was_rejected": false,
+      "ai_backend": "groq",
+      "revisions_needed": 0,
+      "confidence": 0.3,
+      "drafted_response_snippet": "{\"channel\":\"General\",\"priority\":\"Normal\",\"recipient\":\"N/A\",\"intent\":\"Task: # Email Task — Re: ACTION_EMAIL_20260323_075337_Your_next_find.md\n\n## Meta\",\"tone\":\"professional\",\"confidence\":0.3,\"tool_call",
+      "tags": [
+        "General",
+        "professional"
+      ],
+      "task_hash": "65b1f8620a",
+      "timestamp": "2026-03-28T17:03:37.487623",
+      "id": "MEM-0131"
+    },
+    {
+      "filename": "EMAIL_20260328_170329_Re_ACTION_EMAIL_20260323_075338_A_RYTHM_.md",
+      "channel": "General",
+      "intent": "# Email Task — Re: ACTION_EMAIL_20260323_075338_A_RYTHM_AND_CELEBRATION30.md\n\n## Metadata\n\n| Field  ",
+      "outcome": "PENDING",
+      "quality_score": 7,
+      "was_rejected": false,
+      "ai_backend": "groq",
+      "revisions_needed": 0,
+      "confidence": 0.3,
+      "drafted_response_snippet": "{\"channel\":\"General\",\"priority\":\"Normal\",\"recipient\":\"N/A\",\"intent\":\"Task: # Email Task — Re: ACTION_EMAIL_20260323_075338_A_RYTHM_AND_CELEBRATION30.\",\"tone\":\"professional\",\"confidence\":0.3,\"tool_call",
+      "tags": [
+        "General",
+        "professional"
+      ],
+      "task_hash": "ac300efa2f",
+      "timestamp": "2026-03-28T17:03:41.184306",
+      "id": "MEM-0132"
+    },
+    {
+      "filename": "EMAIL_20260328_170609_Re_ACTION_EMAIL_20260323_075633_Failed_p.md",
+      "channel": "General",
+      "intent": "# Email Task — Re: ACTION_EMAIL_20260323_075633_Failed_production_deployment_on_team_fai.md\n\n## Meta",
+      "outcome": "PENDING",
+      "quality_score": 7,
+      "was_rejected": false,
+      "ai_backend": "groq",
+      "revisions_needed": 0,
+      "confidence": 0.3,
+      "drafted_response_snippet": "{\"channel\":\"General\",\"priority\":\"Normal\",\"recipient\":\"N/A\",\"intent\":\"Task: # Email Task — Re: ACTION_EMAIL_20260323_075633_Failed_production_deployme\",\"tone\":\"professional\",\"confidence\":0.3,\"tool_call",
+      "tags": [
+        "General",
+        "professional"
+      ],
+      "task_hash": "ebea16a47d",
+      "timestamp": "2026-03-28T17:06:29.341773",
+      "id": "MEM-0133"
+    },
+    {
+      "filename": "EMAIL_20260328_170802_Re_ACTION_EMAIL_20260323_075635_Failed_p.md",
+      "channel": "General",
+      "intent": "# Email Task — Re: ACTION_EMAIL_20260323_075635_Failed_production_deployment_on_team_fai.md\n\n## Meta",
+      "outcome": "PENDING",
+      "quality_score": 7,
+      "was_rejected": false,
+      "ai_backend": "groq",
+      "revisions_needed": 1,
+      "confidence": 0.3,
+      "drafted_response_snippet": "{\"channel\":\"General\",\"priority\":\"Normal\",\"recipient\":\"N/A\",\"intent\":\"Original task (summary): # Email Task — Re: ACTION_EMAIL_20260323_075635_Failed_\",\"tone\":\"professional\",\"confidence\":0.3,\"tool_call",
+      "tags": [
+        "General",
+        "professional"
+      ],
+      "task_hash": "aada0745a4",
+      "timestamp": "2026-03-28T17:08:43.483365",
+      "id": "MEM-0134"
+    },
+    {
+      "filename": "EMAIL_20260328_170803_Delivery_Status_Notification_Failure.md",
+      "channel": "General",
+      "intent": "",
+      "outcome": "PENDING",
+      "quality_score": 7,
+      "was_rejected": false,
+      "ai_backend": "groq",
+      "revisions_needed": 0,
+      "confidence": 0.3,
+      "drafted_response_snippet": "{\"channel\":\"General\",\"priority\":\"Normal\",\"recipient\":\"N/A\",\"intent\":\"Task: \nRecipient: N/A\nSteps: Analyze task | Draft professional response | Verify\",\"tone\":\"professional\",\"confidence\":0.3,\"tool_call",
+      "tags": [
+        "General",
+        "professional"
+      ],
+      "task_hash": "74ad9dc899",
+      "timestamp": "2026-03-28T17:09:02.018671",
+      "id": "MEM-0135"
+    },
+    {
+      "filename": "EMAIL_20260328_170803_Re_ACTION_EMAIL_20260323_075636_Relax_an.md",
+      "channel": "General",
+      "intent": "",
+      "outcome": "PENDING",
+      "quality_score": 7,
+      "was_rejected": false,
+      "ai_backend": "groq",
+      "revisions_needed": 0,
+      "confidence": 0.3,
+      "drafted_response_snippet": "{\"channel\":\"General\",\"priority\":\"Normal\",\"recipient\":\"N/A\",\"intent\":\"Task: \nRecipient: N/A\nSteps: Analyze task | Draft professional response | Verify\",\"tone\":\"professional\",\"confidence\":0.3,\"tool_call",
+      "tags": [
+        "General",
+        "professional"
+      ],
+      "task_hash": "87e539327f",
+      "timestamp": "2026-03-28T17:09:04.111658",
+      "id": "MEM-0136"
+    },
+    {
+      "filename": "EMAIL_20260328_170804_Delivery_Status_Notification_Failure.md",
+      "channel": "General",
+      "intent": "",
+      "outcome": "PENDING",
+      "quality_score": 7,
+      "was_rejected": false,
+      "ai_backend": "groq",
+      "revisions_needed": 0,
+      "confidence": 0.3,
+      "drafted_response_snippet": "{\"channel\":\"General\",\"priority\":\"Normal\",\"recipient\":\"N/A\",\"intent\":\"Task: \nRecipient: N/A\nSteps: Analyze task | Draft professional response | Verify\",\"tone\":\"professional\",\"confidence\":0.3,\"tool_call",
+      "tags": [
+        "General",
+        "professional"
+      ],
+      "task_hash": "5238d9cb6a",
+      "timestamp": "2026-03-28T17:09:06.290126",
+      "id": "MEM-0137"
+    },
+    {
+      "filename": "EMAIL_20260328_170805_Re_ACTION_EMAIL_20260323_075638_Imran_Ha.md",
+      "channel": "General",
+      "intent": "",
+      "outcome": "PENDING",
+      "quality_score": 7,
+      "was_rejected": false,
+      "ai_backend": "groq",
+      "revisions_needed": 0,
+      "confidence": 0.3,
+      "drafted_response_snippet": "{\"channel\":\"General\",\"priority\":\"Normal\",\"recipient\":\"N/A\",\"intent\":\"Task: \nRecipient: N/A\nSteps: Analyze task | Draft professional response | Verify\",\"tone\":\"professional\",\"confidence\":0.3,\"tool_call",
+      "tags": [
+        "General",
+        "professional"
+      ],
+      "task_hash": "6d4f1d57bd",
+      "timestamp": "2026-03-28T17:09:08.352197",
+      "id": "MEM-0138"
+    },
+    {
+      "filename": "EMAIL_20260328_170806_Delivery_Status_Notification_Failure.md",
+      "channel": "General",
+      "intent": "",
+      "outcome": "PENDING",
+      "quality_score": 7,
+      "was_rejected": false,
+      "ai_backend": "groq",
+      "revisions_needed": 0,
+      "confidence": 0.3,
+      "drafted_response_snippet": "{\"channel\":\"General\",\"priority\":\"Normal\",\"recipient\":\"N/A\",\"intent\":\"Task: \nRecipient: N/A\nSteps: Analyze task | Draft professional response | Verify\",\"tone\":\"professional\",\"confidence\":0.3,\"tool_call",
+      "tags": [
+        "General",
+        "professional"
+      ],
+      "task_hash": "0a362248df",
+      "timestamp": "2026-03-28T17:09:10.397991",
+      "id": "MEM-0139"
+    },
+    {
+      "filename": "EMAIL_20260328_171803_Uzma_accepted_your_invitation_explore_th.md",
+      "channel": "General",
+      "intent": "# Email Task — Uzma accepted your invitation, explore their network\n\n## Metadata\n\n| Field    | Value",
+      "outcome": "PENDING",
+      "quality_score": 7,
+      "was_rejected": false,
+      "ai_backend": "groq",
+      "revisions_needed": 1,
+      "confidence": 0.3,
+      "drafted_response_snippet": "{\"channel\":\"General\",\"priority\":\"Normal\",\"recipient\":\"N/A\",\"intent\":\"Original task (summary): # Email Task — Uzma accepted your invitation, explore t\",\"tone\":\"professional\",\"confidence\":0.3,\"tool_call",
+      "tags": [
+        "General",
+        "professional"
+      ],
+      "task_hash": "34109d446a",
+      "timestamp": "2026-03-28T17:18:43.032467",
+      "id": "MEM-0140"
+    },
+    {
+      "filename": "EMAIL_20260328_171804_I_want_to_connect.md",
+      "channel": "General",
+      "intent": "",
+      "outcome": "PENDING",
+      "quality_score": 7,
+      "was_rejected": false,
+      "ai_backend": "groq",
+      "revisions_needed": 0,
+      "confidence": 0.3,
+      "drafted_response_snippet": "{\"channel\":\"General\",\"priority\":\"Normal\",\"recipient\":\"N/A\",\"intent\":\"Task: \nRecipient: N/A\nSteps: Analyze task | Draft professional response | Verify\",\"tone\":\"professional\",\"confidence\":0.3,\"tool_call",
+      "tags": [
+        "General",
+        "professional"
+      ],
+      "task_hash": "46c10c9112",
+      "timestamp": "2026-03-28T17:19:00.534644",
+      "id": "MEM-0141"
+    },
+    {
+      "filename": "EMAIL_20260328_171804_Not_to_be_dramatic_but_obsessed.md",
+      "channel": "General",
+      "intent": "",
+      "outcome": "PENDING",
+      "quality_score": 7,
+      "was_rejected": false,
+      "ai_backend": "groq",
+      "revisions_needed": 0,
+      "confidence": 0.3,
+      "drafted_response_snippet": "{\"channel\":\"General\",\"priority\":\"Normal\",\"recipient\":\"N/A\",\"intent\":\"Task: \nRecipient: N/A\nSteps: Analyze task | Draft professional response | Verify\",\"tone\":\"professional\",\"confidence\":0.3,\"tool_call",
+      "tags": [
+        "General",
+        "professional"
+      ],
+      "task_hash": "88551ce64d",
+      "timestamp": "2026-03-28T17:19:08.687061",
+      "id": "MEM-0142"
+    },
+    {
+      "filename": "EMAIL_20260328_171805_I_want_to_connect.md",
+      "channel": "General",
+      "intent": "",
+      "outcome": "PENDING",
+      "quality_score": 7,
+      "was_rejected": false,
+      "ai_backend": "groq",
+      "revisions_needed": 0,
+      "confidence": 0.3,
+      "drafted_response_snippet": "{\"channel\":\"General\",\"priority\":\"Normal\",\"recipient\":\"N/A\",\"intent\":\"Task: \nRecipient: N/A\nSteps: Analyze task | Draft professional response | Verify\",\"tone\":\"professional\",\"confidence\":0.3,\"tool_call",
+      "tags": [
+        "General",
+        "professional"
+      ],
+      "task_hash": "3a14830a52",
+      "timestamp": "2026-03-28T17:19:42.298793",
+      "id": "MEM-0143"
+    },
+    {
+      "filename": "EMAIL_20260328_171806_You_have_an_invitation.md",
+      "channel": "General",
+      "intent": "",
+      "outcome": "PENDING",
+      "quality_score": 7,
+      "was_rejected": false,
+      "ai_backend": "groq",
+      "revisions_needed": 0,
+      "confidence": 0.3,
+      "drafted_response_snippet": "{\"channel\":\"General\",\"priority\":\"Normal\",\"recipient\":\"N/A\",\"intent\":\"Task: \nRecipient: N/A\nSteps: Analyze task | Draft professional response | Verify\",\"tone\":\"professional\",\"confidence\":0.3,\"tool_call",
+      "tags": [
+        "General",
+        "professional"
+      ],
+      "task_hash": "26e280c52f",
+      "timestamp": "2026-03-28T17:19:45.021945",
+      "id": "MEM-0144"
+    },
+    {
+      "filename": "EMAIL_20260328_171808_Web_Developer_NielsenIQ_-_Web_Scraper.md",
+      "channel": "General",
+      "intent": "",
+      "outcome": "PENDING",
+      "quality_score": 7,
+      "was_rejected": false,
+      "ai_backend": "groq",
+      "revisions_needed": 0,
+      "confidence": 0.3,
+      "drafted_response_snippet": "{\"channel\":\"General\",\"priority\":\"Normal\",\"recipient\":\"N/A\",\"intent\":\"Task: \nRecipient: N/A\nSteps: Analyze task | Draft professional response | Verify\",\"tone\":\"professional\",\"confidence\":0.3,\"tool_call",
+      "tags": [
+        "General",
+        "professional"
+      ],
+      "task_hash": "21d286041d",
+      "timestamp": "2026-03-28T17:19:47.440187",
+      "id": "MEM-0145"
+    },
+    {
+      "filename": "EMAIL_20260328_172241_New_messages_from_Sabrina_M.md",
+      "channel": "General",
+      "intent": "# Email Task — New messages from Sabrina M.\n\n## Metadata\n\n| Field    | Value |\n|----------|-------|\n",
+      "outcome": "PENDING",
+      "quality_score": 7,
+      "was_rejected": false,
+      "ai_backend": "groq",
+      "revisions_needed": 0,
+      "confidence": 0.3,
+      "drafted_response_snippet": "{\"channel\":\"General\",\"priority\":\"Normal\",\"recipient\":\"N/A\",\"intent\":\"Task: # Email Task — New messages from Sabrina M.\n\n## Metadata\n\n| Field    | Val\",\"tone\":\"professional\",\"confidence\":0.3,\"tool_call",
+      "tags": [
+        "General",
+        "professional"
+      ],
+      "task_hash": "d2e9efc557",
+      "timestamp": "2026-03-28T17:23:12.882940",
+      "id": "MEM-0146"
+    },
+    {
+      "filename": "EMAIL_20260328_172242_Web_Developer_Techruiters_-_Senior_Shopi.md",
+      "channel": "General",
+      "intent": "",
+      "outcome": "PENDING",
+      "quality_score": 7,
+      "was_rejected": false,
+      "ai_backend": "groq",
+      "revisions_needed": 0,
+      "confidence": 0.3,
+      "drafted_response_snippet": "Dear Recipient,\n\nI am writing to provide a professional response to your inquiry. After analyzing the task at hand, I have determined that a comprehensive approach is necessary to address the requirem",
+      "tags": [
+        "General",
+        "professional"
+      ],
+      "task_hash": "cbb46387bf",
+      "timestamp": "2026-03-28T17:23:20.380057",
+      "id": "MEM-0147"
+    },
+    {
+      "filename": "EMAIL_20260328_172243_MUHAMMAD_just_messaged_you.md",
+      "channel": "General",
+      "intent": "",
+      "outcome": "PENDING",
+      "quality_score": 7,
+      "was_rejected": false,
+      "ai_backend": "groq",
+      "revisions_needed": 0,
+      "confidence": 0.3,
+      "drafted_response_snippet": "{\"channel\":\"General\",\"priority\":\"Normal\",\"recipient\":\"N/A\",\"intent\":\"Task: \nRecipient: N/A\nSteps: Analyze task | Draft professional response | Verify\",\"tone\":\"professional\",\"confidence\":0.3,\"tool_call",
+      "tags": [
+        "General",
+        "professional"
+      ],
+      "task_hash": "f480c7356f",
+      "timestamp": "2026-03-28T17:23:42.748798",
+      "id": "MEM-0148"
+    },
+    {
+      "filename": "EMAIL_20260328_172243_Not_to_be_dramatic_but_obsessed.md",
+      "channel": "General",
+      "intent": "",
+      "outcome": "PENDING",
+      "quality_score": 7,
+      "was_rejected": false,
+      "ai_backend": "groq",
+      "revisions_needed": 0,
+      "confidence": 0.3,
+      "drafted_response_snippet": "{\"channel\":\"General\",\"priority\":\"Normal\",\"recipient\":\"N/A\",\"intent\":\"Task: \nRecipient: N/A\nSteps: Analyze task | Draft professional response | Verify\",\"tone\":\"professional\",\"confidence\":0.3,\"tool_call",
+      "tags": [
+        "General",
+        "professional"
+      ],
+      "task_hash": "18a3ecc73b",
+      "timestamp": "2026-03-28T17:25:05.941281",
+      "id": "MEM-0149"
+    },
+    {
+      "filename": "EMAIL_20260328_172244_I_just_requested_to_connect.md",
+      "channel": "General",
+      "intent": "",
+      "outcome": "PENDING",
+      "quality_score": 7,
+      "was_rejected": false,
+      "ai_backend": "groq",
+      "revisions_needed": 0,
+      "confidence": 0.3,
+      "drafted_response_snippet": "{\"channel\":\"General\",\"priority\":\"Normal\",\"recipient\":\"N/A\",\"intent\":\"Task: \nRecipient: N/A\nSteps: Analyze task | Draft professional response | Verify\",\"tone\":\"professional\",\"confidence\":0.3,\"tool_call",
+      "tags": [
+        "General",
+        "professional"
+      ],
+      "task_hash": "23c6a0c9dd",
+      "timestamp": "2026-03-28T17:25:09.323690",
+      "id": "MEM-0150"
+    },
+    {
+      "filename": "EMAIL_20260328_172245_Ive_sent_you_a_connection_request.md",
+      "channel": "General",
+      "intent": "",
+      "outcome": "PENDING",
+      "quality_score": 7,
+      "was_rejected": false,
+      "ai_backend": "groq",
+      "revisions_needed": 0,
+      "confidence": 0.3,
+      "drafted_response_snippet": "{\"channel\":\"General\",\"priority\":\"Normal\",\"recipient\":\"N/A\",\"intent\":\"Task: \nRecipient: N/A\nSteps: Analyze task | Draft professional response | Verify\",\"tone\":\"professional\",\"confidence\":0.3,\"tool_call",
+      "tags": [
+        "General",
+        "professional"
+      ],
+      "task_hash": "31f37a86d2",
+      "timestamp": "2026-03-28T17:25:11.461574",
+      "id": "MEM-0151"
+    },
+    {
+      "filename": "EMAIL_20260328_172245_Your_next_find.md",
+      "channel": "General",
+      "intent": "",
+      "outcome": "PENDING",
+      "quality_score": 7,
+      "was_rejected": false,
+      "ai_backend": "groq",
+      "revisions_needed": 0,
+      "confidence": 0.3,
+      "drafted_response_snippet": "{\"channel\":\"General\",\"priority\":\"Normal\",\"recipient\":\"N/A\",\"intent\":\"Task: \nRecipient: N/A\nSteps: Analyze task | Draft professional response | Verify\",\"tone\":\"professional\",\"confidence\":0.3,\"tool_call",
+      "tags": [
+        "General",
+        "professional"
+      ],
+      "task_hash": "2185325ed6",
+      "timestamp": "2026-03-28T17:25:13.435966",
+      "id": "MEM-0152"
     }
   ],
-  "total": 36
+  "total": 152
 }

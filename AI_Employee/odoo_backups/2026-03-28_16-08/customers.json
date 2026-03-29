@@ -1,0 +1,90 @@
+[
+  {
+    "id": 1,
+    "name": "Ahmed Khan",
+    "email": "ahmed.khan@gmail.com",
+    "phone": "+923013356886",
+    "city": "Islamabad",
+    "country_id": [
+      167,
+      "Pakistan"
+    ]
+  },
+  {
+    "id": 2,
+    "name": "Sara Malik",
+    "email": "sara.malik@yahoo.com",
+    "phone": "+923039958838",
+    "city": "Lahore",
+    "country_id": [
+      167,
+      "Pakistan"
+    ]
+  },
+  {
+    "id": 3,
+    "name": "Tech Solutions PK",
+    "email": "tech.solutions.pk@gmail.com",
+    "phone": "+923083197857",
+    "city": "Karachi",
+    "country_id": [
+      167,
+      "Pakistan"
+    ]
+  },
+  {
+    "id": 4,
+    "name": "Zain Enterprises",
+    "email": "zain.enterprises@outlook.com",
+    "phone": "+923014265799",
+    "city": "Karachi",
+    "country_id": [
+      167,
+      "Pakistan"
+    ]
+  },
+  {
+    "id": 5,
+    "name": "Faiza Digital",
+    "email": "faiza.digital@gmail.com",
+    "phone": "+923039345092",
+    "city": "Lahore",
+    "country_id": [
+      167,
+      "Pakistan"
+    ]
+  },
+  {
+    "id": 6,
+    "name": "Prime Traders",
+    "email": "prime.traders@gmail.com",
+    "phone": "+923085329037",
+    "city": "Lahore",
+    "country_id": [
+      167,
+      "Pakistan"
+    ]
+  },
+  {
+    "id": 7,
+    "name": "BrightStar Co.",
+    "email": "brightstar.co.@outlook.com",
+    "phone": "+923039587039",
+    "city": "Peshawar",
+    "country_id": [
+      167,
+      "Pakistan"
+    ]
+  },
+  {
+    "id": 8,
+    "name": "AlphaNet PK",
+    "email": "alphanet.pk@hotmail.com",
+    "phone": "+923010872248",
+    "city": "Lahore",
+    "country_id": [
+      167,
+      "Pakistan"
+    ]
+  }
+]

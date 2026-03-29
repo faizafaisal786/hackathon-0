@@ -1,0 +1,7 @@
+{
+  "type": "INFO",
+  "source": "odoo_backup",
+  "time": "2026-03-28T16:08:58.007646",
+  "message": "Odoo backup complete: 8 customers, 15 invoices, PKR 504,944 total",
+  "mode": "DEMO"
+}

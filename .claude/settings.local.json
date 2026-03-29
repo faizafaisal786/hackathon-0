@@ -30,7 +30,28 @@
       "Bash(ls \"/c/Users/HDD BANK/Desktop/Obsidian Vaults/platinum-tier/\" | grep -E \"\\\\.\\(py|bat\\)$\")",
       "Bash(taskkill /F /IM python.exe 2>/dev/null; sleep 1; true)",
       "Bash(docker:*)",
-      "Bash(\"C:/Users/HDD BANK/Desktop/Obsidian:*)"
+      "Bash(\"C:/Users/HDD BANK/Desktop/Obsidian:*)",
+      "Bash(npm list:*)",
+      "Bash(npm install:*)",
+      "Bash(pm2 start:*)",
+      "Bash(pm2 logs:*)",
+      "Bash(PYTHONUTF8=1 python gmail_watcher.py)",
+      "Bash(PYTHONUTF8=1 python main.py --demo)",
+      "Bash(PYTHONUTF8=1 python odoo_mcp.py --test)",
+      "Bash(find 'C:\\\\Users\\\\HDD BANK\\\\Desktop\\\\Obsidian Vaults\\\\AI_Employee' -name mcp*.json -o -name .claude* -type f)",
+      "Bash(pm2 status:*)",
+      "Bash(pm2 restart:*)",
+      "Bash(pm2 delete:*)",
+      "Bash(pm2 save:*)",
+      "Bash(pm2 jlist:*)",
+      "Bash(pm2 list:*)",
+      "Bash(grep -rn \"from retry\\\\|import retry\\\\|from tools\\\\|import tools\\\\|from executor\\\\|from workflow\" *.py)",
+      "Bash(grep -rn watchers/ *.py)",
+      "Bash(cd:*)",
+      "Bash(cp watchers/credentials.json ./credentials.json)",
+      "Bash(cp watchers/token.json ./token.json)",
+      "Bash(rm -rf watchers/)",
+      "Bash(sort -k2)"
     ]
   }
 }

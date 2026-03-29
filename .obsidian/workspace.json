@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Plans/PLATINUM_SETUP.md",
+                "file": "Dashboard.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "PLATINUM_SETUP"
+              "title": "Dashboard"
             }
           }
         ]
@@ -183,10 +183,34 @@
       "bases:Create new base": false
     }
   },
-  "active": "ec6f1278ee2f1075",
+  "active": "a87b04f8ac505e2a",
   "lastOpenFiles": [
-    "Plans/ARCHITECTURE_AI_Employee.md",
-    "Company_Handbook.md",
-    "Dashboard.md"
+    "AI_Employee/AI_Employee_Vault/Needs_Action/cloud/EMAIL_20260328_170925_Re_ACTION_EMAIL_20260323_075642_I_want_t.md",
+    "AI_Employee/AI_Employee_Vault/Needs_Action/EMAIL_20260328_170925_Re_ACTION_EMAIL_20260323_075642_I_want_t.md",
+    "AI_Employee/AI_Employee_Vault/Needs_Action/EMAIL_20260328_170925_Delivery_Status_Notification_Failure.md",
+    "AI_Employee/AI_Employee_Vault/Needs_Action/EMAIL_20260328_170924_Re_ACTION_EMAIL_20260323_075642_17_Claud.md",
+    "AI_Employee/AI_Employee_Vault/Needs_Action/EMAIL_20260328_170923_Re_ACTION_EMAIL_20260323_075641_Your_nex.md",
+    "AI_Employee/AI_Employee_Vault/Inbox/EMAIL_20260328_170925_Re_ACTION_EMAIL_20260323_075642_I_want_t.md",
+    "AI_Employee/AI_Employee_Vault/Inbox/EMAIL_20260328_170925_Delivery_Status_Notification_Failure.md",
+    "AI_Employee/AI_Employee_Vault/Inbox/EMAIL_20260328_170924_Re_ACTION_EMAIL_20260323_075642_17_Claud.md",
+    "AI_Employee/AI_Employee_Vault/Needs_Action/EMAIL_20260328_170923_Delivery_Status_Notification_Failure.md",
+    "AI_Employee/AI_Employee_Vault/Needs_Action/EMAIL_20260328_170922_Re_ACTION_EMAIL_20260323_075640_Try_Gemi.md",
+    "AI_Employee/AI_Employee_Vault/Needs_Action/EMAIL_20260328_170922_Re_ACTION_EMAIL_20260323_075640_Start_so.md",
+    "AI_Employee/AI_Employee_Vault/Needs_Action/EMAIL_20260328_170921_Delivery_Status_Notification_Failure.md",
+    "AI_Employee/AI_Employee_Vault/Inbox/EMAIL_20260328_170923_Re_ACTION_EMAIL_20260323_075641_Your_nex.md",
+    "AI_Employee/AI_Employee_Vault/Needs_Action/EMAIL_20260328_170920_Re_ACTION_EMAIL_20260323_075639_Guide_Ge.md",
+    "AI_Employee/AI_Employee_Vault/Needs_Action/EMAIL_20260328_170919_Re_ACTION_EMAIL_20260323_075639_Faiza_so.md",
+    "AI_Employee/AI_Employee_Vault/Inbox/EMAIL_20260328_170923_Delivery_Status_Notification_Failure.md",
+    "AI_Employee/AI_Employee_Vault/Inbox/EMAIL_20260328_170922_Re_ACTION_EMAIL_20260323_075640_Try_Gemi.md",
+    "AI_Employee/AI_Employee_Vault/Inbox/EMAIL_20260328_170922_Re_ACTION_EMAIL_20260323_075640_Start_so.md",
+    "AI_Employee/AI_Employee_Vault/Inbox/EMAIL_20260328_170921_Delivery_Status_Notification_Failure.md",
+    "AI_Employee/AI_Employee_Vault/Inbox/EMAIL_20260328_170920_Re_ACTION_EMAIL_20260323_075639_Guide_Ge.md",
+    "AI_Employee/AI_Employee_Vault/Inbox/EMAIL_20260328_170919_Re_ACTION_EMAIL_20260323_075639_Faiza_so.md",
+    "AI_Employee/AI_Employee_Vault/Done/ACTION_EMAIL_20260328_170806_Delivery_Status_Notification_Failure.md",
+    "AI_Employee/AI_Employee_Vault/Done/ACTION_EMAIL_20260328_170805_Re_ACTION_EMAIL_20260323_075638_Imran_Ha.md",
+    "AI_Employee/AI_Employee_Vault/Done/ACTION_EMAIL_20260328_170804_Delivery_Status_Notification_Failure.md",
+    "AI_Employee/AI_Employee_Vault/Done/ACTION_EMAIL_20260328_170803_Re_ACTION_EMAIL_20260323_075636_Relax_an.md",
+    "AI_Employee/AI_Employee_Vault/Done/ACTION_EMAIL_20260328_170803_Delivery_Status_Notification_Failure.md",
+    "AI_Employee/__pycache__/self_improvement.cpython-313.pyc"
   ]
 }

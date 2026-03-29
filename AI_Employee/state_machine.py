@@ -70,16 +70,32 @@ class AuditLogger:
 
     def _load(self) -> dict:
         path = self._get_log_path()
-        if path.exists():
-            with open(path, "r", encoding="utf-8") as f:
-                return json.load(f)
-        return {
+        empty = {
             "audit_date": datetime.now().strftime("%Y-%m-%d"),
             "system": "AI Employee State Machine",
             "version": "2.0",
             "total_events": 0,
             "events": [],
         }
+        if not path.exists():
+            return empty
+        try:
+            with open(path, "r", encoding="utf-8") as f:
+                return json.load(f)
+        except json.JSONDecodeError:
+            # Corrupted JSON — try to recover by finding last valid parse point
+            try:
+                content = path.read_text(encoding="utf-8")
+                for end in range(len(content), 0, -1):
+                    try:
+                        return json.loads(content[:end])
+                    except Exception:
+                        continue
+            except Exception:
+                pass
+            return empty
+        except Exception:
+            return empty
 
     def log(self, action: str, actor: str, details: str,
             severity: str = "INFO", result: str = "SUCCESS",

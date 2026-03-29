@@ -1,0 +1,30 @@
+[
+  {
+    "id": 1,
+    "name": "AI Employee Setup",
+    "list_price": 50000,
+    "standard_price": 20000,
+    "type": "service"
+  },
+  {
+    "id": 2,
+    "name": "Monthly Maintenance",
+    "list_price": 15000,
+    "standard_price": 5000,
+    "type": "service"
+  },
+  {
+    "id": 3,
+    "name": "Social Media Package",
+    "list_price": 25000,
+    "standard_price": 8000,
+    "type": "service"
+  },
+  {
+    "id": 4,
+    "name": "Custom Development",
+    "list_price": 80000,
+    "standard_price": 35000,
+    "type": "service"
+  }
+]

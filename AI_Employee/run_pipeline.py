@@ -20,6 +20,13 @@ from datetime import datetime
 BASE = Path(__file__).parent
 sys.path.insert(0, str(BASE))
 
+# Load .env so GROQ_API_KEY and other keys are available
+try:
+    from dotenv import load_dotenv
+    load_dotenv(BASE / ".env", override=True)
+except ImportError:
+    pass
+
 from state_machine import StateMachine, State
 from email_sender import parse_email_from_action, send_email
 from whatsapp_sender import parse_whatsapp_from_action, send_whatsapp
@@ -30,16 +37,101 @@ VAULT = BASE / "AI_Employee_Vault"
 
 
 # ──────────────────────────────────────────────
-# CUSTOM PLANNER (uses claude_runner logic)
+# AI PLAN BUILDER (uses Groq reasoning output)
 # ──────────────────────────────────────────────
 
-def smart_planner(filepath: Path, content: str) -> tuple[str, str]:
+def _build_ai_plan(filepath: Path, content: str, ai: dict) -> tuple[str, str]:
+    """Build Plan.md and Action.md from AI pipeline result."""
+    task_name    = filepath.stem
+    today        = datetime.now().strftime("%Y-%m-%d")
+    channel      = ai.get("channel", "General")
+    priority     = ai.get("priority", "Normal")
+    recipient    = ai.get("recipient", "N/A")
+    subject_line = ai.get("subject", "")
+    steps        = ai.get("plan_steps", [])
+    drafted      = ai.get("drafted_response", content.strip())
+    quality      = ai.get("quality_score", 7)
+    tone         = ai.get("tone", "professional")
+    action_req   = ai.get("action_required", "review")
+    summary      = ai.get("summary", "")
+    backend      = ai.get("ai_mode", "AI")
+
+    # Channel-specific meta rows
+    meta_extra = ""
+    if channel == "Email":
+        meta_extra = f"| Recipient | {recipient} |\n"
+        if subject_line:
+            meta_extra += f"| Subject | {subject_line} |\n"
+    elif channel == "WhatsApp":
+        meta_extra = f"| Recipient | {recipient} |\n"
+    elif channel == "LinkedIn":
+        meta_extra = "| Author | AI Employee Team |\n| Topic | Business Insights |\n"
+
+    steps_md = "\n".join(f"- [ ] {step}" for step in steps) if steps else "- [ ] Review and send"
+    quoted   = "\n".join(f"> {line}" for line in drafted.split("\n"))
+
+    plan_md = f"""# PLAN: {task_name}
+
+| Field | Value |
+|-------|-------|
+| Source | Needs_Action/{filepath.name} |
+| Created | {today} |
+| Channel | {channel} |
+| Priority | {priority} |
+{meta_extra}| Tone | {tone} |
+| Quality Score | {quality}/10 |
+| AI Backend | {backend} |
+| Status | Ready for Approval |
+
+## AI Reasoning
+
+> {summary}
+
+## Execution Steps (AI Generated)
+
+{steps_md}
+
+## Drafted Content (AI Generated — Quality {quality}/10)
+
+{quoted}
+
+## Next Step
+
+Approve ACTION_{task_name}.md in Pending_Approval/ to execute.
+"""
+
+    action_md = f"""# ACTION: {task_name}
+
+## Status: PENDING APPROVAL
+
+| Field | Value |
+|-------|-------|
+| Channel | {channel} |
+{meta_extra}| Created | {today} |
+| Priority | {priority} |
+| Action | {action_req} |
+| Quality | {quality}/10 |
+
+## Drafted {channel} Content
+
+{quoted}
+
+## Result: PENDING — Awaiting Human Approval
+"""
+    return plan_md, action_md
+
+
+# ──────────────────────────────────────────────
+# REGEX FALLBACK PLANNER (no AI needed)
+# ──────────────────────────────────────────────
+
+def _regex_planner(filepath: Path, content: str) -> tuple[str, str]:
     """
-    Enhanced planner that parses structured fields from task files.
-    Returns (plan_markdown, action_markdown).
+    Regex-based planner (fallback when AI is unavailable).
+    Parses structured fields from task files.
     """
     task_name = filepath.stem
-    today = datetime.now().strftime("%Y-%m-%d")
+    today     = datetime.now().strftime("%Y-%m-%d")
 
     # Detect channel
     combined = (filepath.name + " " + content).upper()
@@ -62,25 +154,25 @@ def smart_planner(filepath: Path, content: str) -> tuple[str, str]:
     if "channel" in fields:
         channel = fields["channel"]
 
-    priority = fields.get("priority", "Normal")
-    recipient = fields.get("to", "N/A")
+    priority     = fields.get("priority", "Normal")
+    recipient    = fields.get("to", "N/A")
     subject_line = fields.get("subject", "")
 
-    # Extract body (everything after Message:/Body:/Post:/Details: label)
+    # Extract body
     body_lines = []
-    in_body = False
+    in_body    = False
     for line in content.split("\n"):
         if in_body:
             body_lines.append(line)
         elif line.strip().lower().startswith(("message:", "post:", "body:", "details:")):
             in_body = True
-            after = line.split(":", 1)[1].strip()
+            after   = line.split(":", 1)[1].strip()
             if after:
                 body_lines.append(after)
-    body = "\n".join(body_lines).strip() if body_lines else content.strip()
+    body   = "\n".join(body_lines).strip() if body_lines else content.strip()
     quoted = "\n".join(f"> {line}" for line in body.split("\n"))
 
-    # Build channel-specific meta rows
+    # Channel-specific meta rows
     meta_extra = ""
     if channel == "Email":
         meta_extra = f"| Recipient | {recipient} |\n"
@@ -99,7 +191,8 @@ def smart_planner(filepath: Path, content: str) -> tuple[str, str]:
 | Created | {today} |
 | Channel | {channel} |
 | Priority | {priority} |
-{meta_extra}| Status | Ready for Approval |
+{meta_extra}| Planner | Regex (no AI key) |
+| Status | Ready for Approval |
 
 ## Analysis
 
@@ -135,6 +228,31 @@ Approve ACTION_{task_name}.md in Pending_Approval/ to execute.
 ## Result: PENDING — Awaiting Human Approval
 """
     return plan_md, action_md
+
+
+# ──────────────────────────────────────────────
+# SMART PLANNER — AI first, regex fallback
+# ──────────────────────────────────────────────
+
+def smart_planner(filepath: Path, content: str) -> tuple[str, str]:
+    """
+    Claude reasoning loop: uses Groq AI (free) for intelligent planning.
+    Falls back to regex parsing when no AI key is available.
+    Returns (plan_markdown, action_markdown).
+    """
+    groq_key = os.getenv("GROQ_API_KEY", "")
+    has_groq  = groq_key and "your_" not in groq_key and len(groq_key) > 10
+
+    if has_groq:
+        try:
+            from agents import run_platinum_pipeline
+            print(f"  [PLANNER] Running AI reasoning for {filepath.name}...")
+            ai_result = run_platinum_pipeline(content, filepath.name)
+            return _build_ai_plan(filepath, content, ai_result)
+        except Exception as e:
+            print(f"  [PLANNER] AI reasoning failed ({e}), using regex fallback...")
+
+    return _regex_planner(filepath, content)
 
 
 # ──────────────────────────────────────────────
@@ -178,6 +296,44 @@ def channel_executor(filepath: Path, content: str) -> str:
         if post_body:
             return publish_linkedin(author, topic, post_body, hashtags)
         return "LinkedIn drafted (missing post body)"
+
+    # --- TWITTER / X ---
+    if "TWITTER" in filename_upper or "_X_" in filename_upper:
+        try:
+            from twitter_sender import parse_twitter_from_action, post_tweet
+            data    = parse_twitter_from_action(str(filepath))
+            topic   = data.get("topic", "Business Update")
+            body    = data.get("post_body", "")
+            if body:
+                return post_tweet(topic, body)
+            # fallback: use raw content
+            return post_tweet("Business Update", content[:280])
+        except Exception as e:
+            return f"Twitter error: {e}"
+
+    # --- FACEBOOK ---
+    if "FACEBOOK" in filename_upper:
+        try:
+            from social_media_sender import dispatch_social, parse_social_from_action
+            data  = parse_social_from_action(str(filepath))
+            topic = data.get("topic", "Business Update")
+            body  = data.get("post_body", "") or content.strip()[:600]
+            status, _, _ = dispatch_social("Facebook", topic, body)
+            return status
+        except Exception as e:
+            return f"Facebook error: {e}"
+
+    # --- INSTAGRAM ---
+    if "INSTAGRAM" in filename_upper:
+        try:
+            from social_media_sender import dispatch_social, parse_social_from_action
+            data  = parse_social_from_action(str(filepath))
+            topic = data.get("topic", "Business Update")
+            body  = data.get("post_body", "") or content.strip()[:600]
+            status, _, _ = dispatch_social("Instagram", topic, body)
+            return status
+        except Exception as e:
+            return f"Instagram error: {e}"
 
     # --- GENERAL ---
     return "Completed (general task)"

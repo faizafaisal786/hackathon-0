@@ -1,0 +1,34 @@
+# Email Task — Wedding Gown for Faiza
+
+## Metadata
+
+| Field    | Value |
+|----------|-------|
+| From     | Pinterest <recommendations@inspire.pinterest.com> |
+| Subject  | Wedding Gown for Faiza |
+| Date     | Fri, 16 Jan 2026 05:39:11 +0000 |
+| Channel  | Email |
+| Priority | Normal |
+| Source   | Gmail Watcher |
+
+## Message
+
+To view this content open the following URL in your browser: https://www.pinterest.com/email/click/?user_id=NjkzNzY1NjU1MDA2MTM3MzIy&od=dD0xNjNlMTljM2MyZmY0ZGVlYmZmMTQ3ZWY5Y2Y1NWUxYyZjPUNBVEVHT1JZX1JFQ09NTUVOREVEX1BJTlMmcz0xNjNlMTljM2MyZmY0ZGVlYmZmMTQ3ZWY5Y2Y1NWUxYyZuPThhMjk1NTY5YWVjNjQxODVhYzVhYWM4MmNiYzU5ODg0&target=https%3A%2F%2Fwww.pinterest.com%2Fsecure%2Fautologin%2F%3Fuser_id%3DNjkzNzY1NjU1MDA2MTM3MzIy%26od%3DpD%252F45465LeA%252FbNgxJGZb%252BIBdAruVeqyb40iWxotsQ7%252FUEhjkahrdiuSVS5yGuowQyGYeWCM%252BRK%252F9Xio8opNl5Om1aILBekOXovdFguW1JwjPXPz4Dwf3pdzllLB1aPd1oAF6IwAmThFizfb1Mc6IEvuRxN9U92qKkd9rdPny8go%253D%26next%3D%252Fsearch%252Fpins%252F%253Fq%253DWedding%252520Gown%2526utm_campaign%253Dcategory_rp%2526e_t%253D163e19c3c2ff4deebff147ef9cf55e1c%2526e_t_s%253Dcta%2526utm_source%253D31%2526utm_medium%253D2012
+
+Pinterest
+
+651 Brannan Street, San Francisco, CA, 94107
+
+    Help Center: https://www.pinterest.com/email/click/?user_id=NjkzNzY1NjU1MDA2MTM3MzIy&od=dD0xNjNlMTljM2MyZmY0ZGVlYmZmMTQ3ZWY5Y2Y1NWUxYyZjPUNBVEVHT1JZX1JFQ09NTUVOREVEX1BJTlMmcz0xNjNlMTljM2MyZmY0ZGVlYmZmMTQ3ZWY5Y2Y1NWUxYyZuPThhMjk1NTY5YWVjNjQxODVhYzVhYWM4MmNiYzU5ODg0&target=https%3A%2F%2Fwww.pinterest.com%2F_%2F_%2Fhelp%2F%3Fsource%3Demail_footer%26utm_campaign%3Dcategory_rp%26e_t%3D163e19c3c2ff4deebff147ef9cf55e1c%26e_t_s%3Dfooter%26utm_source%3D31%26utm_medium%3D2012
+
+    Privacy Policy: https://www.pinterest.com/email/click/?user_id=NjkzNzY1NjU1MDA2MTM3MzIy&od=dD0xNjNlMTljM2MyZmY0ZGVlYmZmMTQ3ZWY5Y2Y1NWUxYyZjPUNBVEVHT1JZX1JFQ09NTUVOREVEX1BJTlMmcz0xNjNlMTljM2MyZmY0ZGVlYmZmMTQ3ZWY5Y2Y1NWUxYyZuPThhMjk1NTY5YWVjNjQxODVhYzVhYWM4MmNiYzU5ODg0&target=https%3A%2F%2Fwww.pinterest.com%2F_%2F_%2Fpolicy%2Fprivacy-policy%2F
+
+    Terms & Conditions: https://www.pinterest.com/email/click/?user_id=NjkzNzY1NjU1MDA2MTM3MzIy&od=dD0xNjNlMTljM2MyZmY0ZGVlYmZmMTQ3ZWY5Y2Y1NWUxYyZjPUNBVEVHT1JZX1JFQ09NTUVOREVEX1BJTlMmcz0xNjNlMTljM2MyZmY0ZGVlYmZmMTQ3ZWY5Y2Y1NWUxYyZuPThhMjk1NTY5YWVjNjQxODVhYzVhYWM4MmNiYzU5ODg0&target=https%3
+
+[... truncated at 2000 chars]
+
+## Instructions
+
+Reply to this email professionally.
+To: recommendations@inspire.pinterest.com
+Subject: Re: Wedding Gown for Faiza

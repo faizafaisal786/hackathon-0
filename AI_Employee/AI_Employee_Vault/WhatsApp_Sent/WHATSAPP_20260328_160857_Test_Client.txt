@@ -1,0 +1,9 @@
+WhatsApp Message — Ready to Send
+=============================================
+To      : Test Client
+Phone   : +923001234567
+Time    : 2026-03-28 16:08
+Mode    : COPY (paste manually or auto-send when session active)
+=============================================
+
+Hello from AI Employee! This is a test.

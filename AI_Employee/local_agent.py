@@ -71,11 +71,26 @@ def _import_email_sender():
 
 
 def _import_whatsapp_sender():
+    """Try Playwright sender first (free), then Twilio, then simulation."""
+    try:
+        from whatsapp_playwright_sender import send_whatsapp_playwright
+        return send_whatsapp_playwright
+    except ImportError:
+        pass
     try:
         from whatsapp_sender import send_whatsapp
         return send_whatsapp
     except ImportError:
         return None
+
+
+def _check_payment_flag(content: str) -> dict:
+    """Flag payments above PKR 50,000 — Company_Handbook rule."""
+    try:
+        from whatsapp_playwright_sender import check_payment_threshold
+        return check_payment_threshold(content)
+    except Exception:
+        return {"flagged": False}
 
 
 # ══════════════════════════════════════════════════════════════════════════════
@@ -420,22 +435,46 @@ def _execute_email(task_name: str, content: str) -> bool:
 
 
 def _execute_whatsapp(task_name: str, content: str) -> bool:
-    """Extract WhatsApp fields from ACTION file and send."""
+    """Extract WhatsApp fields from ACTION file and send (Playwright free mode)."""
+    # Payment threshold check — Company_Handbook: flag payments > PKR 50,000
+    pay = _check_payment_flag(content)
+    if pay.get("flagged"):
+        print(f"  [Local] PAYMENT FLAG: {pay['currency']} {pay['amount']:,} exceeds threshold.")
+        print(f"  [Local] Moved to Pending_Approval/local/ for CEO review.")
+        flag_dir = VAULT / "Pending_Approval" / "local"
+        flag_dir.mkdir(parents=True, exist_ok=True)
+        import shutil as _shutil
+        flag_path = flag_dir / f"PAYMENT_REVIEW_{task_name}"
+        (flag_path).write_text(
+            f"# Payment Approval Required\n\nAmount: {pay['currency']} {pay['amount']:,}\n\n{content}",
+            encoding="utf-8"
+        )
+        return False  # not sent — needs CEO approval first
+
     send_whatsapp = _import_whatsapp_sender()
 
     to_match = None
     for line in content.splitlines():
-        if "To:" in line and ("+92" in line or "+1" in line or "+44" in line):
-            to_match = line.split(":", 1)[1].strip()
+        # Accept any phone format with +
+        import re as _re
+        found = _re.search(r"\+\d{10,15}", line)
+        if found and "To:" in line:
+            to_match = found.group()
             break
 
     if not to_match:
         to_match = os.getenv("WHATSAPP_TO", "")
 
+    contact = "Client"
+    for line in content.splitlines():
+        if line.strip().startswith("To:"):
+            contact = line.split(":", 1)[1].strip().split(" ")[0]
+            break
+
     if send_whatsapp and to_match:
         try:
-            result = send_whatsapp(to_match, "client", content)
-            print(f"  [Local] WhatsApp sent to {to_match}")
+            result = send_whatsapp(to_match, contact, content)
+            print(f"  [Local] WhatsApp: {result}")
             return True
         except Exception as e:
             print(f"  [Local] WhatsApp send failed: {e}")
