@@ -134,7 +134,7 @@ check("Platinum demo script", demo.exists(),
 try:
     result = subprocess.run(
         "python platinum_demo.py --fast", shell=True,
-        capture_output=True, timeout=60
+        capture_output=True, timeout=60, cwd=str(BASE)
     )
     out = result.stdout.decode("utf-8", errors="replace")
     demo_pass = "PLATINUM TIER PASS" in out
@@ -168,7 +168,7 @@ else:
 try:
     result = subprocess.run(
         "python a2a_agent.py --test", shell=True,
-        capture_output=True, timeout=20
+        capture_output=True, timeout=20, cwd=str(BASE)
     )
     out = result.stdout.decode("utf-8", errors="replace")
     a2a_pass = "PASS" in out and "round-trip" in out.lower()

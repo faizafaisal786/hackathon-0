@@ -1,0 +1,85 @@
+# Email Task — faiza, thanks for checking us out
+
+## Metadata
+
+| Field    | Value |
+|----------|-------|
+| From     | LinkedIn Premium <linkedin@em.linkedin.com> |
+| Subject  | faiza, thanks for checking us out |
+| Date     | Sat, 28 Mar 2026 17:03:01 -0700 |
+| Channel  | Email |
+| Priority | Normal |
+| Source   | Gmail Watcher |
+
+## Message
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:v="urn:schemas-microsoft-com:vml"
+    xmlns:o="urn:schemas-microsoft-com:office:office" lang="en" xml:lang="en">
+
+<head>
+    <!--[if gte mso 9]><xml>      <o:OfficeDocumentSettings>      <o:AllowPNG/>      <o:PixelsPerInch>96</o:PixelsPerInch>      </o:OfficeDocumentSettings>      </xml>    <![endif]-->
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="HandheldFriendly" content="true">
+    <meta name="MobileOptimized" content="320">
+    <meta name="viewport" content="width=device-width">
+    <title></title>
+    <style type="text/css">
+        span,
+        td,
+        table,
+        div {
+            -webkit-font-smoothing: antialiased;
+            -moz-osx-font-smoothing: grayscale;
+        }
+
+        .st-email-body {
+            width: 100% !important;
+            -webkit-text-size-adjust: 100%;
+            margin: 0 auto !important;
+            padding: 0px;
+            background-color: #ffffff;
+        }
+
+        span.st-preheader {
+            display: none !important;
+        }
+
+        td img+div {
+            display: none;
+        }
+
+        a[href^="tel"],
+        a[href^="sms"] {
+            text-decoration: none;
+            color: inherit !important;
+            pointer-events: none;
+            cursor: default;
+        }
+
+        u+.st-email-body a {
+            color: inherit;
+            text-decoration: none;
+            font-size: inherit;
+            font-family: inherit;
+            font-weight: inherit;
+            line-height: inherit;
+        }
+
+        *[x-apple-data-detectors] {
+            color: inherit !important;
+            text-decoration: none !important;
+            font-size: inherit !important;
+            font-family: inherit !important;
+            font-weight: inherit !important;
+            line-height: inherit !important;
+        }
+
+
+[... truncated at 2000 chars]
+
+## Instructions
+
+Reply to this email professionally.
+To: linkedin@em.linkedin.com
+Subject: Re: faiza, thanks for checking us out

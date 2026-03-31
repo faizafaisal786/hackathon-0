@@ -1,20 +1,20 @@
 {
-  "total_processed": 167,
+  "total_processed": 175,
   "total_success": 1,
   "total_failed": 0,
   "total_rejected": 0,
   "channel_counts": {
-    "Email": 43,
+    "Email": 50,
     "LinkedIn": 6,
     "Facebook": 1,
-    "General": 114,
+    "General": 115,
     "WhatsApp": 3
   },
-  "avg_quality_score": 7.71,
+  "avg_quality_score": 7.76,
   "backend_usage": {
-    "groq": 167
+    "groq": 175
   },
   "total_improvements": 0,
   "last_improvement_run": null,
-  "last_updated": "2026-03-28T17:25:13.449075"
+  "last_updated": "2026-03-31T23:11:38.274381"
 }

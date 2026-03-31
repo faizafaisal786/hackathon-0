@@ -1,0 +1,683 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Digital FTE — Dashboard</title>
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body { font-family: 'Segoe UI', sans-serif; background: #f0f4f8; color: #1a202c; }
+
+  /* ── TOP NAV ── */
+  .navbar {
+    background: #fff;
+    border-bottom: 1px solid #e2e8f0;
+    padding: 0 32px;
+    height: 56px;
+    display: flex;
+    align-items: center;
+    gap: 32px;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    box-shadow: 0 1px 4px rgba(0,0,0,0.06);
+  }
+  .logo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-weight: 700;
+    font-size: 15px;
+    color: #1a202c;
+  }
+  .logo-icon {
+    width: 32px; height: 32px;
+    background: linear-gradient(135deg, #0bc5ea, #3182ce);
+    border-radius: 8px;
+    display: flex; align-items: center; justify-content: center;
+    color: #fff; font-weight: 800; font-size: 13px;
+  }
+  .nav-links {
+    display: flex;
+    gap: 4px;
+    margin-left: auto;
+    align-items: center;
+  }
+  .nav-links a {
+    text-decoration: none;
+    color: #718096;
+    font-size: 13.5px;
+    padding: 6px 14px;
+    border-radius: 6px;
+    display: flex; align-items: center; gap: 6px;
+    transition: all 0.15s;
+  }
+  .nav-links a:hover { background: #f7fafc; color: #2d3748; }
+  .nav-links a.active { color: #3182ce; font-weight: 600; background: #ebf8ff; }
+  .nav-icon { font-size: 14px; }
+
+  /* ── PAGE WRAPPER ── */
+  .page { padding: 28px 32px; max-width: 1200px; margin: 0 auto; }
+  .breadcrumb { font-size: 12px; color: #a0aec0; margin-bottom: 8px; }
+  .breadcrumb span { color: #3182ce; }
+
+  /* ── PAGE HEADER ── */
+  .page-header {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    margin-bottom: 28px;
+  }
+  .page-header h1 { font-size: 26px; font-weight: 700; color: #1a202c; }
+  .page-header p { font-size: 13.5px; color: #718096; margin-top: 4px; }
+  .btn-primary {
+    background: linear-gradient(135deg, #3182ce, #0bc5ea);
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 8px;
+    font-size: 13.5px;
+    font-weight: 600;
+    cursor: pointer;
+    display: flex; align-items: center; gap: 8px;
+    box-shadow: 0 2px 8px rgba(49,130,206,0.3);
+    transition: opacity 0.15s;
+    white-space: nowrap;
+  }
+  .btn-primary:hover { opacity: 0.9; }
+
+  /* ── KPI CARDS ── */
+  .kpi-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 16px;
+    margin-bottom: 20px;
+  }
+  .kpi-card {
+    background: #fff;
+    border-radius: 12px;
+    padding: 20px;
+    box-shadow: 0 1px 4px rgba(0,0,0,0.06);
+    border: 1px solid #e2e8f0;
+    position: relative;
+    overflow: hidden;
+  }
+  .kpi-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-bottom: 12px;
+  }
+  .kpi-icon {
+    width: 36px; height: 36px;
+    border-radius: 8px;
+    display: flex; align-items: center; justify-content: center;
+    font-size: 17px;
+  }
+  .icon-blue  { background: #ebf8ff; }
+  .icon-green { background: #f0fff4; }
+  .icon-orange{ background: #fffaf0; }
+  .icon-purple{ background: #faf5ff; }
+  .kpi-badge {
+    font-size: 11px;
+    font-weight: 600;
+    padding: 3px 8px;
+    border-radius: 20px;
+    background: #f0fff4;
+    color: #38a169;
+  }
+  .kpi-badge.red { background: #fff5f5; color: #e53e3e; }
+  .kpi-label { font-size: 12px; color: #a0aec0; font-weight: 500; margin-bottom: 4px; }
+  .kpi-value { font-size: 30px; font-weight: 700; color: #1a202c; line-height: 1; }
+  .kpi-bar {
+    height: 3px;
+    border-radius: 2px;
+    margin-top: 14px;
+    background: #e2e8f0;
+    position: relative;
+    overflow: hidden;
+  }
+  .kpi-bar-fill {
+    height: 100%;
+    border-radius: 2px;
+    position: absolute; left: 0; top: 0;
+    transition: width 1s ease;
+  }
+
+  /* ── MIDDLE ROW ── */
+  .mid-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 16px;
+    margin-bottom: 20px;
+  }
+  .card {
+    background: #fff;
+    border-radius: 12px;
+    padding: 24px;
+    box-shadow: 0 1px 4px rgba(0,0,0,0.06);
+    border: 1px solid #e2e8f0;
+  }
+  .card-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 16px;
+  }
+  .card-title {
+    font-size: 13.5px;
+    font-weight: 600;
+    color: #4a5568;
+    display: flex; align-items: center; gap: 8px;
+  }
+  .card-title .icon { font-size: 15px; }
+  .badge-green {
+    background: #f0fff4; color: #38a169;
+    font-size: 11px; font-weight: 600;
+    padding: 3px 10px; border-radius: 20px;
+  }
+  .badge-blue {
+    background: #ebf8ff; color: #3182ce;
+    font-size: 11px; font-weight: 600;
+    padding: 3px 10px; border-radius: 20px;
+  }
+  .big-number { font-size: 34px; font-weight: 700; color: #1a202c; line-height: 1; }
+  .big-sub { font-size: 12px; color: #a0aec0; margin-top: 4px; }
+  .stat-row {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin-top: 12px;
+    font-size: 12.5px;
+    color: #38a169;
+    font-weight: 600;
+  }
+  .progress-track {
+    height: 6px;
+    background: #e2e8f0;
+    border-radius: 3px;
+    margin-top: 14px;
+    overflow: hidden;
+  }
+  .progress-fill {
+    height: 100%;
+    border-radius: 3px;
+    transition: width 1s ease;
+  }
+  .score-number { font-size: 34px; font-weight: 700; color: #1a202c; }
+  .score-label { font-size: 12px; color: #a0aec0; }
+  .score-meta {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 6px;
+    font-size: 11.5px;
+    color: #718096;
+  }
+
+  /* ── BOTTOM ROW ── */
+  .bottom-grid {
+    display: grid;
+    grid-template-columns: 1.4fr 1fr;
+    gap: 16px;
+    margin-bottom: 20px;
+  }
+
+  /* ── ACTIVITY / CHART ── */
+  .chart-title { font-size: 13.5px; font-weight: 600; color: #4a5568; margin-bottom: 18px; }
+  .bar-chart { display: flex; align-items: flex-end; gap: 10px; height: 110px; }
+  .bar-col { display: flex; flex-direction: column; align-items: center; gap: 5px; flex: 1; }
+  .bar-wrap { flex: 1; width: 100%; display: flex; align-items: flex-end; }
+  .bar {
+    width: 100%;
+    border-radius: 5px 5px 0 0;
+    background: linear-gradient(180deg, #3182ce, #0bc5ea);
+    transition: height 1s ease;
+    min-height: 4px;
+  }
+  .bar.alt { background: linear-gradient(180deg, #38a169, #68d391); }
+  .bar-day { font-size: 10.5px; color: #a0aec0; }
+  .chart-legend {
+    display: flex;
+    gap: 18px;
+    margin-top: 12px;
+    font-size: 11.5px;
+    color: #718096;
+  }
+  .legend-dot {
+    display: inline-block;
+    width: 8px; height: 8px;
+    border-radius: 50%;
+    margin-right: 5px;
+  }
+
+  /* ── TASK DISTRIBUTION ── */
+  .donut-wrap { display: flex; align-items: center; gap: 24px; }
+  .donut { position: relative; width: 100px; height: 100px; }
+  .donut svg { transform: rotate(-90deg); }
+  .donut-center {
+    position: absolute;
+    top: 50%; left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+  .donut-center .pct { font-size: 18px; font-weight: 700; color: #1a202c; }
+  .donut-center .lbl { font-size: 9px; color: #a0aec0; }
+  .donut-legend { flex: 1; }
+  .dl-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 0;
+    font-size: 12px;
+    border-bottom: 1px solid #f7fafc;
+  }
+  .dl-left { display: flex; align-items: center; gap: 8px; }
+  .dl-dot { width: 8px; height: 8px; border-radius: 50%; }
+  .dl-val { font-weight: 600; color: #1a202c; }
+
+  /* ── SIGNALS ── */
+  .signals-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; margin-bottom: 20px; }
+  .signal-item {
+    display: flex;
+    align-items: flex-start;
+    gap: 12px;
+    padding: 14px 16px;
+    border-radius: 10px;
+    background: #f7fafc;
+    border: 1px solid #e2e8f0;
+    font-size: 12.5px;
+  }
+  .signal-icon { font-size: 18px; flex-shrink: 0; margin-top: 1px; }
+  .signal-title { font-weight: 600; color: #2d3748; }
+  .signal-sub { color: #718096; margin-top: 2px; font-size: 11.5px; }
+
+  /* ── PM2 STATUS ── */
+  .pm2-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+    margin-bottom: 20px;
+  }
+  .pm2-item {
+    background: #fff;
+    border: 1px solid #e2e8f0;
+    border-radius: 10px;
+    padding: 12px 14px;
+    font-size: 12px;
+  }
+  .pm2-name { font-weight: 600; color: #2d3748; margin-bottom: 4px; font-size: 12px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+  .pm2-badge {
+    display: inline-flex; align-items: center; gap: 4px;
+    font-size: 10.5px; font-weight: 600;
+    padding: 2px 8px; border-radius: 10px;
+  }
+  .pm2-online { background: #f0fff4; color: #38a169; }
+  .pm2-dot { width: 6px; height: 6px; border-radius: 50%; background: #38a169; animation: pulse 1.5s infinite; }
+  @keyframes pulse { 0%,100%{opacity:1} 50%{opacity:0.4} }
+
+  /* ── RECENT ACTIVITY ── */
+  .activity-list { display: flex; flex-direction: column; gap: 0; }
+  .activity-row {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    padding: 10px 0;
+    border-bottom: 1px solid #f7fafc;
+    font-size: 12.5px;
+  }
+  .activity-row:last-child { border-bottom: none; }
+  .act-icon {
+    width: 28px; height: 28px;
+    border-radius: 7px;
+    display: flex; align-items: center; justify-content: center;
+    font-size: 13px;
+    flex-shrink: 0;
+  }
+  .act-text { flex: 1; }
+  .act-title { font-weight: 600; color: #2d3748; }
+  .act-sub { color: #a0aec0; font-size: 11px; margin-top: 1px; }
+  .act-time { font-size: 11px; color: #a0aec0; white-space: nowrap; }
+
+  /* ── FOOTER ── */
+  .footer { text-align: center; font-size: 11px; color: #a0aec0; padding: 16px 0 8px; }
+
+  @media (max-width: 900px) {
+    .kpi-grid { grid-template-columns: repeat(2,1fr); }
+    .mid-grid, .bottom-grid { grid-template-columns: 1fr; }
+    .pm2-grid { grid-template-columns: repeat(2,1fr); }
+    .signals-grid { grid-template-columns: 1fr; }
+  }
+</style>
+</head>
+<body>
+
+<!-- ── NAVBAR ── -->
+<nav class="navbar">
+  <div class="logo">
+    <div class="logo-icon">AI</div>
+    Digital FTE
+  </div>
+  <div class="nav-links">
+    <a href="#" class="active"><span class="nav-icon">▦</span> Dashboard</a>
+    <a href="#"><span class="nav-icon">✓</span> Tasks</a>
+    <a href="#"><span class="nav-icon">🔔</span> Approvals</a>
+    <a href="#"><span class="nav-icon">📋</span> Plans</a>
+    <a href="#"><span class="nav-icon">💰</span> Accounting</a>
+    <a href="#"><span class="nav-icon">📊</span> Reports</a>
+  </div>
+</nav>
+
+<!-- ── PAGE ── -->
+<div class="page">
+
+  <div class="breadcrumb">Home &rsaquo; <span>Dashboard</span></div>
+
+  <div class="page-header">
+    <div>
+      <h1>Dashboard</h1>
+      <p>Welcome back! Here's what's happening with your AI Employee. &nbsp;⚡ Platinum Tier — Cloud + Local</p>
+    </div>
+    <button class="btn-primary" onclick="window.location.reload()">⚡ Quick Action</button>
+  </div>
+
+  <!-- ── KPI CARDS ── -->
+  <div class="kpi-grid">
+
+    <div class="kpi-card">
+      <div class="kpi-top">
+        <div class="kpi-icon icon-blue">✅</div>
+        <span class="kpi-badge">↑ 12%</span>
+      </div>
+      <div class="kpi-label">Total Tasks</div>
+      <div class="kpi-value">867</div>
+      <div class="kpi-bar"><div class="kpi-bar-fill" style="width:87%;background:linear-gradient(90deg,#3182ce,#0bc5ea)"></div></div>
+    </div>
+
+    <div class="kpi-card">
+      <div class="kpi-top">
+        <div class="kpi-icon icon-green">☑</div>
+        <span class="kpi-badge">↑ 8%</span>
+      </div>
+      <div class="kpi-label">Completed</div>
+      <div class="kpi-value">504</div>
+      <div class="kpi-bar"><div class="kpi-bar-fill" style="width:58%;background:linear-gradient(90deg,#38a169,#68d391)"></div></div>
+    </div>
+
+    <div class="kpi-card">
+      <div class="kpi-top">
+        <div class="kpi-icon icon-orange">⏳</div>
+        <span class="kpi-badge red">↑ 5%</span>
+      </div>
+      <div class="kpi-label">Needs Action</div>
+      <div class="kpi-value">859</div>
+      <div class="kpi-bar"><div class="kpi-bar-fill" style="width:42%;background:linear-gradient(90deg,#dd6b20,#f6ad55)"></div></div>
+    </div>
+
+    <div class="kpi-card">
+      <div class="kpi-top">
+        <div class="kpi-icon icon-purple">🤖</div>
+        <span class="kpi-badge">↑ 3%</span>
+      </div>
+      <div class="kpi-label">PM2 Processes</div>
+      <div class="kpi-value">7</div>
+      <div class="kpi-bar"><div class="kpi-bar-fill" style="width:100%;background:linear-gradient(90deg,#805ad5,#b794f4)"></div></div>
+    </div>
+
+  </div>
+
+  <!-- ── MIDDLE ROW ── -->
+  <div class="mid-grid">
+
+    <div class="card">
+      <div class="card-header">
+        <div class="card-title"><span class="icon">💰</span> Revenue Overview</div>
+        <span class="badge-green">● +24.5%</span>
+      </div>
+      <div class="big-number">PKR 504,944</div>
+      <div class="big-sub">Total revenue logged this month (Odoo)</div>
+      <div class="stat-row">↗ 12.5% &nbsp;<span style="color:#a0aec0;font-weight:400">vs last month</span></div>
+      <div class="progress-track">
+        <div class="progress-fill" style="width:72%;background:linear-gradient(90deg,#38a169,#68d391)"></div>
+      </div>
+      <div style="display:flex;justify-content:space-between;margin-top:6px;font-size:11px;color:#a0aec0">
+        <span>8 Customers</span><span>15 Invoices</span><span>72% of target</span>
+      </div>
+    </div>
+
+    <div class="card">
+      <div class="card-header">
+        <div class="card-title"><span class="icon">📈</span> Efficiency Score</div>
+        <span class="badge-blue">Excellent</span>
+      </div>
+      <div class="big-number">96%</div>
+      <div class="big-sub">Average pipeline quality rating</div>
+      <div class="stat-row">↗ 5.2% &nbsp;<span style="color:#a0aec0;font-weight:400">improvement</span></div>
+      <div class="progress-track">
+        <div class="progress-fill" style="width:96%;background:linear-gradient(90deg,#3182ce,#0bc5ea)"></div>
+      </div>
+      <div class="score-meta">
+        <span>Quality threshold: 8.5/10</span><span>96/100</span>
+      </div>
+    </div>
+
+  </div>
+
+  <!-- ── BOTTOM ROW ── -->
+  <div class="bottom-grid">
+
+    <!-- Weekly Activity Bar Chart -->
+    <div class="card">
+      <div class="chart-title">📊 Weekly Activity</div>
+      <div class="bar-chart">
+        <div class="bar-col">
+          <div class="bar-wrap"><div class="bar" style="height:55%"></div></div>
+          <div class="bar-day">Mon</div>
+        </div>
+        <div class="bar-col">
+          <div class="bar-wrap"><div class="bar alt" style="height:70%"></div></div>
+          <div class="bar-day">Tue</div>
+        </div>
+        <div class="bar-col">
+          <div class="bar-wrap"><div class="bar" style="height:40%"></div></div>
+          <div class="bar-day">Wed</div>
+        </div>
+        <div class="bar-col">
+          <div class="bar-wrap"><div class="bar alt" style="height:85%"></div></div>
+          <div class="bar-day">Thu</div>
+        </div>
+        <div class="bar-col">
+          <div class="bar-wrap"><div class="bar" style="height:60%"></div></div>
+          <div class="bar-day">Fri</div>
+        </div>
+        <div class="bar-col">
+          <div class="bar-wrap"><div class="bar alt" style="height:90%"></div></div>
+          <div class="bar-day">Sat</div>
+        </div>
+        <div class="bar-col">
+          <div class="bar-wrap"><div class="bar" style="height:75%"></div></div>
+          <div class="bar-day">Sun</div>
+        </div>
+      </div>
+      <div class="chart-legend">
+        <span><span class="legend-dot" style="background:#3182ce"></span>Cloud Tasks</span>
+        <span><span class="legend-dot" style="background:#38a169"></span>Local Tasks</span>
+      </div>
+    </div>
+
+    <!-- Task Distribution Donut -->
+    <div class="card">
+      <div class="chart-title">🧩 Task Distribution</div>
+      <div class="donut-wrap">
+        <div class="donut">
+          <svg width="100" height="100" viewBox="0 0 100 100">
+            <!-- Done: 504/867 = 58% -->
+            <circle cx="50" cy="50" r="38" fill="none" stroke="#e2e8f0" stroke-width="12"/>
+            <circle cx="50" cy="50" r="38" fill="none" stroke="#3182ce" stroke-width="12"
+              stroke-dasharray="138.6 100" stroke-linecap="round"/>
+            <circle cx="50" cy="50" r="38" fill="none" stroke="#38a169" stroke-width="12"
+              stroke-dasharray="48 191" stroke-dashoffset="-138.6" stroke-linecap="round"/>
+            <circle cx="50" cy="50" r="38" fill="none" stroke="#dd6b20" stroke-width="12"
+              stroke-dasharray="50 189" stroke-dashoffset="-186.6" stroke-linecap="round"/>
+          </svg>
+          <div class="donut-center">
+            <div class="pct">867</div>
+            <div class="lbl">Total</div>
+          </div>
+        </div>
+        <div class="donut-legend">
+          <div class="dl-row">
+            <div class="dl-left"><div class="dl-dot" style="background:#3182ce"></div>Done</div>
+            <div class="dl-val">504</div>
+          </div>
+          <div class="dl-row">
+            <div class="dl-left"><div class="dl-dot" style="background:#38a169"></div>Plans</div>
+            <div class="dl-val">281</div>
+          </div>
+          <div class="dl-row">
+            <div class="dl-left"><div class="dl-dot" style="background:#dd6b20"></div>In Queue</div>
+            <div class="dl-val">859</div>
+          </div>
+          <div class="dl-row">
+            <div class="dl-left"><div class="dl-dot" style="background:#805ad5"></div>Approved</div>
+            <div class="dl-val">0</div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+  <!-- ── PM2 PROCESSES ── -->
+  <div class="card" style="margin-bottom:20px">
+    <div class="card-header" style="margin-bottom:14px">
+      <div class="card-title">⚙️ PM2 Live Processes</div>
+      <span class="badge-green">7 / 7 Online</span>
+    </div>
+    <div class="pm2-grid">
+      <div class="pm2-item">
+        <div class="pm2-name">📧 gmail-watcher</div>
+        <span class="pm2-badge pm2-online"><span class="pm2-dot"></span> online</span>
+      </div>
+      <div class="pm2-item">
+        <div class="pm2-name">💬 whatsapp-watcher</div>
+        <span class="pm2-badge pm2-online"><span class="pm2-dot"></span> online</span>
+      </div>
+      <div class="pm2-item">
+        <div class="pm2-name">📁 filesystem-watcher</div>
+        <span class="pm2-badge pm2-online"><span class="pm2-dot"></span> online</span>
+      </div>
+      <div class="pm2-item">
+        <div class="pm2-name">🔗 linkedin-autoposter</div>
+        <span class="pm2-badge pm2-online"><span class="pm2-dot"></span> online</span>
+      </div>
+      <div class="pm2-item">
+        <div class="pm2-name">🛡 watchdog</div>
+        <span class="pm2-badge pm2-online"><span class="pm2-dot"></span> online</span>
+      </div>
+      <div class="pm2-item">
+        <div class="pm2-name">🏠 local-agent</div>
+        <span class="pm2-badge pm2-online"><span class="pm2-dot"></span> online</span>
+      </div>
+      <div class="pm2-item">
+        <div class="pm2-name">🔄 ralph-loop</div>
+        <span class="pm2-badge pm2-online"><span class="pm2-dot"></span> online</span>
+      </div>
+      <div class="pm2-item" style="background:#f0fff4;border-color:#c6f6d5">
+        <div class="pm2-name" style="color:#38a169">✅ 25/25 Checks</div>
+        <span class="pm2-badge pm2-online">Platinum 100%</span>
+      </div>
+    </div>
+  </div>
+
+  <!-- ── SIGNALS + RECENT ACTIVITY ── -->
+  <div class="mid-grid">
+
+    <div class="card">
+      <div class="card-title" style="margin-bottom:14px">⚡ Active Signals</div>
+      <div class="signals-grid">
+        <div class="signal-item">
+          <div class="signal-icon">✅</div>
+          <div>
+            <div class="signal-title">Cloud Agent OK</div>
+            <div class="signal-sub">Started successfully · 2026-03-31</div>
+          </div>
+        </div>
+        <div class="signal-item">
+          <div class="signal-icon">💾</div>
+          <div>
+            <div class="signal-title">Odoo Backup Done</div>
+            <div class="signal-sub">8 customers · 15 invoices · PKR 504,944</div>
+          </div>
+        </div>
+        <div class="signal-item">
+          <div class="signal-icon">🔄</div>
+          <div>
+            <div class="signal-title">Git Sync Active</div>
+            <div class="signal-sub">Vault synced · secrets excluded</div>
+          </div>
+        </div>
+        <div class="signal-item">
+          <div class="signal-icon">🏆</div>
+          <div>
+            <div class="signal-title">Platinum Verified</div>
+            <div class="signal-sub">25/25 checks passed · 100%</div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="card">
+      <div class="card-title" style="margin-bottom:14px">🕐 Recent Activity</div>
+      <div class="activity-list">
+        <div class="activity-row">
+          <div class="act-icon" style="background:#ebf8ff">📧</div>
+          <div class="act-text">
+            <div class="act-title">TASK_DRAFTED</div>
+            <div class="act-sub">EMAIL · client_inquiry · quality=8.5</div>
+          </div>
+          <div class="act-time">23:13</div>
+        </div>
+        <div class="activity-row">
+          <div class="act-icon" style="background:#ebf8ff">📧</div>
+          <div class="act-text">
+            <div class="act-title">TASK_DRAFTED</div>
+            <div class="act-sub">EMAIL · PLATINUM_DEMO · quality=8.5</div>
+          </div>
+          <div class="act-time">23:11</div>
+        </div>
+        <div class="activity-row">
+          <div class="act-icon" style="background:#f0fff4">✅</div>
+          <div class="act-text">
+            <div class="act-title">A2A Round-Trip</div>
+            <div class="act-sub">HTTP + Vault fallback · PASS</div>
+          </div>
+          <div class="act-time">23:04</div>
+        </div>
+        <div class="activity-row">
+          <div class="act-icon" style="background:#faf5ff">🔄</div>
+          <div class="act-text">
+            <div class="act-title">PM2 Started</div>
+            <div class="act-sub">7/7 processes online</div>
+          </div>
+          <div class="act-time">22:58</div>
+        </div>
+        <div class="activity-row">
+          <div class="act-icon" style="background:#fffaf0">💾</div>
+          <div class="act-text">
+            <div class="act-title">Odoo Backup</div>
+            <div class="act-sub">PKR 504,944 · 15 invoices saved</div>
+          </div>
+          <div class="act-time">16:09</div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+  <div class="footer">
+    AI Employee PLATINUM · Groq + Gemini + Obsidian + Oracle Cloud Free Tier · Last updated: 2026-03-31 23:23
+  </div>
+
+</div>
+</body>
+</html>

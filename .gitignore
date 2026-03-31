@@ -29,3 +29,15 @@ nul
 # Google OAuth credentials
 credentials.json
 token.json
+
+# WhatsApp session (private browser data - never sync)
+.whatsapp_session/
+AI_Employee/.whatsapp_session/
+
+# Video / large binary files
+*.mp4
+*.avi
+*.mov
+
+# Obsidian personal workspace state
+.obsidian/workspace.json

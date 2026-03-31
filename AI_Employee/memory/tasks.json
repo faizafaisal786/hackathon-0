@@ -2889,7 +2889,159 @@
       "task_hash": "2185325ed6",
       "timestamp": "2026-03-28T17:25:13.435966",
       "id": "MEM-0152"
+    },
+    {
+      "filename": "EMAIL_20260331_230931_Not_to_be_dramatic_but_obsessed.md",
+      "channel": "General",
+      "intent": "# Email Task — Not to be dramatic but… obsessed\n\n## Metadata\n\n| Field    | Value |\n|----------|-----",
+      "outcome": "PENDING",
+      "quality_score": 7,
+      "was_rejected": false,
+      "ai_backend": "groq",
+      "revisions_needed": 0,
+      "confidence": 0.3,
+      "drafted_response_snippet": "{\"channel\":\"General\",\"priority\":\"Normal\",\"recipient\":\"N/A\",\"intent\":\"Task: # Email Task — Not to be dramatic but… obsessed\n\n## Metadata\n\n| Field    |\",\"tone\":\"professional\",\"confidence\":0.3,\"tool_call",
+      "tags": [
+        "General",
+        "professional"
+      ],
+      "task_hash": "1f28f4e1ac",
+      "timestamp": "2026-03-31T23:10:20.910083",
+      "id": "MEM-0153"
+    },
+    {
+      "filename": "EMAIL_20260331_230932_Final_Call_Quantitative_Finance_Bootcamp.md",
+      "channel": "Email",
+      "intent": "Follow up on the quantitative finance bootcamp application",
+      "outcome": "PENDING",
+      "quality_score": 9,
+      "was_rejected": false,
+      "ai_backend": "groq",
+      "revisions_needed": 0,
+      "confidence": 0.8,
+      "drafted_response_snippet": "Dear Quantitative Finance Bootcamp Admissions Team,\n\nI am writing to follow up on my application to the Quantitative Finance Bootcamp, which I submitted on the specified deadline. As a strong believer",
+      "tags": [
+        "Email",
+        "formal"
+      ],
+      "task_hash": "55e51a8dfd",
+      "timestamp": "2026-03-31T23:10:29.562792",
+      "id": "MEM-0154"
+    },
+    {
+      "filename": "EMAIL_20260331_230932_Username_changed_on_Instagram.md",
+      "channel": "Email",
+      "intent": "Notify the username owner about the change of username on Instagram",
+      "outcome": "PENDING",
+      "quality_score": 8,
+      "was_rejected": false,
+      "ai_backend": "groq",
+      "revisions_needed": 0,
+      "confidence": 0.8,
+      "drafted_response_snippet": "Dear Username Owner, \n\nWe are writing to inform you that your username on Instagram has been changed to New Username. Please note that this change may affect your account settings and notifications. I",
+      "tags": [
+        "Email",
+        "formal"
+      ],
+      "task_hash": "d684637264",
+      "timestamp": "2026-03-31T23:10:40.092355",
+      "id": "MEM-0155"
+    },
+    {
+      "filename": "EMAIL_20260331_230933_Your_Instagram_account_is_scheduled_for_.md",
+      "channel": "Email",
+      "intent": "Respond to an email about an Instagram account being scheduled for deletion",
+      "outcome": "PENDING",
+      "quality_score": 9,
+      "was_rejected": false,
+      "ai_backend": "groq",
+      "revisions_needed": 0,
+      "confidence": 0.8,
+      "drafted_response_snippet": "Dear Instagram Support Team,\n\nI am writing to express my concern and appeal the scheduled deletion of my Instagram account, @username, which I received an email about earlier today. The email stated t",
+      "tags": [
+        "Email",
+        "urgent"
+      ],
+      "task_hash": "9bade08105",
+      "timestamp": "2026-03-31T23:11:07.094282",
+      "id": "MEM-0156"
+    },
+    {
+      "filename": "EMAIL_20260331_230933_Your_Instagram_password_has_been_changed.md",
+      "channel": "Email",
+      "intent": "The task is to analyze an email notification about an Instagram password change.",
+      "outcome": "PENDING",
+      "quality_score": 8,
+      "was_rejected": false,
+      "ai_backend": "groq",
+      "revisions_needed": 0,
+      "confidence": 0.8,
+      "drafted_response_snippet": "Dear Account Owner,\n\nWe are writing to inform you of a recent email notification regarding a password change to your Instagram account. As part of our security analysis, we have reviewed the email and",
+      "tags": [
+        "Email",
+        "neutral"
+      ],
+      "task_hash": "4142c718f1",
+      "timestamp": "2026-03-31T23:11:14.807759",
+      "id": "MEM-0157"
+    },
+    {
+      "filename": "EMAIL_20260331_230934_Id_like_to_connect.md",
+      "channel": "Email",
+      "intent": "N/A",
+      "outcome": "PENDING",
+      "quality_score": 9,
+      "was_rejected": false,
+      "ai_backend": "groq",
+      "revisions_needed": 0,
+      "confidence": 0.5,
+      "drafted_response_snippet": "Dear Recipient, \n\nI am writing to follow up on your email and express my gratitude for considering me as a point of contact. I understand that you are interested in connecting and exploring potential ",
+      "tags": [
+        "Email",
+        "N/A"
+      ],
+      "task_hash": "6131eebc67",
+      "timestamp": "2026-03-31T23:11:23.939785",
+      "id": "MEM-0158"
+    },
+    {
+      "filename": "EMAIL_20260331_230935_I_want_to_connect.md",
+      "channel": "Email",
+      "intent": "Connect with the sender to discuss potential opportunities or collaboration",
+      "outcome": "PENDING",
+      "quality_score": 9,
+      "was_rejected": false,
+      "ai_backend": "groq",
+      "revisions_needed": 0,
+      "confidence": 0.8,
+      "drafted_response_snippet": "Dear Sender, \n\nI am reaching out in response to your email to express my interest in connecting and exploring potential opportunities or collaboration. I would appreciate the chance to learn more abou",
+      "tags": [
+        "Email",
+        "professional"
+      ],
+      "task_hash": "da6c4947c6",
+      "timestamp": "2026-03-31T23:11:31.273686",
+      "id": "MEM-0159"
+    },
+    {
+      "filename": "EMAIL_20260331_230939_Our_stack_for_building_internal_agents.md",
+      "channel": "Email",
+      "intent": "Review and understand the content of the file EMAIL_20260331_230939_Our_stack_for_building_internal_agents.md",
+      "outcome": "PENDING",
+      "quality_score": 9,
+      "was_rejected": false,
+      "ai_backend": "groq",
+      "revisions_needed": 0,
+      "confidence": 0.8,
+      "drafted_response_snippet": "Dear Team,\n\nI have thoroughly reviewed the file EMAIL_20260331_230939_Our_stack_for_building_internal_agents.md and gained a comprehensive understanding of the proposed stack for building internal age",
+      "tags": [
+        "Email",
+        "professional"
+      ],
+      "task_hash": "256e1efd35",
+      "timestamp": "2026-03-31T23:11:38.260936",
+      "id": "MEM-0160"
     }
   ],
-  "total": 152
+  "total": 160
 }
