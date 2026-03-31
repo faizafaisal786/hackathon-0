@@ -28,6 +28,7 @@ nul
 
 # Google OAuth credentials
 credentials.json
+credentials.json.json
 token.json
 
 # WhatsApp session (private browser data - never sync)
